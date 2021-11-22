@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Honeydew")(type "KiCad")(uri "${KIPRJMOD}/Honeydew.kicad_sym")(options "")(descr ""))
+)
