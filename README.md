@@ -18,16 +18,7 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 
 ![Render Front](Showcase/Render-F.png)
 ![Render Back](Showcase/Render-B.png)
-![Board Front](Showcase/Board-F.svg)
-![Board Back](Showcase/Board-B.svg)
-![Board Both](Showcase/Board-Both.svg)
-![Schematic Root](Showcase/Honeydew-Root.svg)
-![Schematic MCU](Showcase/Honeydew-MCU.svg)
-![Schematic Matrix](Showcase/Honeydew-Matrix.svg)
-![Schematic Comms](Showcase/Honeydew-Comms.svg)
-![Schematic RGB](Showcase/Honeydew-RGB.svg)
-![Schematic PSU](Showcase/Honeydew-PSU.svg)
-
 
 ## Changelog
+* 04/03/2023: Massive mistake corrections and clarifications. Changed 22R USB resistors to 27R. Readded missing pullup for RUN pin. Changed notation of power and ground rails to the standard. Connected RGB LEDs to 5V instead of 3V3. Added keycap model to render. Changed board showcase files from SVG to PDF.
 * 03/03/2023: Initial public upload of V1.0.
