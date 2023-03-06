@@ -178,6 +178,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.4,
         0.6,
         0.8,
@@ -429,7 +430,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.5,
+        "diff_pair_width": 0.6,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -472,7 +473,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Honeydew.step",
+      "step": "../Showcase/Honeydew.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
