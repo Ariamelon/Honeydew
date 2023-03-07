@@ -189,6 +189,9 @@
     (property "Datasheet" "~" (at 137.16 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 137.16 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
