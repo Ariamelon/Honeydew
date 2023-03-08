@@ -19,10 +19,12 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 * Rotary encoder ring around the trackball or trackpad.
 * 1.5" 128x64 SSD1315 RGB QP OLED support.
 
+![Render Case](Showcase/Render-Case.png)
 ![Render Front](Showcase/Render-F.png)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 08/03/2023: Added 3D render of case, case STEP files and plate DXF and gerbers.
 * 07/03/2023: Rewording of readme. Added files for JLC PCBA. Changed USB C connector and moved it away from board.
 * 06/03/2023: Minor repositioning of parts.
 * 05/03/2023: Added mounting holes for trackpad/trackball mount. Added CC BY 4.0 license.
