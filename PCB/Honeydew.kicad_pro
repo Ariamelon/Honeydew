@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.875
+          "drill": 1.152,
+          "height": 1.152,
+          "width": 1.152
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -56,7 +56,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|171200000|25765000|18d54f25-675c-46ba-99c6-cddd69fff3b8|212d7781-58cb-4f12-9636-c48c8af1006d",
+        "clearance|176875000|25765000|ff248cd3-05bd-46f6-8ac8-b132f3b8d386|27db797c-d0f6-4f2c-b62e-55ccaa20edef",
+        "net_conflict|173950000|17345000|36c82d63-037a-435a-b33e-3d1881ee3975|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -428,9 +432,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.15,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.6,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
