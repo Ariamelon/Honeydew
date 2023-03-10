@@ -57,9 +57,9 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|171200000|25765000|18d54f25-675c-46ba-99c6-cddd69fff3b8|212d7781-58cb-4f12-9636-c48c8af1006d",
-        "clearance|176875000|25765000|ff248cd3-05bd-46f6-8ac8-b132f3b8d386|27db797c-d0f6-4f2c-b62e-55ccaa20edef",
-        "net_conflict|173950000|17345000|36c82d63-037a-435a-b33e-3d1881ee3975|00000000-0000-0000-0000-000000000000"
+        "clearance|172249999|25320005|96cbbd7f-4feb-49f8-9cdb-91e6d0248ba5|fed631a0-5625-4295-9348-f6cdbb64224e",
+        "clearance|177924999|25320005|8db2d5cf-5d4b-4da9-a048-2a262bd9ebf6|957d93c2-f1a2-4c1f-bcca-9d5c6771bfdf",
+        "net_conflict|174999999|16900005|36c82d63-037a-435a-b33e-3d1881ee3975|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
