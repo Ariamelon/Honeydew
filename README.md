@@ -24,9 +24,9 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
-* 11/03/2023: Added PH2.0 header for OLED. Changed plate to accommodate headers.
+* 11/03/2023: Added PH2.0 header for OLED. Changed plate to accommodate headers. Better render.
 * 10/03/2023: Fixed OLED description in readme. Changed center of switches for JLC assembly.
-* 09/03/2023: Shifted MCU up to reduce length of USB traces. Added holes for JLC assembly. Attempted to render quality.
+* 09/03/2023: Shifted MCU up to reduce length of USB traces. Added holes for JLC assembly. Attempted to render a better quality image.
 * 08/03/2023: Added 3D render of case, case STEP files and plate DXF and gerbers.
 * 07/03/2023: Rewording of readme. Added files for JLC PCBA. Changed USB C connector and moved it away from board.
 * 06/03/2023: Minor repositioning of parts.
