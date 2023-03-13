@@ -15,7 +15,7 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 * Per-key RGB backlight.
 * 40mm cirque trackpad support in the middle.
 * Alternately supports a 34mm trackball instead of the trackpad.
-* Both of the two options above also have RGB backlight.
+* The trackpad or trackball has an illuminated RGB ring.
 * Rotary encoder ring around the trackball or trackpad.
 * 1.5" 128x128 SSD1351 RGB QP OLED support.
 
@@ -24,6 +24,7 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 13/03/2023: V1.1 update. Moved switch footprint center back to normal position. Swapped capacitor and resistor at USB-C connector for ferrite bead. Moved positions of USB VBUS protection. 
 * 11/03/2023: Added PH2.0 header for OLED. Changed plate to accommodate headers. Better render.
 * 10/03/2023: Fixed OLED description in readme. Changed center of switches for JLC assembly.
 * 09/03/2023: Shifted MCU up to reduce length of USB traces. Added holes for JLC assembly. Attempted to render a better quality image.
