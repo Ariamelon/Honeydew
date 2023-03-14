@@ -24,6 +24,7 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 14/03/2023: Fixed top and bottom case STEP files.
 * 13/03/2023: V1.1 update. Moved switch footprint center back to normal position. Swapped capacitor and resistor at USB-C connector for ferrite bead. Moved positions of USB VBUS protection. 
 * 11/03/2023: Added PH2.0 header for OLED. Changed plate to accommodate headers. Better render.
 * 10/03/2023: Fixed OLED description in readme. Changed center of switches for JLC assembly.
