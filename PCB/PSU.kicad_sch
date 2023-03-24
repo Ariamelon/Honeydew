@@ -4,6 +4,11 @@
 
   (paper "A5")
 
+  (title_block
+    (date "2023-03-18")
+    (rev "V1.1")
+  )
+
   (lib_symbols
     (symbol "+2V_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR?" (at 0 -3.81 0)

@@ -6,6 +6,8 @@
 
   (title_block
     (title "Honeydew unsplit ergonomic keyboard")
+    (date "2023-03-18")
+    (rev "V1.1")
   )
 
   (lib_symbols
