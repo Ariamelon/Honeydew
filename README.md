@@ -2,7 +2,7 @@
 ~60% 63-key QMK-compatible unsplit ergonomic keyboard.
 
 ## Disclaimer
-The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each side rotated 20 degrees inwards and both halves making up one board. This keyboard is licensed under CC BY 4.0.
+The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each side rotated 20 degrees inwards and both halves making up one board. This keyboard is licensed under CC BY 4.0. V1.0 is officially working except for the QP display (untested as of yet).
 
 ## Key Features
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys in the middle.
@@ -19,11 +19,13 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 * Rotary encoder ring around the trackball or trackpad.
 * 1.5" 128x128 SSD1351 RGB QP OLED support.
 
+![Image](Showcase/Image-1.jpeg)
 ![Render Case](Showcase/Render-Case.png)
 ![Render Front](Showcase/Render-F.png)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 31/03/2023: Image added. 
 * 11/03/2023: Added PH2.0 header for OLED. Changed plate to accommodate headers. Better render.
 * 10/03/2023: Fixed OLED description in readme. Changed center of switches for JLC assembly.
 * 09/03/2023: Shifted MCU up to reduce length of USB traces. Added holes for JLC assembly. Attempted to render a better quality image.
