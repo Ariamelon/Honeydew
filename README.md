@@ -2,11 +2,10 @@
 ~60% 63-key QMK-compatible unsplit ergonomic keyboard.
 
 ## Disclaimer
-The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each side rotated 20 degrees inwards and both halves making up one board. This keyboard is licensed under CC BY 4.0.
+The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each side rotated 20 degrees inwards and both halves making up one board. This keyboard is licensed under CC BY 4.0. This keyboard is powered by [QMK Firmware](https://qmk.fm/).
 
 ## Key Features
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys in the middle.
-* Gasket-mounted case.
 * On-board Raspberry Pi RP2040 processor.
 * SWD header for debugging purposes.
 * DIP switch and reset button for entering flash mode.
@@ -17,13 +16,16 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 * Alternately supports a 34mm trackball instead of the trackpad.
 * The trackpad or trackball has an illuminated RGB ring.
 * Rotary encoder ring around the trackball or trackpad.
+* Additional scroll wheel-style rotary encoder below trackpad.
 * 1.5" 128x128 SSD1351 RGB QP OLED support.
+* Gasket-mount case held together with magnets.
 
 ![Render Case](Showcase/Render-Case.png)
 ![Render Front](Showcase/Render-F.png)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 31/03/2023: Connected DR (data-ready) pin of TM040040 to Motion pin of PMW3360 as they serve the same function. Connected reset pins to hardware reset button instead of MCU. Added locating features to CNC case, increased wall thickness by 1mm for better magnet support (4mm now instead of 3mm) and increased size of gaskets. Redesigned trackpad mount and rotary encoder knob to allow for the illuminated ring to show up better. Added powered by QMK logo to board.
 * 24/04/2023: Added level shifter to the RGB signal, just in case.
 * 14/03/2023: Fixed top and bottom case STEP files. Minor fix to silk.
 * 13/03/2023: V1.1 update. Moved switch footprint center back to normal position. Swapped capacitor and resistor at USB-C connector for ferrite bead. Moved positions of USB VBUS protection. 
