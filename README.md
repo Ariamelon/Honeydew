@@ -21,7 +21,6 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 * Two USB-C headers for adding an expansion using split comms (only supports one at a time).
 * Gasket-mount case held together with magnets.
 
-![Render Case](Showcase/Render-Case.png)
 ![Render Front](Showcase/Render-F.png)
 ![Render Back](Showcase/Render-B.png)
 
