@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -56,18 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|177075003|31520632|fed631a0-5625-4295-9348-f6cdbb64224e|96cbbd7f-4feb-49f8-9cdb-91e6d0248ba5",
-        "clearance|177250003|31520632|96cbbd7f-4feb-49f8-9cdb-91e6d0248ba5|fed631a0-5625-4295-9348-f6cdbb64224e",
-        "clearance|182750003|31520632|957d93c2-f1a2-4c1f-bcca-9d5c6771bfdf|8db2d5cf-5d4b-4da9-a048-2a262bd9ebf6",
-        "clearance|182925003|31520632|8db2d5cf-5d4b-4da9-a048-2a262bd9ebf6|957d93c2-f1a2-4c1f-bcca-9d5c6771bfdf",
-        "net_conflict|180000003|23100632|36c82d63-037a-435a-b33e-3d1881ee3975|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|157750000|39341251|bd51c7d7-459a-4e54-8962-0895ff29a2b2|06c7392c-46ca-4fe9-9664-a9008b7297c3",
-        "silk_overlap|157750000|55461251|bd51c7d7-459a-4e54-8962-0895ff29a2b2|657c9b04-af09-41e8-bd7f-54f4a3abebe4",
-        "silk_overlap|157750008|39341251|06c7392c-46ca-4fe9-9664-a9008b7297c3|521f9110-3814-4ca3-af78-caf2f1a0925b",
-        "silk_overlap|157750008|55461251|521f9110-3814-4ca3-af78-caf2f1a0925b|657c9b04-af09-41e8-bd7f-54f4a3abebe4",
-        "silk_overlap|157750008|56768631|521f9110-3814-4ca3-af78-caf2f1a0925b|e88c821c-fe7b-4363-9d6f-88401816ec26"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -130,7 +119,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.049999999999999996,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -193,7 +182,8 @@
         0.4,
         0.6,
         0.8,
-        1.5
+        1.6,
+        2.2
       ],
       "via_dimensions": [
         {
@@ -552,11 +542,15 @@
     ],
     [
       "3b9d6b66-6ecb-42d2-a8a6-a52a8ef176c3",
-      "Comms"
+      "USB"
     ],
     [
       "6e258a66-57df-44a5-ad7a-a7c1b9255fcb",
       "RGB"
+    ],
+    [
+      "26edfbbc-daa9-422d-9769-55b1f87d1645",
+      "Expansion"
     ]
   ],
   "text_variables": {}

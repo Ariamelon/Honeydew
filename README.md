@@ -11,13 +11,14 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 * DIP switch and reset button for entering flash mode.
 * USB-C input with full ESD protection.
 * MX switch support with kailh hot-swap sockets.
-* Per-key RGB backlight.
+* Per-key RGB backlight and extra RGB header for adding more.
 * 40mm cirque trackpad support in the middle.
 * Alternately supports a 34mm trackball instead of the trackpad.
 * The trackpad or trackball has an illuminated RGB ring.
 * Rotary encoder ring around the trackball or trackpad.
 * Additional scroll wheel-style rotary encoder below trackpad.
 * 1.5" 128x128 SSD1351 RGB QP OLED support.
+* Two USB-C headers for adding an expansion using split comms (only supports one at a time).
 * Gasket-mount case held together with magnets.
 
 ![Render Case](Showcase/Render-Case.png)
@@ -25,10 +26,11 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 02/04/2023: I've realized just how many changes I've been making so I think it justifies a V2.0 version instead of V1.1. Changed angle of each unsplit half to 15 degrees inwards instead of 20 degrees with corresponding change to PCB and plate shape. Re-did 5V routing on the board. Added ARGB header to attach external RGB strips. Removed reverse voltage/current schottky and added back to back P-mosfets to provide the same function. Added ferrite bead to VBUS for more voltage filtering. Changed ESD protection chip to TPD4E05U06DQAR. Added USB-C expansion headers for expansion boards using split comms with the same protections as the primary USB-C input port. Added M3 earth pad for connection to a metal case. Added solder jumper to select OLED voltage as it should work fine when powered by 5V, but the option to power from 3V3 is there if required. Case to follow..
 * 31/03/2023: Connected DR (data-ready) pin of TM040040 to Motion pin of PMW3360 as they serve the same function. Connected reset pins to hardware reset button instead of MCU. Added locating features to CNC case, increased wall thickness by 1mm for better magnet support (4mm now instead of 3mm) and increased size of gaskets. Redesigned trackpad mount and rotary encoder knob to allow for the illuminated ring to show up better. Added powered by QMK logo to board.
 * 24/04/2023: Added level shifter to the RGB signal, just in case.
 * 14/03/2023: Fixed top and bottom case STEP files. Minor fix to silk.
-* 13/03/2023: V1.1 update. Moved switch footprint center back to normal position. Swapped capacitor and resistor at USB-C connector for ferrite bead. Moved positions of USB VBUS protection. 
+* 13/03/2023: V2.0 initial update. Moved switch footprint center back to normal position. Swapped capacitor and resistor at USB-C connector for ferrite bead. Moved positions of USB VBUS protection. 
 * 11/03/2023: Added PH2.0 header for OLED. Changed plate to accommodate headers. Better render.
 * 10/03/2023: Fixed OLED description in readme. Changed center of switches for JLC assembly.
 * 09/03/2023: Shifted MCU up to reduce length of USB traces. Added holes for JLC assembly. Attempted to render a better quality image.
