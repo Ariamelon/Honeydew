@@ -1,11 +1,12 @@
 # Honeydew
-~60% 63-key QMK-compatible unsplit ergonomic keyboard.
+~60% 63-key QMK-compatible unified split ergonomic keyboard.
 
 ## Disclaimer
-The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each side rotated 20 degrees inwards and both halves making up one board. This keyboard is licensed under CC BY 4.0. This keyboard is powered by [QMK Firmware](https://qmk.fm/).
+This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm/). The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards.
 
 ## Key Features
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys in the middle.
+* Each half is rotated 15 degrees inwards.
 * On-board Raspberry Pi RP2040 processor.
 * SWD header for debugging purposes.
 * Single-push reset circuit for resetting with short push and entering bootloader with long push.
@@ -25,8 +26,8 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
-* 03/04/2023: Changed level shifter to cheaper model. Slightly changed USB-C footprint. Added single-push reset circuit and removed DIP switch.
-* 02/04/2023: I've realized just how many changes I've been making so I think it justifies a V2.0 version instead of V1.1. Changed angle of each unsplit half to 15 degrees inwards instead of 20 degrees with corresponding change to PCB and plate shape. Re-did 5V routing on the board. Added ARGB header to attach external RGB strips. Removed reverse voltage/current schottky and added back to back P-mosfets to provide the same function. Added ferrite bead to VBUS for more voltage filtering. Changed ESD protection chip to TPD4E05U06DQAR. Added USB-C expansion headers for expansion boards using split comms with the same protections as the primary USB-C input port. Added M3 earth pad for connection to a metal case. Added solder jumper to select OLED voltage as it should work fine when powered by 5V, but the option to power from 3V3 is there if required. Case to follow..
+* 03/04/2023: Changed level shifter to cheaper model. Slightly changed USB-C footprint. Added single-push reset circuit and removed DIP switch. Updated readme and STEP file.
+* 02/04/2023: Changed angle of each unsplit half to 15 degrees inwards instead of 20 degrees with corresponding change to PCB and plate shape. Re-did 5V routing on the board. Added ARGB header to attach external RGB strips. Removed reverse voltage/current schottky and added back to back P-mosfets to provide the same function. Added ferrite bead to VBUS for more voltage filtering. Changed ESD protection chip to TPD4E05U06DQAR. Added USB-C expansion headers for expansion boards using split comms with the same protections as the primary USB-C input port. Added M3 earth pad for connection to a metal case. Added solder jumper to select OLED voltage as it should work fine when powered by 5V, but the option to power from 3V3 is there if required. Case to follow..
 * 31/03/2023: Connected DR (data-ready) pin of TM040040 to Motion pin of PMW3360 as they serve the same function. Connected reset pins to hardware reset button instead of MCU. Added locating features to CNC case, increased wall thickness by 1mm for better magnet support (4mm now instead of 3mm) and increased size of gaskets. Redesigned trackpad mount and rotary encoder knob to allow for the illuminated ring to show up better. Added powered by QMK logo to board.
 * 24/04/2023: Added level shifter to the RGB signal, just in case.
 * 14/03/2023: Fixed top and bottom case STEP files. Minor fix to silk.
