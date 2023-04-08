@@ -9,23 +9,20 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 * Each half is rotated 15 degrees inwards.
 * On-board Raspberry Pi RP2040 processor.
 * SWD header for debugging purposes.
-* Single-push reset circuit for resetting with short push and entering bootloader with long push.
-* USB-C input with full ESD protection.
-* MX switch support with kailh hot-swap sockets.
-* Per-key RGB backlight and extra RGB header for adding more.
-* 40mm cirque trackpad support in the middle.
-* Alternately supports a 34mm trackball instead of the trackpad.
-* The trackpad or trackball has an illuminated RGB ring.
-* Rotary encoder ring around the trackball or trackpad.
-* Additional scroll wheel-style rotary encoder below trackpad.
-* 1.5" 128x128 SSD1351 RGB QP OLED support.
+* USB-C input with full ESD protection and up to 15W of power depending on source capability.
 * Two USB-C headers for adding an expansion using split comms (only supports one at a time).
+* MX switch support with kailh hot-swap sockets.
+* 40mm cirque trackpad support in the middle, alternately supports a 34mm trackball instead of the trackpad.
+* Per-key RGB backlight, illuminated center ring and ARGB header for adding more.
+* Rotary encoder ring around the trackball or trackpad.
+* 1.5" 128x128 SSD1351 RGB QP OLED support.
 * Gasket-mount case held together with magnets.
 
 ![Render Front](Showcase/Render-F.png)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 08/04/2023: Large update. Removed single-push reset circuit, added side buttons next to the USB ports. Added pi filter to VBUS and split comms ports for more voltage filtering. Completely revamped shape of PCB for more space efficiency. Pushed each side further out and OLED further down. Added TUSB320 CC logic controller and TPS2557 current limit switch to allow the board to safely draw up to 15W (5V 3A) of power. Added mounting holes on PCB. Removed ferrite between USB shield and ground. Replaced back to back P-mosfets with ideal diode setup. Removed QMK logo (sorry). Cleaned up schematic somewhat.
 * 03/04/2023: Changed level shifter to cheaper model. Slightly changed USB-C footprint. Added single-push reset circuit and removed DIP switch. Updated readme and STEP file. Moved position of USB-C ports further out.
 * 02/04/2023: Changed angle of each unsplit half to 15 degrees inwards instead of 20 degrees with corresponding change to PCB and plate shape. Re-did 5V routing on the board. Added ARGB header to attach external RGB strips. Removed reverse voltage/current schottky and added back to back P-mosfets to provide the same function. Added ferrite bead to VBUS for more voltage filtering. Changed ESD protection chip to TPD4E05U06DQAR. Added USB-C expansion headers for expansion boards using split comms with the same protections as the primary USB-C input port. Added M3 earth pad for connection to a metal case. Added solder jumper to select OLED voltage as it should work fine when powered by 5V, but the option to power from 3V3 is there if required. Case to follow..
 * 31/03/2023: Connected DR (data-ready) pin of TM040040 to Motion pin of PMW3360 as they serve the same function. Connected reset pins to hardware reset button instead of MCU. Added locating features to CNC case, increased wall thickness by 1mm for better magnet support (4mm now instead of 3mm) and increased size of gaskets. Redesigned trackpad mount and rotary encoder knob to allow for the illuminated ring to show up better. Added powered by QMK logo to board.

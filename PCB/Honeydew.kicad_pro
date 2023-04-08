@@ -541,16 +541,20 @@
       "MCU"
     ],
     [
-      "3b9d6b66-6ecb-42d2-a8a6-a52a8ef176c3",
-      "USB"
-    ],
-    [
       "6e258a66-57df-44a5-ad7a-a7c1b9255fcb",
       "RGB"
     ],
     [
-      "26edfbbc-daa9-422d-9769-55b1f87d1645",
-      "Expansion"
+      "2f51b544-12f7-4e1b-8411-bc45f4c0652b",
+      "Comms - Split"
+    ],
+    [
+      "97495229-1045-4666-816c-bc0b9e33677e",
+      "Comms - USB"
+    ],
+    [
+      "3c7ecea9-731d-4b3d-b843-df75cd830c7f",
+      "Comms - SPI"
     ]
   ],
   "text_variables": {}
