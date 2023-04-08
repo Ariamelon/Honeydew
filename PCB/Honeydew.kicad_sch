@@ -2,13 +2,15 @@
 
   (uuid 534caec7-cf60-4f90-b1ed-42c9d445ef0f)
 
-  (paper "A5")
+  (paper "A4")
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-04-03")
+    (date "2023-04-08")
     (rev "V2.0")
+    (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
+    (comment 2 "Licensed under CC BY 4.0.")
   )
 
   (lib_symbols
@@ -703,7 +705,7 @@
     (property "Sheetname" "Comms - SPI" (at 39.37 43.7384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Comms-SPI.kicad_sch" (at 39.37 67.8946 0)
+    (property "Sheetfile" "Comms - SPI.kicad_sch" (at 39.37 67.8946 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "MOTION" output (at 59.69 59.69 0)
@@ -773,7 +775,7 @@
     (property "Sheetname" "Comms - USB" (at 39.37 15.7984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Comms-USB.kicad_sch" (at 39.37 24.7146 0)
+    (property "Sheetfile" "Comms - USB.kicad_sch" (at 39.37 24.7146 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "CC2" bidirectional (at 39.37 21.59 180)

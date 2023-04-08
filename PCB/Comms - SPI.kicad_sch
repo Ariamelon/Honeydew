@@ -2,7 +2,16 @@
 
   (uuid 681b5e32-64bb-420e-8897-eeea69dca748)
 
-  (paper "A5")
+  (paper "A4")
+
+  (title_block
+    (title "Honeydew unified split ergonomic keyboard")
+    (date "2023-04-08")
+    (rev "V2.0")
+    (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
+    (comment 1 "All capacitors 50V unless otherwise specified.")
+    (comment 2 "Licensed under CC BY 4.0.")
+  )
 
   (lib_symbols
     (symbol "+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)

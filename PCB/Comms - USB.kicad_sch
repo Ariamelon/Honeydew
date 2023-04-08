@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Honeydew unified split ergonomic keyboard")
+    (date "2023-04-08")
+    (rev "V2.0")
+    (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
+    (comment 1 "All capacitors 50V unless otherwise specified.")
+    (comment 2 "Licensed under CC BY 4.0.")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:LM321" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 7.62 0)
@@ -1664,7 +1673,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8099d6e6-04ac-4178-ab30-1ca0b833f6ac)
-    (property "Reference" "#PWR010" (at 115.57 31.75 0)
+    (property "Reference" "#PWR?" (at 115.57 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 24.13 0)
@@ -1680,7 +1689,7 @@
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
           (reference "#PWR082") (unit 1)
@@ -1695,7 +1704,7 @@
   (symbol (lib_id "power:+5V") (at 105.41 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86f362e6-c048-4e63-9cda-1e9faeb42cf3)
-    (property "Reference" "#PWR010" (at 105.41 24.13 0)
+    (property "Reference" "#PWR?" (at 105.41 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 105.41 16.51 0)
@@ -1711,7 +1720,7 @@
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
           (reference "#PWR083") (unit 1)
