@@ -2627,7 +2627,7 @@
     (property "Description" "Momentary pushbutton" (at 181.61 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C79174" (at 181.61 85.09 0)
+    (property "LCSC" "C110293" (at 181.61 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 171c5c2e-0408-4216-bfc4-df9b8bc3830a))
