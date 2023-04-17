@@ -8,6 +8,7 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys in the middle.
 * Each half is rotated 15 degrees inwards.
 * On-board Raspberry Pi RP2040 processor.
+* Uses shift registers for the columns.
 * SWD header for debugging purposes.
 * USB-C input with full ESD protection and up to 15W of power depending on source capability.
 * MX switch support with kailh hot-swap sockets.
@@ -21,6 +22,7 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 17/04/2023: Large update. Changed position of thumb buttons and added another button. Revamped shape of PCB again. Changed PER60 to PER56. Added 30-pin FFC receptacle for direct OLED panel mounting to the PCB (lower profile). Now using 595 shift registers for columns. Increased number of LEDs in central LED ring. Changed current limiting device to TPS2595. Connected current limiting ICs to MCU, allowing for software monitoring of current levels and changing of allowed current. Removed individual RGB capacitors and added bulk capacitance.
 * 10/04/2023: Shrunk size of PCB. Added plate DXF and gerbers. Removed split comms ports and ideal diode.
 * 08/04/2023: Large update. Removed single-push reset circuit, added side buttons next to the USB ports. Added pi filter to VBUS and split comms ports for more voltage filtering. Completely revamped shape of PCB for more space efficiency. Pushed each side further out and OLED further down. Added TUSB320 CC logic controller and TPS2557 current limit switch to allow the board to safely draw up to 15W (5V 3A) of power. Added mounting holes on PCB. Removed ferrite between USB shield and ground. Replaced back to back P-mosfets with ideal diode setup. Removed QMK logo (sorry). Cleaned up schematic somewhat. Added large caps to output of TPS2557. Updated STEP file and file data. Added back ground plane. Fixed rotation of production files.
 * 03/04/2023: Changed level shifter to cheaper model. Slightly changed USB-C footprint. Added single-push reset circuit and removed DIP switch. Updated readme and STEP file. Moved position of USB-C ports further out.
