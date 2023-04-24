@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.152,
-          "height": 1.152,
-          "width": 1.152
+          "drill": 0.0,
+          "height": 0.3,
+          "width": 0.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -183,7 +183,8 @@
         0.4,
         0.6,
         0.8,
-        1.6
+        1.6,
+        2.2
       ],
       "via_dimensions": [
         {
@@ -199,7 +200,7 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false,
+      "zones_allow_external_fillets": true,
       "zones_use_no_outline": true
     },
     "layer_presets": [],
@@ -597,6 +598,10 @@
     [
       "6e258a66-57df-44a5-ad7a-a7c1b9255fcb",
       "RGB"
+    ],
+    [
+      "03fe79d8-f43d-4879-be7c-5a505456d728",
+      "USB"
     ],
     [
       "3c7ecea9-731d-4b3d-b843-df75cd830c7f",
