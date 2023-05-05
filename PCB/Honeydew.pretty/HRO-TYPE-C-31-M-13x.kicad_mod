@@ -1,5 +1,7 @@
 (footprint "HRO-TYPE-C-31-M-13x" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "USB Type-C receptacle for USB 2.0 and PD")
+  (tags "usb usb-c 2.0 pd")
   (attr smd)
   (fp_text reference "REF**" (at -6.858 -4.132 90 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))

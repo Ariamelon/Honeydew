@@ -7,21 +7,19 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 ## Key Features
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys in the middle.
 * Each half is rotated 15 degrees inwards.
-* On-board Raspberry Pi RP2040 processor.
+* nRF52840 BLE processor.
 * Uses shift registers for the columns.
 * SWD header for debugging purposes.
-* USB-C input with full ESD protection and up to 15W of power depending on source capability.
+* USB-C input with full ESD protection.
+* MAX77757 USB-C PD and BC1.2 LiPo fast charger with battery protection.
 * MX switch support with kailh hot-swap sockets.
 * 40mm cirque trackpad support in the middle, alternately supports a 34mm trackball instead of the trackpad.
-* Per-key RGB backlight, illuminated center ring and ARGB header for adding more.
 * Rotary encoder ring around the trackball or trackpad.
-* 1.5" 128x128 SSD1351 RGB QP OLED support, either bare OLED panel or using the Waveshare breakout board.
+* 1.08" Sharp LS011B7DH03 or Nice!View support.
 * Gasket-mount case held together with magnets.
 
-![Render Front](Showcase/Render-F.png)
-![Render Back](Showcase/Render-B.png)
-
 ## Changelog
+* 05/05/2023: 
 * 25/04/2023: 3/4-done update. Added current and voltage measurement for VBUS in and current measurement for the RGB output. Added PMOS power switch to fully turn off RGB LEDs when not in use. Rerouted the PCB. Moved OLED ribbon cable cutout and expanded it length-wise. Changed position of various components for better routing. Changed bulk capacitance of RGB LEDs to 5 x 22u capacitors. Changed the four N mosfets to two much smaller dual N mosfets. Still need to do RGB routing!
 * 17/04/2023: Large update. Changed position of thumb buttons and added another button. Revamped shape of PCB again. Changed PER60 to PER56. Added 30-pin FFC receptacle for direct OLED panel mounting to the PCB (lower profile). Now using 595 shift registers for columns. Increased number of LEDs in central LED ring. Changed current limiting device to TPS2595. Connected current limiting ICs to MCU, allowing for software monitoring of current levels and changing of allowed current. Removed individual RGB capacitors and added bulk capacitance.
 * 10/04/2023: Shrunk size of PCB. Added plate DXF and gerbers. Removed split comms ports and ideal diode.
