@@ -22,6 +22,7 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 15/05/2023: Finished routing RGB LEDs.
 * 05/05/2023: Changed PMOS switch to TPS2595, set to ~3A current limit. Got rid of RGB current measurement. Added enable jumper for 13V OLED PSU (only jump when in use to reduce noise when not in use). Still not done with RGB LED routing.
 * 25/04/2023: Added current and voltage measurement for VBUS in and current measurement for the RGB output. Added PMOS power switch to fully turn off RGB LEDs when not in use. Rerouted the PCB. Moved OLED ribbon cable cutout and expanded it length-wise. Changed position of various components for better routing. Changed bulk capacitance of RGB LEDs to 5 x 22u capacitors. Changed the four N mosfets to two much smaller dual N mosfets. Still need to do RGB routing!
 * 17/04/2023: Large update. Changed position of thumb buttons and added another button. Revamped shape of PCB again. Changed PER60 to PER56. Added 30-pin FFC receptacle for direct OLED panel mounting to the PCB (lower profile). Now using 595 shift registers for columns. Increased number of LEDs in central LED ring. Changed current limiting device to TPS2595. Connected current limiting ICs to MCU, allowing for software monitoring of current levels and changing of allowed current. Removed individual RGB capacitors and added bulk capacitance.
