@@ -2114,7 +2114,7 @@
     (property "Value" "USB In" (at 25.4 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Honeydew:HRO-TYPE-C-31-M-14" (at 29.21 45.72 0)
+    (property "Footprint" "Honeydew:HRO-TYPE-C-31-M-13x" (at 29.21 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 29.21 45.72 0)
