@@ -7875,7 +7875,7 @@
     (property "Reference" "SW67" (at 121.92 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "" (at 121.92 101.6 0)
+    (property "Value" "~" (at 121.92 101.6 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "Honeydew:D2F-01F" (at 121.92 88.9 0)

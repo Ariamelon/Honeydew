@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 0.5
+          "drill": 1.152,
+          "height": 1.152,
+          "width": 1.152
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -56,10 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_overlap|188099979|65700013|bebbfff5-a4c0-4d52-9040-44a21d508b97|b509ee43-572a-46aa-bc22-2b41f3cff934",
-        "silk_overlap|221899975|65700011|96fd9633-2aba-42e2-b28a-5f1b13e13344|b509ee43-572a-46aa-bc22-2b41f3cff934"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -181,15 +178,15 @@
       "track_widths": [
         0.0,
         0.0,
+        0.0,
         0.15,
         0.2,
+        0.25,
         0.3,
         0.4,
         0.6,
         0.8,
-        1.5,
-        1.6,
-        2.2
+        1.6
       ],
       "via_dimensions": [
         {
@@ -205,7 +202,7 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": true,
+      "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
     "layer_presets": [],

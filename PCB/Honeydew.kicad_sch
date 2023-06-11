@@ -306,7 +306,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 118.11 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000620a77cc)
     (property "Reference" "A1" (at 120.65 19.1516 0)
       (effects (font (size 1.27 1.27)) (justify left))

@@ -2683,7 +2683,7 @@
   )
 
   (symbol (lib_name "PMW3360DM-T2QU_1") (lib_id "Ogen:PMW3360DM-T2QU") (at 45.72 43.18 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f012af25-e740-4929-afd2-0eab6ecdee3b)
     (property "Reference" "U4" (at 47.6759 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
