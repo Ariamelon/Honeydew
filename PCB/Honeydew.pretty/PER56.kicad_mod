@@ -51,11 +51,6 @@
   (pad "MP" thru_hole circle (at -10.094278 -27.7333) (size 3.2 3.2) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp 7fef6fd0-236f-4835-9fc2-38bea66a9768))
   (pad "MP" thru_hole circle (at 10.091931 -27.732996) (size 3.2 3.2) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp 1c4c149f-3120-4f3e-a7e0-63046d845f48))
   (pad "MP" thru_hole rect (at 28.070731 2.95064) (size 4.4 4.4) (drill oval 3.2) (layers "*.Cu" "*.Mask") (tstamp 5c4ab27d-8ab2-40f9-a089-7a5e35851042))
-  (model "F:/KiCad/3DModels/PERS56-track.step" hide
-    (offset (xyz 0 0 -16))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
   (model "${KIPRJMOD}/Honeydew.pretty/3d/PER561-P115-N0015.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

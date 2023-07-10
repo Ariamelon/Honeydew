@@ -22,8 +22,9 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
-* 30/06/2023: Routed 13V EN pin to the MCU. Removed solder jumper.
-* 27/06/2023: V3.0 initial update. Wired RST pin of OLED to MCU. Reduced size of OLED FFC cutout. Rearranged positions of parts on the PCB. Added REF3033 3.3V voltage reference and connected it to the ADC input. Added pullup to RGB current limit switch enable input. 
+* 06/07/2023: Replaced 0805 ferrite with 1206. Repositioned components. Improved CPG151101S11 footprints.
+* 30/06/2023: Routed 13V EN pin to the MCU. Removed 13V solder jumper.
+* 27/06/2023: V3.0 initial update. Wired RST pin of OLED to MCU. Reduced size of OLED FFC cutout. Repositioned components. Added REF3033 3.3V voltage reference and connected it to the ADC input. Added pullup to RGB current limit switch enable input. 
 * 11/06/2023: Updated BOM. Added new tentative plate file. Updated 3D files.
 * 20/05/2023: Added scroll wheel rotary encoder and mouse switch for thumb scroll wheel, replacing bottom 2u key.
 * 19/05/2023: Improved switch footprints. Changed 3v3 regulator to XC6206P332MR.

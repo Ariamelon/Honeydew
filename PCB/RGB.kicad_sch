@@ -3515,8 +3515,8 @@
     (property "Voltage" "50V" (at 157.48 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid f1238dc1-dd76-40eb-bd14-acd65cfc86c0))
-    (pin "2" (uuid c76ae962-38cb-4fb6-ab58-d76d32253c79))
+    (pin "1" (uuid 56750ddc-1fb1-416a-a896-852a1a3d985f))
+    (pin "2" (uuid d15ce0b8-c0ef-4003-975e-8de528bf9385))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3535,7 +3535,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 147.32 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01394f20-d98c-426d-b1a4-11083cf2c800)
-    (property "Reference" "D89" (at 147.32 41.91 0)
+    (property "Reference" "D20" (at 147.32 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 147.32 44.45 0)
@@ -3553,14 +3553,14 @@
     (property "LCSC" "C5242955" (at 147.32 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d86dd41-2f0d-4cd1-83b3-472314bc6802))
-    (pin "2" (uuid b35b004e-dd86-4a2e-8bac-62555123cfbc))
-    (pin "3" (uuid c5dcbd07-87be-4156-b128-d20c220eeea6))
-    (pin "4" (uuid 53e306ee-a5b3-410f-8ca1-23f0ea442812))
+    (pin "1" (uuid 75ff20a9-3836-4ac9-aeff-af2f7a421b5a))
+    (pin "2" (uuid 18158aed-4c11-430b-9b03-c3bf43da0826))
+    (pin "3" (uuid aa715d7e-b395-4b7d-a0cc-3dc5e3cc48d5))
+    (pin "4" (uuid d51b63ed-d12d-4f5e-9b3c-35df349bc23a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D89") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
     )
@@ -3569,7 +3569,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 93.98 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 033b2d5b-8ba6-4761-98cf-1e9b508e83f2)
-    (property "Reference" "D131" (at 93.98 102.87 0)
+    (property "Reference" "D72" (at 93.98 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 93.98 105.41 0)
@@ -3587,14 +3587,14 @@
     (property "LCSC" "C5242955" (at 93.98 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f076fd5-a080-4a56-9ea4-919e0fd3bb94))
-    (pin "2" (uuid ffe3c4b1-93d9-41a0-8a3f-9a9c9e436b2a))
-    (pin "3" (uuid e934092f-90e2-4f0b-808a-7b4ef5b81c5a))
-    (pin "4" (uuid 8d9d9d94-9252-45b9-9804-af9c8b2833b3))
+    (pin "1" (uuid e6ef3209-1c6d-411d-809e-2ac6ee91bbf0))
+    (pin "2" (uuid af5612d0-0ccc-470c-a99e-b4df21110beb))
+    (pin "3" (uuid 84426626-37ac-4e32-af52-40b0d47b80e8))
+    (pin "4" (uuid 0e0429ae-7ac4-4953-8f41-f619126b0034))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D131") (unit 1)
+          (reference "D72") (unit 1)
         )
       )
     )
@@ -3603,7 +3603,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 147.32 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 049c5caa-9ec6-4ddc-8ae3-373197ca7791)
-    (property "Reference" "D104" (at 147.32 62.23 0)
+    (property "Reference" "D57" (at 147.32 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 147.32 64.77 0)
@@ -3621,14 +3621,14 @@
     (property "LCSC" "C5242955" (at 147.32 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e6a3402-64de-43ae-b1eb-d38791a0e564))
-    (pin "2" (uuid 5488607f-6762-481a-88bc-6d7b2f1aa88e))
-    (pin "3" (uuid 48e621e1-e79f-43f1-91f9-ca76186c1d66))
-    (pin "4" (uuid de8de393-1cef-424b-b865-79c3a0a02f8e))
+    (pin "1" (uuid ae10022c-082c-42e5-a200-785c546e19bc))
+    (pin "2" (uuid d089b6c7-ba97-4aed-b81c-5160c6466d45))
+    (pin "3" (uuid 805e2117-b40e-4f57-8851-c40066e6e7d8))
+    (pin "4" (uuid fe939e4d-6807-494f-baf4-ca1b586a8725))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D104") (unit 1)
+          (reference "D57") (unit 1)
         )
       )
     )
@@ -3658,8 +3658,8 @@
     (property "Voltage" "50V" (at 208.28 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 2c08058a-2ae6-4f61-956c-e7c83b309bd2))
-    (pin "2" (uuid 34af612d-d00f-4248-b0ad-210a90efa191))
+    (pin "1" (uuid 36c892a2-2704-4311-b13f-7a4ea6646e38))
+    (pin "2" (uuid 295490c6-2647-4965-a606-3bfab28659d9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3727,8 +3727,8 @@
     (property "Voltage" "50V" (at 218.44 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid c0b66d4b-8659-4250-96c4-8a06d489e713))
-    (pin "2" (uuid af428079-9b8a-438e-88cc-f871dc9a89f9))
+    (pin "1" (uuid 675b2682-bf7f-4263-839c-7b221970e1d9))
+    (pin "2" (uuid 59eaf0d8-f7eb-4f92-9d5f-c4bc99090737))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3768,8 +3768,8 @@
     (property "Voltage" "50V" (at 116.84 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 1e860a70-d840-41b5-a482-0e1ffeb267f9))
-    (pin "2" (uuid 90b23e95-93b4-4ddb-be23-09077a7c02c7))
+    (pin "1" (uuid 94879c07-6a5d-4fa8-bafe-78961b5f7aaa))
+    (pin "2" (uuid dc8f1ee3-0935-41c2-886f-1faf31f3e8b0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3809,8 +3809,8 @@
     (property "Voltage" "50V" (at 76.2 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 503b8b70-4940-44fb-b4f2-8afe29488fde))
-    (pin "2" (uuid e0ff4a45-2209-40c5-ab07-7b17350feb25))
+    (pin "1" (uuid 1dab1983-2d3e-4557-b2a6-69062365181e))
+    (pin "2" (uuid c8a05a43-c7bb-4cc4-8672-876888681652))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3829,7 +3829,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 93.98 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0edb9dc7-91f1-4a0a-ae6b-9d93c6094032)
-    (property "Reference" "D92" (at 93.98 41.91 0)
+    (property "Reference" "D26" (at 93.98 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 93.98 44.45 0)
@@ -3847,14 +3847,14 @@
     (property "LCSC" "C5242955" (at 93.98 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e73d7908-14c8-4b85-9c9f-5dc21b0353e0))
-    (pin "2" (uuid 17ea4dd6-4950-4898-b00a-ff905f8b8146))
-    (pin "3" (uuid 2d789d47-3ac6-4cdd-9a17-9882091e9063))
-    (pin "4" (uuid 9100980a-eb38-432a-8f0a-2c5baaa806e8))
+    (pin "1" (uuid abdbe46c-c651-4389-bd2d-60c90ce3901f))
+    (pin "2" (uuid 036bb8c4-19c3-4315-b078-d5d17abd4e36))
+    (pin "3" (uuid 44b5290b-3d76-4237-ab5c-5208b3f25fda))
+    (pin "4" (uuid 1da52d80-654c-4fee-a526-3eb6e4e105d0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D92") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
@@ -3863,7 +3863,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 182.88 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f6688d3-228c-4cda-95db-c2c1eb299057)
-    (property "Reference" "D136" (at 182.88 102.87 0)
+    (property "Reference" "D67" (at 182.88 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 182.88 105.41 0)
@@ -3881,14 +3881,14 @@
     (property "LCSC" "C5242955" (at 182.88 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76585d0c-7e22-4f3c-b4de-826fb6956788))
-    (pin "2" (uuid 9bf5a6a7-4ade-4565-a689-6d9ae2a64572))
-    (pin "3" (uuid eb6bf2e3-89fa-4272-ab9e-192bbb2e154f))
-    (pin "4" (uuid f42217ca-1397-48ab-a8c7-d69010b2d20f))
+    (pin "1" (uuid 4cc9ae5e-6e44-4b42-9b67-b3ddcc403252))
+    (pin "2" (uuid 1634694d-c0af-4ffd-a725-1bf162526f1c))
+    (pin "3" (uuid 7ac3403f-21ca-43fe-929a-3ac6d090af60))
+    (pin "4" (uuid 6cffcd29-5147-42c6-9c2d-8b87b185fe6f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D136") (unit 1)
+          (reference "D67") (unit 1)
         )
       )
     )
@@ -3897,7 +3897,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 200.66 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11571b6a-cb24-4c41-9108-6a9a231da2d0)
-    (property "Reference" "D137" (at 200.66 102.87 0)
+    (property "Reference" "D66" (at 200.66 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 200.66 105.41 0)
@@ -3915,14 +3915,14 @@
     (property "LCSC" "C5242955" (at 200.66 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 87ec04f6-fe0d-4945-802b-9d3b60975cde))
-    (pin "2" (uuid 5e0b5ab4-e6f1-4985-86ac-3a9c77c07821))
-    (pin "3" (uuid e5e27392-5a49-4649-99cc-34c54d0c9573))
-    (pin "4" (uuid 573a06f0-e8c0-4ae0-b510-93e317373144))
+    (pin "1" (uuid 0d887023-bfd3-4a5f-902d-fdc04abe39b8))
+    (pin "2" (uuid a004824c-d54a-4abf-90d4-973aae1c703e))
+    (pin "3" (uuid 291dd725-2f19-49b4-8033-4089b9d9ec8d))
+    (pin "4" (uuid c9120bc6-2ec6-4649-877c-31aa16488260))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D137") (unit 1)
+          (reference "D66") (unit 1)
         )
       )
     )
@@ -3952,8 +3952,8 @@
     (property "Voltage" "50V" (at 45.72 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid ddd6ea8b-d740-44e5-8bc6-fd28dd955cf4))
-    (pin "2" (uuid ec585514-3988-4852-bce2-944185f76fab))
+    (pin "1" (uuid bf090960-f04d-4706-8a5f-d8de843e038c))
+    (pin "2" (uuid 1215c98e-7a2d-461a-a0dd-dbd855891aaf))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3972,7 +3972,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 40.64 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13b6a999-ff0d-465f-b593-8e96723dc296)
-    (property "Reference" "D125" (at 40.64 82.55 0)
+    (property "Reference" "D36" (at 40.64 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 40.64 85.09 0)
@@ -3990,14 +3990,14 @@
     (property "LCSC" "C5242955" (at 40.64 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 262202cc-53da-426d-acbc-1507ff40c465))
-    (pin "2" (uuid 978d3d68-e997-496d-afec-51054986ae90))
-    (pin "3" (uuid ad6b5990-cd93-4929-a300-afc4104acc88))
-    (pin "4" (uuid 9185b133-519b-4874-a6be-79f3e7c4f472))
+    (pin "1" (uuid 7d8140b3-2857-48b4-8cc1-8fc7e3ba7cb0))
+    (pin "2" (uuid 6904a09a-165d-4c19-b15c-ba668ddb9954))
+    (pin "3" (uuid 2c5ca3b0-c28b-4bf0-b95d-fc3eb8163055))
+    (pin "4" (uuid 10e150a6-0a5c-44ee-b8d4-fa4c0754c0a9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D125") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
@@ -4006,7 +4006,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 40.64 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16048d06-58a6-47c4-a5cd-127136342f72)
-    (property "Reference" "D68" (at 40.64 21.59 0)
+    (property "Reference" "D2" (at 40.64 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 40.64 24.13 0)
@@ -4024,14 +4024,14 @@
     (property "LCSC" "C5242955" (at 40.64 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36bdc169-3898-49f9-8253-e9b1a8713d92))
-    (pin "2" (uuid 03abcdaa-9e47-48bc-bdae-68e314f97194))
-    (pin "3" (uuid a03ddae0-de98-4741-8914-db9f36cee0e2))
-    (pin "4" (uuid be916c7f-9dd5-4f3a-954c-9eb0f5f375bb))
+    (pin "1" (uuid aa7bbad4-9fbe-4218-abfa-90d88c06b38d))
+    (pin "2" (uuid 0a98bcdb-1ebc-4d06-b4eb-9ffe5f3a28d1))
+    (pin "3" (uuid c91585cc-5e00-4923-ba79-aa7cdfd97a36))
+    (pin "4" (uuid 54a5bf05-9722-4876-9082-88122a493d45))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D68") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -4086,8 +4086,8 @@
     (property "Voltage" "50V" (at 248.92 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 721c7011-932a-4d7b-97df-ea8c88ade805))
-    (pin "2" (uuid 0fe4060e-5886-4669-ae33-1523b7d7c73e))
+    (pin "1" (uuid 33e62245-c5b2-4cee-8297-abdce96db5a7))
+    (pin "2" (uuid 1aecacfa-3727-4976-8519-3588fbeffeec))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4106,7 +4106,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 271.78 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a519b66-804b-4922-92a7-153ec2b2bf5b)
-    (property "Reference" "D82" (at 271.78 41.91 0)
+    (property "Reference" "D16" (at 271.78 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 271.78 44.45 0)
@@ -4124,14 +4124,14 @@
     (property "LCSC" "C5242955" (at 271.78 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c34caed3-0d6e-41ed-a172-5df3da4eadb3))
-    (pin "2" (uuid e2cc6eda-de2d-4b7d-b2e9-aa1246422b9f))
-    (pin "3" (uuid c46f475d-27d9-46d3-a466-e4d4af2bf041))
-    (pin "4" (uuid dde62fbc-d01d-4405-a955-438813a20a62))
+    (pin "1" (uuid ea5e20db-7582-43e1-b006-20474afd2267))
+    (pin "2" (uuid e7d123f4-a4c1-46d1-9139-7ef76f2f74b8))
+    (pin "3" (uuid e62dfd8b-aa3a-4b3e-9ec2-eec185eb45ed))
+    (pin "4" (uuid 30cf7c3f-6e13-4b6c-9471-cfc03016ce1b))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D82") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -4140,7 +4140,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 182.88 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b5112a7-7dd9-476a-88b0-a9c8de230d17)
-    (property "Reference" "D106" (at 182.88 62.23 0)
+    (property "Reference" "D55" (at 182.88 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 182.88 64.77 0)
@@ -4158,14 +4158,14 @@
     (property "LCSC" "C5242955" (at 182.88 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19cc6619-109e-48a5-bbcc-afd465f5641a))
-    (pin "2" (uuid 6d865ba9-0b27-46b0-92a7-fbbd87443ef8))
-    (pin "3" (uuid b5740c80-e2c2-4bf0-a569-b957a3cbe1d0))
-    (pin "4" (uuid f4859076-1ddf-44dc-8d07-2ea3cb84bd2b))
+    (pin "1" (uuid 126df5f2-3f6b-4b4e-b0bb-b441c0551d4f))
+    (pin "2" (uuid a11bdd91-cae5-42d6-9300-487a8a295067))
+    (pin "3" (uuid ab4d50bf-dba2-41b7-8fa2-52200fd65757))
+    (pin "4" (uuid feae1f39-ed97-463b-89f0-9a544b1c95f5))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D106") (unit 1)
+          (reference "D55") (unit 1)
         )
       )
     )
@@ -4195,8 +4195,8 @@
     (property "Voltage" "50V" (at 248.92 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid f6e946a4-5156-44c4-98b5-2d226740d894))
-    (pin "2" (uuid 16c42323-375c-4dbd-b35a-184e9aec13d4))
+    (pin "1" (uuid f655df25-0046-432e-8302-52d9d11fc85e))
+    (pin "2" (uuid ddc71933-e326-4388-ba72-8d36beba988d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4215,7 +4215,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 76.2 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e1ee7bd-8cad-4e97-8297-9a4328605b6b)
-    (property "Reference" "D70" (at 76.2 21.59 0)
+    (property "Reference" "D4" (at 76.2 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 76.2 24.13 0)
@@ -4233,14 +4233,14 @@
     (property "LCSC" "C5242955" (at 76.2 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3075bd2-e49f-4ab5-a0a9-16ce40674f78))
-    (pin "2" (uuid 99986250-146f-4d4d-99da-1ed89059988e))
-    (pin "3" (uuid 46d5c3df-51f1-4800-b5d2-4ab6653b0cee))
-    (pin "4" (uuid 99b6388b-7f78-4354-ba0c-d9ed631614ed))
+    (pin "1" (uuid 2502422c-d68d-453a-8caa-6671d48fd875))
+    (pin "2" (uuid baebd628-9203-4428-9b81-f87e30441e3e))
+    (pin "3" (uuid 31731f98-f631-4169-a9ec-fbe465ac987c))
+    (pin "4" (uuid aab9ee7b-1ff6-4e62-85d1-5ef6a93587e2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D70") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -4249,7 +4249,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 165.1 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f4357c4-052b-40b6-9c37-7e45fc68e1c5)
-    (property "Reference" "D88" (at 165.1 41.91 0)
+    (property "Reference" "D21" (at 165.1 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 165.1 44.45 0)
@@ -4267,14 +4267,14 @@
     (property "LCSC" "C5242955" (at 165.1 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0672f544-697c-4b51-a274-4d68929e4c92))
-    (pin "2" (uuid 73ddbaeb-a398-4390-8093-6062e550dcc7))
-    (pin "3" (uuid d2824306-65d0-4095-9972-2f17939b7769))
-    (pin "4" (uuid 271f417a-ff24-48ac-ac98-1a5a0e38f3e4))
+    (pin "1" (uuid 6c29992c-6130-4230-a095-58671fb436b9))
+    (pin "2" (uuid 55a00792-c1d0-4d94-8b3a-6d0a5ead5be6))
+    (pin "3" (uuid 7ad37528-1096-4d48-aef9-808717853ea9))
+    (pin "4" (uuid 93a57778-7f1f-4586-98ef-5e768242e0ac))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D88") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -4332,8 +4332,8 @@
     (property "Voltage" "50V" (at 76.2 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 588fb3f2-7b3f-4a2c-a2ac-e2c5a6c9ea70))
-    (pin "2" (uuid 85ea391d-c436-4623-b061-8cdc45f22928))
+    (pin "1" (uuid 6f019b59-4f74-470a-bd7a-c731808bc967))
+    (pin "2" (uuid 42d75e98-29fc-4e8c-91d8-452a28c1d233))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4373,8 +4373,8 @@
     (property "Voltage" "50V" (at 86.36 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 235a4293-7b23-4ca8-8c53-31591f2ea492))
-    (pin "2" (uuid 64679477-c3b4-48ab-a256-48ff3f8052e2))
+    (pin "1" (uuid 123c9868-5d49-456c-9d76-8b9ffeaf3621))
+    (pin "2" (uuid cad4e82d-ccd8-48d0-977a-5ed9f5d40d4f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4414,8 +4414,8 @@
     (property "Voltage" "50V" (at 35.56 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 1e0a4940-c5ff-430d-91d7-e684ed2eee34))
-    (pin "2" (uuid 5b25a142-eea5-4ef9-a9d4-ba78b22737c5))
+    (pin "1" (uuid 1d2ec4bb-3961-447f-aad1-e5ecb38c6f77))
+    (pin "2" (uuid 36898cdf-4b86-4537-adb4-81262f3950f0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4480,8 +4480,8 @@
     (property "Voltage" "50V" (at 157.48 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 13ce7bae-1caf-4499-bf0d-087287430003))
-    (pin "2" (uuid 52aa05d8-7dc9-44ad-8b7e-465105db5c87))
+    (pin "1" (uuid 311b2b41-a462-47bd-9caa-1fa4ab344d52))
+    (pin "2" (uuid 3981375a-9792-49af-96c1-f3447cbebce2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4521,8 +4521,8 @@
     (property "Voltage" "50V" (at 208.28 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid e17d3adf-e50a-4e20-a781-57f1d8f07377))
-    (pin "2" (uuid a01d8030-0759-4720-b073-0bae5bf82655))
+    (pin "1" (uuid c8c1a187-f5a2-4125-baf1-392addb4e780))
+    (pin "2" (uuid 459c2a98-d0b1-49c2-92cf-9ca7af0cd4e1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4541,7 +4541,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 218.44 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b528afd-75b2-430d-98e8-53afe0453194)
-    (property "Reference" "D138" (at 218.44 102.87 0)
+    (property "Reference" "D65" (at 218.44 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 218.44 105.41 0)
@@ -4559,14 +4559,14 @@
     (property "LCSC" "C5242955" (at 218.44 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33080d61-bca4-4024-9636-a1c21e110f60))
-    (pin "2" (uuid d5d7af69-5d14-4b8c-8344-06aef74d603d))
-    (pin "3" (uuid ddc4feb4-fc69-4650-a3b7-fd37b5fb6ae7))
-    (pin "4" (uuid 1d0c0258-e770-49f2-89f2-0bbbd245ebec))
+    (pin "1" (uuid 10d6bdf5-3cff-4c8b-bee7-13f8c6a0ec11))
+    (pin "2" (uuid d4a81a51-6340-4a64-8949-2c8bc25644b1))
+    (pin "3" (uuid 79f82c0b-e9c3-4bdd-a6f9-d726c9e6b647))
+    (pin "4" (uuid 2b8ae85a-063e-45af-9cf2-2468c5badb32))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D138") (unit 1)
+          (reference "D65") (unit 1)
         )
       )
     )
@@ -4575,7 +4575,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 58.42 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cd64cf6-b637-4be8-80ce-e2078c648631)
-    (property "Reference" "D94" (at 58.42 41.91 0)
+    (property "Reference" "D28" (at 58.42 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 58.42 44.45 0)
@@ -4593,14 +4593,14 @@
     (property "LCSC" "C5242955" (at 58.42 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a9cfa659-b0ff-46f4-94c9-a328f953f051))
-    (pin "2" (uuid 2885142c-b98e-44be-9a7b-a9aa45997675))
-    (pin "3" (uuid 37fa0383-1526-4bde-b09f-4d034b33ccd0))
-    (pin "4" (uuid 39dceaee-53ab-48fa-b62e-cb86095f1c0d))
+    (pin "1" (uuid d0a77b7e-24a2-40bb-ad7a-11baa2923e30))
+    (pin "2" (uuid d09ce9a0-1f12-433b-96d3-db80fa0ed38f))
+    (pin "3" (uuid 65850ee0-1b8a-4772-95e0-e9442ce2e78a))
+    (pin "4" (uuid 0f86b4aa-5d02-49c9-a2d4-c2ae6066861b))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D94") (unit 1)
+          (reference "D28") (unit 1)
         )
       )
     )
@@ -4609,7 +4609,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 129.54 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dd09595-fa33-485d-8bb8-79ad1dcd70fc)
-    (property "Reference" "D103" (at 129.54 62.23 0)
+    (property "Reference" "D58" (at 129.54 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 129.54 64.77 0)
@@ -4627,14 +4627,14 @@
     (property "LCSC" "C5242955" (at 129.54 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b99f34d2-2c73-4ed4-944f-1fed3f90e42a))
-    (pin "2" (uuid 873a7dbc-ed3a-4f47-9a20-b41bc4965961))
-    (pin "3" (uuid f3c04de1-5016-4988-9fe8-69972bac2d64))
-    (pin "4" (uuid 7d857b31-1a32-46bb-b315-58fe749191cd))
+    (pin "1" (uuid 6e1c00d5-ff81-440f-9971-3a3163481267))
+    (pin "2" (uuid 302488d9-1934-43b3-b921-c70a80e40517))
+    (pin "3" (uuid 76977d60-8acb-4696-81e1-c6643c0cdde3))
+    (pin "4" (uuid a57ee8cf-a950-4d5d-a26b-4464afa1bafe))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D103") (unit 1)
+          (reference "D58") (unit 1)
         )
       )
     )
@@ -4643,7 +4643,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 40.64 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ea92802-11a5-47e4-9f30-85a26d5e7d0e)
-    (property "Reference" "D128" (at 40.64 102.87 0)
+    (property "Reference" "D33" (at 40.64 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 40.64 105.41 0)
@@ -4661,14 +4661,14 @@
     (property "LCSC" "C5242955" (at 40.64 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 473c4b55-15ef-42fa-8b54-cb8668d94a81))
-    (pin "2" (uuid 4d536ea2-a259-45ec-81e4-805d0bbd1079))
-    (pin "3" (uuid f7c3e75e-82da-460a-abee-37ac853849f5))
-    (pin "4" (uuid bd42e6b7-5cff-4f06-93f0-80c8b7c6bc42))
+    (pin "1" (uuid 5367aedf-d196-4ea7-a1dd-fb7c4f523317))
+    (pin "2" (uuid 56342f91-857a-44eb-bff5-1d5debc5c739))
+    (pin "3" (uuid f64744d4-3a12-4f4a-9301-ff4509f0cea4))
+    (pin "4" (uuid 48c5eb33-dbe0-4f66-a756-8a4f3aeccd27))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D128") (unit 1)
+          (reference "D33") (unit 1)
         )
       )
     )
@@ -4698,8 +4698,8 @@
     (property "Voltage" "50V" (at 177.8 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 044e1a80-5440-4e52-9db6-44872268d034))
-    (pin "2" (uuid d8f77fa2-bdc4-4380-8de5-afbf19148890))
+    (pin "1" (uuid cdbe3a01-17b7-4f24-b00a-5a4b8849d130))
+    (pin "2" (uuid 11d3d460-f85d-4ea1-8dbd-6c5327565dba))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4739,8 +4739,8 @@
     (property "Voltage" "50V" (at 66.04 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 31581eea-1132-429f-9b93-a2cbcf05c542))
-    (pin "2" (uuid 3825a01c-cf89-4fb0-a7e5-0d1ab8effefa))
+    (pin "1" (uuid 13b40ea7-6035-4346-b2a8-bbc849902dcb))
+    (pin "2" (uuid b589ec2b-6e0d-42a4-8d9f-e1e5de3ca39d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4780,8 +4780,8 @@
     (property "Voltage" "50V" (at 25.4 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 7a419873-f5f8-4e7d-99e3-460c1be2e5ac))
-    (pin "2" (uuid bfadf067-7e3f-4fa0-a1cc-fa5086091ba2))
+    (pin "1" (uuid dfc04282-80e8-4e71-8075-a60804c22920))
+    (pin "2" (uuid 68caea03-b101-4967-ba44-9a1185227947))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4800,7 +4800,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 111.76 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 373c47d5-b23c-43ff-a15d-9e8156a07e26)
-    (property "Reference" "D72" (at 111.76 21.59 0)
+    (property "Reference" "D6" (at 111.76 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 111.76 24.13 0)
@@ -4818,14 +4818,14 @@
     (property "LCSC" "C5242955" (at 111.76 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3182acc5-692f-4d38-9b40-e64f36b16345))
-    (pin "2" (uuid fe55e093-bee9-48ab-b319-5bfe0a07464b))
-    (pin "3" (uuid d8965a2c-56ef-4f0d-ae10-58900aabfd1b))
-    (pin "4" (uuid c6f99a2f-d736-4409-9d34-cf06ad47070c))
+    (pin "1" (uuid cef3019a-6276-41c1-9066-a0426cbd932a))
+    (pin "2" (uuid 9617b863-c2a0-4b9c-9e20-0262586c7823))
+    (pin "3" (uuid 14c2a261-48d3-4105-b257-13f2647f8b8f))
+    (pin "4" (uuid 57de51f6-4b10-4d4e-82e0-3457ddf357b1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D72") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -4834,7 +4834,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 22.86 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 373ce671-4091-4e51-820e-cce19b683b17)
-    (property "Reference" "D67" (at 22.86 21.59 0)
+    (property "Reference" "D1" (at 22.86 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 22.86 24.13 0)
@@ -4852,14 +4852,14 @@
     (property "LCSC" "C5242955" (at 22.86 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f55b6a67-c33f-42e8-9e6d-9aa240e6049d))
-    (pin "2" (uuid 594e2e7a-fdac-433b-aea4-d3ccc53757c5))
-    (pin "3" (uuid ee41be0d-b5b6-47b1-b162-8b600ae91e63))
-    (pin "4" (uuid 7129d090-1f43-430d-801e-2903e3080915))
+    (pin "1" (uuid 25c006b7-5fb2-4007-bd05-cd2c4e462000))
+    (pin "2" (uuid fb3693b6-94d2-4fee-85c4-47eb3e493cc8))
+    (pin "3" (uuid 5b317962-5a76-40be-8599-e5931059a1ea))
+    (pin "4" (uuid 2cf5a6ef-0755-4a9b-ba60-c8c4676b10f0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D67") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -4889,8 +4889,8 @@
     (property "Voltage" "50V" (at 96.52 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 867908bc-6bb4-4982-b933-ae10678274b8))
-    (pin "2" (uuid 521fbacd-9d47-4a44-88d2-4bde20a01fa8))
+    (pin "1" (uuid 533d587c-f176-4fb3-92e5-d59182cbecce))
+    (pin "2" (uuid bdc8abad-4c83-42b4-8348-ccb9f9ca187c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4930,8 +4930,8 @@
     (property "Voltage" "50V" (at 167.64 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid c075fa39-1ee0-49a4-8aff-8991d77bd4e1))
-    (pin "2" (uuid 1aa91989-dea6-412e-be39-cbee4b9403ad))
+    (pin "1" (uuid 3f0ea50c-e765-4b79-af7b-c1dbe04a6e97))
+    (pin "2" (uuid d3b81883-c539-4fa6-8732-2de03822e281))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -4950,7 +4950,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 271.78 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ec008c2-d95e-4ba7-8cde-a9d34723cdcf)
-    (property "Reference" "D111" (at 271.78 62.23 0)
+    (property "Reference" "D53" (at 271.78 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 271.78 64.77 0)
@@ -4968,14 +4968,14 @@
     (property "LCSC" "C5242955" (at 271.78 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c2e9984c-3328-4b7f-88fe-78ddfa04c079))
-    (pin "2" (uuid 9f6092d1-f945-448d-9ae2-7fd243a3a77d))
-    (pin "3" (uuid e055421e-699b-46fa-8659-d2dbaf256116))
-    (pin "4" (uuid 38e1ad07-fe03-49f8-9b50-abb01639c650))
+    (pin "1" (uuid 4e7a8f84-6014-4707-9981-47522da63594))
+    (pin "2" (uuid f2acddaf-c409-4611-aa78-93173e0a1827))
+    (pin "3" (uuid ec4b2ea2-a104-4fb1-9903-c1af8e142cef))
+    (pin "4" (uuid 82f55435-a996-450f-aa90-dada2673d814))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D111") (unit 1)
+          (reference "D53") (unit 1)
         )
       )
     )
@@ -4984,7 +4984,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 182.88 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f5062a2-8603-4250-8677-e5523e856e5f)
-    (property "Reference" "D117" (at 182.88 82.55 0)
+    (property "Reference" "D44" (at 182.88 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 182.88 85.09 0)
@@ -5002,14 +5002,14 @@
     (property "LCSC" "C5242955" (at 182.88 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 861454da-d982-49e8-89fc-f7d8f85e4dec))
-    (pin "2" (uuid ee102cde-a018-4a9b-885e-3d56dc91a993))
-    (pin "3" (uuid 513d2242-9670-4d22-8376-70708cfb9194))
-    (pin "4" (uuid 4a0975bc-929c-4105-8213-8c19402afd09))
+    (pin "1" (uuid fb958d44-5845-4e73-af74-778c9df27ae6))
+    (pin "2" (uuid eacaabba-41e6-4bd1-a0ee-4dffcd89207a))
+    (pin "3" (uuid 3e063771-2b7e-4d7c-adb0-06fc4141e325))
+    (pin "4" (uuid 8cf40167-279d-4101-a33d-36bd210d1597))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D117") (unit 1)
+          (reference "D44") (unit 1)
         )
       )
     )
@@ -5018,7 +5018,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 218.44 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fd4b6cf-48b7-4564-863c-f7ea04e05047)
-    (property "Reference" "D115" (at 218.44 82.55 0)
+    (property "Reference" "D46" (at 218.44 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 218.44 85.09 0)
@@ -5036,14 +5036,14 @@
     (property "LCSC" "C5242955" (at 218.44 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6bcd1579-884f-47c3-9f1a-f8a3bceed05b))
-    (pin "2" (uuid 262c3240-c424-4e03-8ae9-e743dafbe967))
-    (pin "3" (uuid fe5436d7-432b-4884-8ff4-734d7375e4a6))
-    (pin "4" (uuid 07c875a8-0375-4663-9a0b-dcab80017de8))
+    (pin "1" (uuid 30e16280-db0d-4657-aa97-56a3557dd2d4))
+    (pin "2" (uuid 94bb66f0-a482-41a1-9739-617ebd74dd32))
+    (pin "3" (uuid 4981d6d3-39e2-4b24-9a4e-dc081a579355))
+    (pin "4" (uuid b820ce23-d08c-4dfb-8eae-ea02acee005b))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D115") (unit 1)
+          (reference "D46") (unit 1)
         )
       )
     )
@@ -5073,8 +5073,8 @@
     (property "Voltage" "50V" (at 55.88 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid acd14e7e-83ba-47d2-83bd-062755838b09))
-    (pin "2" (uuid faa6e76b-d7ca-4530-920d-493046811534))
+    (pin "1" (uuid cff771b1-7b28-45d4-a2a7-02c8cc2708aa))
+    (pin "2" (uuid 3cecca59-0964-4079-911b-8a065876d5fc))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5114,8 +5114,8 @@
     (property "Voltage" "50V" (at 147.32 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 98365c6a-0cbf-4de2-a162-9897eebaa224))
-    (pin "2" (uuid e797af7f-4a49-47b5-8ed5-d14985d27fdc))
+    (pin "1" (uuid 160cdff5-3e7a-4dc3-b36e-7043e751c122))
+    (pin "2" (uuid 2ae27951-55c0-4064-af72-5a92b4dd9160))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5134,7 +5134,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 182.88 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 452be79e-849d-4a83-bb26-22313c992034)
-    (property "Reference" "D76" (at 182.88 21.59 0)
+    (property "Reference" "D9" (at 182.88 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 182.88 24.13 0)
@@ -5152,14 +5152,14 @@
     (property "LCSC" "C5242955" (at 182.88 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33880b64-fe67-4dbc-9396-f38cc6d5e903))
-    (pin "2" (uuid 01eb9217-aa1c-49b6-ab58-6232a3e9e35f))
-    (pin "3" (uuid 59be0083-2f13-478b-a2e4-ffe7e760ecbd))
-    (pin "4" (uuid 3b827217-a79c-4483-b824-8843d2b12f5a))
+    (pin "1" (uuid 24b07c36-c657-44a4-9b04-97a65e847624))
+    (pin "2" (uuid 56b13a6c-e7de-448d-acfa-2dfdc92b1071))
+    (pin "3" (uuid 867b425d-c853-4077-978b-2c2f809845c2))
+    (pin "4" (uuid 075c147b-e89e-4825-b09d-575e70930e67))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D76") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -5245,8 +5245,8 @@
     (property "Voltage" "50V" (at 76.2 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid a4339332-6454-44d3-b001-0d946fa36d98))
-    (pin "2" (uuid 3117ce63-8ebc-437b-9fad-445ada5ed85b))
+    (pin "1" (uuid ebd386e7-017b-43b1-a366-301285da8994))
+    (pin "2" (uuid 8442fd51-4a6d-4c07-b825-3892daa3b805))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5286,8 +5286,8 @@
     (property "Voltage" "50V" (at 66.04 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid f20bbcb6-1b74-43a3-9bd2-3b61cc49b1d8))
-    (pin "2" (uuid e35e9267-02d7-4096-abf3-1b2acbe4ddbb))
+    (pin "1" (uuid 69214546-b9cd-48dc-87ae-a808d2724e23))
+    (pin "2" (uuid 6ac21f91-9701-483b-8161-afe9a1f92b44))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5327,8 +5327,8 @@
     (property "Voltage" "50V" (at 96.52 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid ff423a30-e952-4e6e-ac9f-03e78b5759c0))
-    (pin "2" (uuid 44781a05-f12c-467d-899c-93fc67317a4a))
+    (pin "1" (uuid d4a78a43-0364-4baa-92c4-fd3117999e2f))
+    (pin "2" (uuid bdecc2e9-a90b-4c5e-9747-ff148815bd67))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5347,7 +5347,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 182.88 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53ca56d8-aedb-4b22-95d6-187a48796001)
-    (property "Reference" "D87" (at 182.88 41.91 0)
+    (property "Reference" "D22" (at 182.88 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 182.88 44.45 0)
@@ -5365,14 +5365,14 @@
     (property "LCSC" "C5242955" (at 182.88 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6f10ca1-61c5-48b5-9724-3a1e6bed3ded))
-    (pin "2" (uuid 8d41e8f0-159c-4829-bc14-11c914f35448))
-    (pin "3" (uuid a10824b6-1ea4-4c42-8749-b6a35988cc34))
-    (pin "4" (uuid a81c1295-888c-4c83-80c3-f08c4fa60dfc))
+    (pin "1" (uuid 025f8373-8028-450e-a96a-f30c51956b12))
+    (pin "2" (uuid 533a5613-8ff7-4d9a-83f5-b67066646ce4))
+    (pin "3" (uuid 997d3d80-9b60-47db-804d-f0fed1567235))
+    (pin "4" (uuid 5dd3496b-e56d-4c34-a6d7-86708a57f7f9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D87") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -5381,7 +5381,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 236.22 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54a3faa1-84b6-49a5-87ee-e0f2f9af46c8)
-    (property "Reference" "D109" (at 236.22 62.23 0)
+    (property "Reference" "D51" (at 236.22 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 236.22 64.77 0)
@@ -5399,14 +5399,14 @@
     (property "LCSC" "C5242955" (at 236.22 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14935187-33b6-495d-b914-df08a7a4a3dc))
-    (pin "2" (uuid 1715fb4c-fafb-4e45-b320-4a0ec449dc6a))
-    (pin "3" (uuid 09b86236-dad9-471e-87ba-ab47fa7d3bf8))
-    (pin "4" (uuid 87400736-5f69-425f-8308-91a7d0faf843))
+    (pin "1" (uuid 598af86b-2b9d-4786-b8c9-61efe15f5180))
+    (pin "2" (uuid 3cc1b0da-fbf1-4c4a-b46f-d8150aa3b3cd))
+    (pin "3" (uuid 3688b1fd-fd58-4d97-bf38-184965c16d97))
+    (pin "4" (uuid c6695be6-75bd-40aa-9e6b-99cbc093c1fe))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D109") (unit 1)
+          (reference "D51") (unit 1)
         )
       )
     )
@@ -5415,7 +5415,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 236.22 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54f0d119-466a-47d0-b31e-a97b8da80f7e)
-    (property "Reference" "D114" (at 236.22 82.55 0)
+    (property "Reference" "D47" (at 236.22 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 236.22 85.09 0)
@@ -5433,14 +5433,14 @@
     (property "LCSC" "C5242955" (at 236.22 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3693ad6-c7e0-41d3-9c6f-9c1d63cf40f3))
-    (pin "2" (uuid 13967780-857d-48b7-b732-951c025d842e))
-    (pin "3" (uuid 8a387f25-a817-41a0-9545-05f53cefa0a6))
-    (pin "4" (uuid c94be494-f9fe-49c5-85e4-f552f59f0cfb))
+    (pin "1" (uuid 899d77c4-d38e-4f24-a7d3-7c05414daa57))
+    (pin "2" (uuid bb096a31-217a-4c0a-9d8d-cc5abd3cf1c4))
+    (pin "3" (uuid 80b9ff46-fa3c-4489-b8a0-df8a22cdbd6f))
+    (pin "4" (uuid 45aeafcf-3855-414a-94d3-f35991748d47))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D114") (unit 1)
+          (reference "D47") (unit 1)
         )
       )
     )
@@ -5470,8 +5470,8 @@
     (property "Voltage" "50V" (at 35.56 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 597cf534-ef7b-45c0-9a34-f8354ed9144d))
-    (pin "2" (uuid abde846a-20df-4ec1-a5ca-c8c76302a97f))
+    (pin "1" (uuid 1df0044f-31f8-4c60-a1d0-9f3cdc72dc6a))
+    (pin "2" (uuid 6043155b-0179-4970-b069-08ea8f6d4147))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5511,8 +5511,8 @@
     (property "Voltage" "50V" (at 177.8 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 84b229e1-e594-4bec-818c-48768b1a7dfb))
-    (pin "2" (uuid 0db677f5-aa02-4439-a5cc-1c319ac194a7))
+    (pin "1" (uuid 49396b9c-c1eb-4be2-981a-1f881dd403f2))
+    (pin "2" (uuid 45bba254-537c-4b74-be29-5e24d6b507b5))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5531,7 +5531,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 93.98 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56d5f543-a12d-4ba7-a207-f52478132526)
-    (property "Reference" "D71" (at 93.98 21.59 0)
+    (property "Reference" "D5" (at 93.98 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 93.98 24.13 0)
@@ -5549,14 +5549,14 @@
     (property "LCSC" "C5242955" (at 93.98 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a83f6d64-14ac-49ee-87ee-4d59625ecc64))
-    (pin "2" (uuid 946130b7-ffb4-4353-a24e-d784b3db9b50))
-    (pin "3" (uuid e171bf00-dcfe-4b2a-9d90-334f95341f26))
-    (pin "4" (uuid e7bdc087-9b7c-4f23-8684-72d73e313633))
+    (pin "1" (uuid 4586077c-5c44-4771-90d0-14044f1fdc01))
+    (pin "2" (uuid 47ec7122-6ad2-4c7f-b89c-2c575933d965))
+    (pin "3" (uuid 964565ec-3da1-4275-921d-179980d4b406))
+    (pin "4" (uuid db1d62df-ff86-4b06-ac4d-22a5ed872ef8))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D71") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -5586,8 +5586,8 @@
     (property "Voltage" "50V" (at 137.16 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 4fd1a54c-7efd-4329-83b6-9ac6948a39c4))
-    (pin "2" (uuid db0af452-6502-45cc-81b6-ba483db2f937))
+    (pin "1" (uuid fd2f626b-54fe-4c2f-bb42-ec4cb80d4d9a))
+    (pin "2" (uuid 7e06e092-9350-4854-86ae-18453eaaa6c0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5606,7 +5606,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 76.2 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 593c72af-d560-43b1-8d4a-2b22dec01b8a)
-    (property "Reference" "D123" (at 76.2 82.55 0)
+    (property "Reference" "D41" (at 76.2 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 76.2 85.09 0)
@@ -5624,14 +5624,14 @@
     (property "LCSC" "C5242955" (at 76.2 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b805f2fe-f4ad-41bf-a206-e87d6a8e67f0))
-    (pin "2" (uuid c45806d2-c16c-4969-9450-8d25d7d30ea7))
-    (pin "3" (uuid 8441439e-89cc-43e1-a000-7cd4afcb8033))
-    (pin "4" (uuid f9224de0-0e8e-4bb1-b78b-86b2fb29894c))
+    (pin "1" (uuid e8e106c5-5907-4211-9ca4-e1d2abb4aacf))
+    (pin "2" (uuid 27655ee1-ad91-4803-9523-b2895015ddd4))
+    (pin "3" (uuid f7c017da-f274-4cdf-8644-662fd9b9dd73))
+    (pin "4" (uuid 915edcbb-fd29-4142-9c44-61cc5e904844))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D123") (unit 1)
+          (reference "D41") (unit 1)
         )
       )
     )
@@ -5640,7 +5640,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 111.76 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59d9373a-2174-4d3a-80cd-1c047ae5521a)
-    (property "Reference" "D91" (at 111.76 41.91 0)
+    (property "Reference" "D25" (at 111.76 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 111.76 44.45 0)
@@ -5658,14 +5658,14 @@
     (property "LCSC" "C5242955" (at 111.76 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a863f49-ea5a-4678-a04c-101049955c5c))
-    (pin "2" (uuid 151f3ef1-f7ff-49d5-98dd-cf5d73107959))
-    (pin "3" (uuid f6a2e2ac-b23e-4e40-9344-0838edcc116c))
-    (pin "4" (uuid 18098ea6-9332-41b8-b04d-d60353ef298a))
+    (pin "1" (uuid 4f7c4d36-aabb-4db6-92a6-6fe041e552e6))
+    (pin "2" (uuid b151e83f-1989-4146-b716-c2c47f1ee8be))
+    (pin "3" (uuid ba672224-44f5-4f97-9537-628ce6491f1d))
+    (pin "4" (uuid 7ba59704-dd8c-4583-bc03-1221899e4e10))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D91") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -5674,7 +5674,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 218.44 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a47ea69-1470-4f11-8160-964dc844d707)
-    (property "Reference" "D78" (at 218.44 21.59 0)
+    (property "Reference" "D7" (at 218.44 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 218.44 24.13 0)
@@ -5692,14 +5692,14 @@
     (property "LCSC" "C5242955" (at 218.44 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 194ef33f-08a7-4819-8e33-f80ff9b77bd1))
-    (pin "2" (uuid 4bafed28-c4f4-4e99-9291-35d2e8a3e068))
-    (pin "3" (uuid e1a6796a-de96-4cac-bad7-74281f584d3d))
-    (pin "4" (uuid 37d693d4-8dcf-4a9d-914f-6e1736b5255a))
+    (pin "1" (uuid 0b00dc88-434e-4c6b-be3f-4e264bc88527))
+    (pin "2" (uuid 2f985b15-26b7-4077-9fd8-d92b48a47807))
+    (pin "3" (uuid 8b9cbe1d-29ea-471b-92c4-2208115bbcc4))
+    (pin "4" (uuid 9494c654-bb82-4f83-a26f-484d77658582))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D78") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -5729,8 +5729,8 @@
     (property "Voltage" "50V" (at 167.64 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid afedfcc5-a3be-4766-9d86-19652a573d94))
-    (pin "2" (uuid a4c398ae-b27b-4140-a730-4c4ba3d03b6f))
+    (pin "1" (uuid 7625c47d-b65c-4978-aca1-cc59078049b3))
+    (pin "2" (uuid eb104401-6ef0-4eb6-9b6a-7088dc6f7643))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5749,7 +5749,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 271.78 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 644f3074-3b36-45e8-b020-bcea2313716c)
-    (property "Reference" "D112" (at 271.78 82.55 0)
+    (property "Reference" "D54" (at 271.78 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 271.78 85.09 0)
@@ -5767,14 +5767,14 @@
     (property "LCSC" "C5242955" (at 271.78 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4fa4488c-48c5-4b72-9cb7-e91a35ab7907))
-    (pin "2" (uuid 01ef7a2b-3ac8-4cd9-88e1-85a5f273c445))
-    (pin "3" (uuid 4b21770c-d8b4-4b2d-8ae1-3e82b116f5a0))
-    (pin "4" (uuid 2ffb6695-19ea-4361-a374-96fdfda9a82b))
+    (pin "1" (uuid c9edf571-87a6-42ec-8092-a146a4013602))
+    (pin "2" (uuid 51c832dd-3033-4785-a278-c49e14323c81))
+    (pin "3" (uuid 0bfb04bc-1289-411f-81c9-fa388b11d359))
+    (pin "4" (uuid 6b956b51-bf74-41d8-a204-e2b37653b997))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D112") (unit 1)
+          (reference "D54") (unit 1)
         )
       )
     )
@@ -5804,8 +5804,8 @@
     (property "Voltage" "50V" (at 157.48 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 2f37bd72-fae8-4634-9916-c3943cb8e263))
-    (pin "2" (uuid 40ae6011-f137-40b9-883c-c4fa14b2c22f))
+    (pin "1" (uuid cae6cac0-3bd1-42ee-8834-efc9494bf0bf))
+    (pin "2" (uuid b3d604d3-aca0-48d0-8695-c3c407951fb2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5824,7 +5824,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 111.76 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 663d529f-7a68-4ff4-9a5a-bb275bdb8ccb)
-    (property "Reference" "D121" (at 111.76 82.55 0)
+    (property "Reference" "D39" (at 111.76 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 111.76 85.09 0)
@@ -5842,14 +5842,14 @@
     (property "LCSC" "C5242955" (at 111.76 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d11be5b-af7c-4d78-8024-1a3b4ad8412c))
-    (pin "2" (uuid 8cdb3e77-4752-47c8-a18b-0ba3cb08a0a8))
-    (pin "3" (uuid a4bf8992-bb1e-4d34-86bf-627ef03bcdae))
-    (pin "4" (uuid a4314174-0a37-4455-979e-13ff6b510392))
+    (pin "1" (uuid c67fa5ec-1873-44f5-a2f4-73a8f53ab327))
+    (pin "2" (uuid ca82ceea-511e-47ec-8a2d-6db0cb4010be))
+    (pin "3" (uuid 71cdc849-1ed9-4a1c-8b0c-15c36564672b))
+    (pin "4" (uuid 0d408aa3-e999-4833-a7f3-7822bc0e08e8))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D121") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -5858,7 +5858,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 129.54 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 673f0b05-ba58-4c5f-b82f-0b867dada693)
-    (property "Reference" "D73" (at 129.54 21.59 0)
+    (property "Reference" "D12" (at 129.54 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 129.54 24.13 0)
@@ -5876,14 +5876,14 @@
     (property "LCSC" "C5242955" (at 129.54 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f1309cf2-5cf6-47c3-a9a5-fc21312ad290))
-    (pin "2" (uuid 57283493-b5be-46a8-b1e9-500e2e88a405))
-    (pin "3" (uuid 97eee32d-4894-451a-a21e-cc76a4de8e4c))
-    (pin "4" (uuid b58763d2-76b9-4577-aaf4-57b106e29620))
+    (pin "1" (uuid 5558ca3b-b2da-4036-a17a-579fe97b8c5c))
+    (pin "2" (uuid 1162ffef-0d94-4b0e-b98f-c7331807db40))
+    (pin "3" (uuid df673f49-3f45-44a7-83d7-00a0fa9ca87e))
+    (pin "4" (uuid f9c5e1b4-fc89-4ddb-b493-71c43f83eca5))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D73") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -5913,8 +5913,8 @@
     (property "Voltage" "50V" (at 248.92 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 446e9e7e-bf5c-4a2c-9512-766889a1e64c))
-    (pin "2" (uuid 678ae0d7-0ac0-429e-8d4d-0aa9a4b5969d))
+    (pin "1" (uuid 1f8bda38-5078-4503-8cc7-63f9c84380d0))
+    (pin "2" (uuid 69d69278-70e2-45c1-bb42-88e05e618a66))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -5933,7 +5933,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 40.64 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a5f5045-0d50-41f8-96a3-e66eb541a869)
-    (property "Reference" "D98" (at 40.64 62.23 0)
+    (property "Reference" "D62" (at 40.64 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 40.64 64.77 0)
@@ -5951,14 +5951,14 @@
     (property "LCSC" "C5242955" (at 40.64 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 412d0cb3-4957-46cf-b69e-23b2748060a7))
-    (pin "2" (uuid 5eeae180-3087-4f5e-b6d8-2ebf8dfd88b4))
-    (pin "3" (uuid c82b87eb-c47d-45d6-9e21-798b29648a49))
-    (pin "4" (uuid 6dc9f367-b268-47e9-aad6-7ac32f691af4))
+    (pin "1" (uuid bfcbea99-b316-42ff-b03c-dea1b83b813d))
+    (pin "2" (uuid 848db3fc-23d8-4f8e-aca0-b487cada22ec))
+    (pin "3" (uuid df0af31f-a191-4454-9d95-8ac0bbaf6901))
+    (pin "4" (uuid 7cb42a98-4807-4535-8299-2f3e0f915c05))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D98") (unit 1)
+          (reference "D62") (unit 1)
         )
       )
     )
@@ -5988,8 +5988,8 @@
     (property "Voltage" "50V" (at 127 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid adcfeede-7c24-4ccd-916b-a071dee605f2))
-    (pin "2" (uuid c8a15904-d8f8-4d32-acc0-71b5ffa8a2a4))
+    (pin "1" (uuid 9562715e-d650-44bb-9252-ba7b003edc9a))
+    (pin "2" (uuid ec01c703-5e39-4cdd-be07-f85d2c8c6f24))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6029,8 +6029,8 @@
     (property "Voltage" "50V" (at 198.12 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 0f0b3cf7-3093-4594-8426-3387532950cf))
-    (pin "2" (uuid 5906cb73-4cde-4d0c-8231-bcc62400af2d))
+    (pin "1" (uuid 52bbc6b2-acf2-4d62-9fc6-7b240de84862))
+    (pin "2" (uuid 4e1f2048-103b-4161-868c-4024d2ab94c4))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6049,7 +6049,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 93.98 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71e90fca-b50b-425e-9b6e-6838cf3ca5da)
-    (property "Reference" "D101" (at 93.98 62.23 0)
+    (property "Reference" "D60" (at 93.98 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 93.98 64.77 0)
@@ -6067,14 +6067,14 @@
     (property "LCSC" "C5242955" (at 93.98 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1aa18fb2-9d57-4193-848c-ced92cf868fa))
-    (pin "2" (uuid d39b5aff-4159-422f-92ef-c0557be0cde5))
-    (pin "3" (uuid 1c48a434-41c8-47cb-ad6b-2dd695689446))
-    (pin "4" (uuid c55aaa3d-b5a8-4299-9edd-b39df0fe39c2))
+    (pin "1" (uuid afad8d5c-6100-440c-92ca-0ce9dd85edee))
+    (pin "2" (uuid 4386716f-21e7-4f64-8918-dc0e97fe52b9))
+    (pin "3" (uuid 34739dea-d187-4c21-a419-03a143d08920))
+    (pin "4" (uuid f8316738-774a-493f-a3a2-b0474264c323))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D101") (unit 1)
+          (reference "D60") (unit 1)
         )
       )
     )
@@ -6104,8 +6104,8 @@
     (property "Voltage" "50V" (at 187.96 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid cc9ce324-f2db-4c3b-9616-1d8b684b522d))
-    (pin "2" (uuid a62b7e18-b9c6-4b01-bee5-004d86445492))
+    (pin "1" (uuid dcabb2b3-4d9a-4cce-aabc-0e6e146b92fd))
+    (pin "2" (uuid 78a99284-f0cf-4290-8479-48de4cdcdbf6))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6124,7 +6124,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 76.2 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74e6ca91-2bb8-4560-bc0d-4be7d701cb0d)
-    (property "Reference" "D100" (at 76.2 62.23 0)
+    (property "Reference" "D64" (at 76.2 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 76.2 64.77 0)
@@ -6142,14 +6142,14 @@
     (property "LCSC" "C5242955" (at 76.2 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ecbe96ab-6268-4079-a833-b6bfa38e490d))
-    (pin "2" (uuid d01896e5-a430-4ce0-8af5-89d26f61cfd1))
-    (pin "3" (uuid a6d6cefd-783f-4c61-92d1-0b66d3768048))
-    (pin "4" (uuid e0517618-c411-43b6-a215-d8793a239332))
+    (pin "1" (uuid 70e4ce14-a34e-49ab-b99d-ca7451d3a783))
+    (pin "2" (uuid 28cc9c97-7a9d-4a50-9e9e-8c340289cee9))
+    (pin "3" (uuid 93991af7-d991-4a57-8504-3aadef302b63))
+    (pin "4" (uuid 9b34d93f-696d-405a-b697-06b1119d1f13))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D100") (unit 1)
+          (reference "D64") (unit 1)
         )
       )
     )
@@ -6179,8 +6179,8 @@
     (property "Voltage" "50V" (at 238.76 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 4873d422-a30b-4a89-aaec-c314ccc408b2))
-    (pin "2" (uuid 8579d5b6-9f8f-4576-8e6e-7ecafacf44ee))
+    (pin "1" (uuid d35be48f-efc4-4503-9698-3748a048c557))
+    (pin "2" (uuid e1ba1bae-2072-40db-bfb6-41ecbddc8383))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6220,8 +6220,8 @@
     (property "Voltage" "50V" (at 228.6 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 6bcde9a2-c4e8-4235-8034-702f3a91404c))
-    (pin "2" (uuid c15539ac-df91-472d-b5cc-dd1d4651d624))
+    (pin "1" (uuid 5bce261e-b8ee-40f6-86d3-f7f2e29ef9e3))
+    (pin "2" (uuid a67d6b4e-1aac-48b9-be56-3571bfb1c674))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6261,8 +6261,8 @@
     (property "Voltage" "50V" (at 106.68 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 4b9d9e20-9f41-4284-a962-6fecfbaee003))
-    (pin "2" (uuid d8390ff2-6ff2-4930-8871-11d8ae4d9583))
+    (pin "1" (uuid ac445bcc-fe9c-4077-bdac-967299d903ac))
+    (pin "2" (uuid 70752251-0145-448b-b041-e29fa8c7a9cc))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6281,7 +6281,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 271.78 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cf4382e-6f6e-4314-8a3e-bf29bffb5756)
-    (property "Reference" "D81" (at 271.78 21.59 0)
+    (property "Reference" "D15" (at 271.78 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 271.78 24.13 0)
@@ -6299,14 +6299,14 @@
     (property "LCSC" "C5242955" (at 271.78 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b062590-d8dc-4fa5-bf2c-493c47a1a199))
-    (pin "2" (uuid e0095ce2-95c0-427c-ab92-0c0e39d0b1bb))
-    (pin "3" (uuid f5db42f1-c7fa-42ff-90ed-bd9143f1239e))
-    (pin "4" (uuid a6b78543-6093-4daa-a57d-1cf203f3374e))
+    (pin "1" (uuid 6d7ef182-0be7-4e1f-aa01-d68f0716aa30))
+    (pin "2" (uuid 309ba23f-2ed9-456f-b6d4-2b707210c01b))
+    (pin "3" (uuid a49cf703-59ec-45fb-8fd5-859e71c6ec24))
+    (pin "4" (uuid 5fa4c339-60e6-45c1-bd4d-080e38211462))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D81") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -6336,8 +6336,8 @@
     (property "Voltage" "50V" (at 208.28 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 942d02ac-2429-4027-baea-f539078c1a58))
-    (pin "2" (uuid cfe6eafb-53de-47c9-9e51-bd80ac442044))
+    (pin "1" (uuid 2854380a-cd44-4873-a4b8-104fd42a29dd))
+    (pin "2" (uuid de9ea29a-d57b-4f7b-819c-93d2d0840987))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6356,7 +6356,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 236.22 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e85c9d9-ddce-4296-b67f-bc23f52000ab)
-    (property "Reference" "D79" (at 236.22 21.59 0)
+    (property "Reference" "D13" (at 236.22 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 236.22 24.13 0)
@@ -6374,14 +6374,14 @@
     (property "LCSC" "C5242955" (at 236.22 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 29e54727-c1d3-464d-bf81-b84b032a929c))
-    (pin "2" (uuid 37b0568e-7c77-455c-98d2-b0a9cda34c9e))
-    (pin "3" (uuid 59cc71c2-b022-4db2-beb8-c3cf1dce67c6))
-    (pin "4" (uuid 69f5e3c5-efa8-42d6-9b1d-564fa7e84644))
+    (pin "1" (uuid 3a4294ad-ab5e-4440-8453-ea894065487f))
+    (pin "2" (uuid 9dfb0436-ef40-4310-a40b-fe673b9a6320))
+    (pin "3" (uuid f3956c90-5f7b-4780-8eeb-cd227152641e))
+    (pin "4" (uuid 095a8589-7b26-40d7-abc0-2c42b4541953))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D79") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -6411,8 +6411,8 @@
     (property "Voltage" "50V" (at 147.32 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid ff3f23be-53fa-497b-8c40-6179ff955c43))
-    (pin "2" (uuid 4ab0a669-6e98-4bcc-b5a5-07accf492c44))
+    (pin "1" (uuid 5132af5d-d101-4f19-806d-a67d23701396))
+    (pin "2" (uuid 155d289f-6097-49f5-8cb6-3ca1998fad23))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6452,8 +6452,8 @@
     (property "Voltage" "50V" (at 198.12 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 3609159c-4096-457c-9b0f-662106b81fcf))
-    (pin "2" (uuid f2cd9284-fe6d-4648-a3b9-58a7b866110f))
+    (pin "1" (uuid 942a8725-3017-4503-926d-eaf302920390))
+    (pin "2" (uuid 5ac373bc-c2a0-4b06-a163-dbb1b89f67a4))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6472,7 +6472,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 218.44 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84a3872d-cb10-4799-a2a0-27c58bc42c0d)
-    (property "Reference" "D85" (at 218.44 41.91 0)
+    (property "Reference" "D24" (at 218.44 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 218.44 44.45 0)
@@ -6490,14 +6490,14 @@
     (property "LCSC" "C5242955" (at 218.44 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7a9f4c5a-0a4e-4380-a85d-541749f21b14))
-    (pin "2" (uuid 9f275f70-dda5-4c60-97d1-b0ca64676f0d))
-    (pin "3" (uuid 7e406c0d-d88d-4f10-b88f-b17f59c189c8))
-    (pin "4" (uuid 94c7b07f-6b97-4562-b2f0-e7ca25e97b36))
+    (pin "1" (uuid bbd0515e-c648-4a1e-8b32-c4dee9bb8eac))
+    (pin "2" (uuid c541365b-8186-465c-87dd-ff05bc2fa761))
+    (pin "3" (uuid 0786b02a-4556-4855-a674-ece80e6909db))
+    (pin "4" (uuid 117da7bb-b3d4-4a87-9835-e2cac4d1b3b1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D85") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -6527,8 +6527,8 @@
     (property "Voltage" "50V" (at 66.04 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid d5fb0450-2208-4175-80f9-a22005ed0afd))
-    (pin "2" (uuid 08cfd308-bff9-4277-ada0-dcd364c39396))
+    (pin "1" (uuid 73ca5cba-7900-45f5-afcf-39cc9c2099e4))
+    (pin "2" (uuid 75dfda93-f7a8-4eaa-a2a9-2b4670035073))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6568,8 +6568,8 @@
     (property "Voltage" "50V" (at 106.68 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 0e45f057-10f9-4202-ab8a-33a7a3c1119f))
-    (pin "2" (uuid 65527b1b-71a9-4cc4-8cbe-f07b39a36c7e))
+    (pin "1" (uuid e896d86a-b427-4530-9f14-8e073693b898))
+    (pin "2" (uuid 6c609f5a-a6b7-4bbb-9c7f-5aeeeb1160c1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6609,8 +6609,8 @@
     (property "Voltage" "50V" (at 259.08 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 914957b2-133a-4e42-b03c-238f13d14761))
-    (pin "2" (uuid f921ec24-ad6c-4551-9fb9-56633f771d1f))
+    (pin "1" (uuid 568b1d2c-d518-40bd-9c48-f032a5973fcd))
+    (pin "2" (uuid f84c55ce-deea-4feb-942b-dce82ac54dd9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6650,8 +6650,8 @@
     (property "Voltage" "50V" (at 45.72 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 5cc2fa40-9f25-4195-8fca-28e5783b3c0e))
-    (pin "2" (uuid ca5b304f-7fd2-4bfd-b4c8-1610b80415c0))
+    (pin "1" (uuid 106eb151-237d-46e9-a60d-4fac1675d097))
+    (pin "2" (uuid 32889e41-c86f-419b-929a-b51d76dfbde3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6670,7 +6670,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 254 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ba7712e-e624-475d-866f-a520b0ae4d9c)
-    (property "Reference" "D110" (at 254 62.23 0)
+    (property "Reference" "D52" (at 254 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 254 64.77 0)
@@ -6688,14 +6688,14 @@
     (property "LCSC" "C5242955" (at 254 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19a49808-2de3-4ccd-9552-ad632a563ff9))
-    (pin "2" (uuid 5b9ebb31-f5d9-4a47-8358-95508dd427d7))
-    (pin "3" (uuid 711d15f7-54d0-4f7b-85b0-abd949fbefd8))
-    (pin "4" (uuid 4412bcea-b533-4eee-8a46-e54eda23e2c2))
+    (pin "1" (uuid b8381fb4-4fc9-41e6-9ffa-644e0930998a))
+    (pin "2" (uuid 96a10e41-d73d-43a9-92c9-05004e5fa16e))
+    (pin "3" (uuid e9401e6d-0113-4a20-b486-1806398bdf5a))
+    (pin "4" (uuid b340280a-b1b9-41a7-8c6f-32272995c92d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D110") (unit 1)
+          (reference "D52") (unit 1)
         )
       )
     )
@@ -6704,7 +6704,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 93.98 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c4e6ffd-770b-4ef0-acc3-4f32d28531f7)
-    (property "Reference" "D122" (at 93.98 82.55 0)
+    (property "Reference" "D40" (at 93.98 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 93.98 85.09 0)
@@ -6722,14 +6722,14 @@
     (property "LCSC" "C5242955" (at 93.98 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1420457f-1958-43e4-b9cb-9de11261c1f8))
-    (pin "2" (uuid c6aa798e-0630-449a-a4c6-1c0f55276afe))
-    (pin "3" (uuid 9dbc4816-31c2-4f64-8e7f-e1ee4a689d6f))
-    (pin "4" (uuid 4e57dd05-95e7-431e-b83c-34646cc64575))
+    (pin "1" (uuid 7ff854b0-a776-4420-a998-ed487df311a7))
+    (pin "2" (uuid ee0bb13f-0c8d-4de7-8aad-e8e05f01acfd))
+    (pin "3" (uuid b6b7a4f6-6317-48e3-a2f0-c2bcdb7050f8))
+    (pin "4" (uuid 127fe74d-d0eb-452d-a50d-7b0f18ca45b1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D122") (unit 1)
+          (reference "D40") (unit 1)
         )
       )
     )
@@ -6759,8 +6759,8 @@
     (property "Voltage" "50V" (at 96.52 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid b2acb579-7f67-4098-abd0-2003f0e59495))
-    (pin "2" (uuid 9e068675-7f8c-4877-9ef8-b24670996430))
+    (pin "1" (uuid 5f085c19-35cc-48d0-91d4-6d7a180b658c))
+    (pin "2" (uuid 3c22a4b8-6236-4a1a-ad7d-d6750512444e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6800,8 +6800,8 @@
     (property "Voltage" "50V" (at 259.08 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid d136c752-61d6-47fd-9ff1-dbb1a0f65929))
-    (pin "2" (uuid 30e8b82d-94e6-4255-9cb2-d9554ac71080))
+    (pin "1" (uuid b6bf0a73-2932-43af-8aee-f94d78c18489))
+    (pin "2" (uuid 394f6d91-f0e4-4df2-82da-b1fe467b87ed))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6820,7 +6820,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 147.32 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9128c45e-aade-417c-a32f-982f2873c095)
-    (property "Reference" "D119" (at 147.32 82.55 0)
+    (property "Reference" "D37" (at 147.32 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 147.32 85.09 0)
@@ -6838,14 +6838,14 @@
     (property "LCSC" "C5242955" (at 147.32 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b930a8db-5d61-46ad-8adb-fa57ee614aaa))
-    (pin "2" (uuid 4014c16a-a96b-4990-84d3-9f3035d40dc8))
-    (pin "3" (uuid 596bea2d-621f-430a-8159-1507e92133a5))
-    (pin "4" (uuid ab5ab85d-010d-4747-b25f-9a2d8a7d9208))
+    (pin "1" (uuid 971cdaee-2a0f-4240-a265-6224da8b5dae))
+    (pin "2" (uuid 10d9ed35-2dbc-4019-912b-36547518e4d5))
+    (pin "3" (uuid dd9d0c3e-47ac-46d1-88a0-e054383f52df))
+    (pin "4" (uuid 51c3d090-7099-4b86-8543-309662626be7))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D119") (unit 1)
+          (reference "D37") (unit 1)
         )
       )
     )
@@ -6875,8 +6875,8 @@
     (property "Voltage" "50V" (at 198.12 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid a4060712-f47f-491b-b955-ea6f6e655e01))
-    (pin "2" (uuid 1138efe1-74b9-4fb7-92e2-21eb30cfa81f))
+    (pin "1" (uuid 3ff55c1a-b8d5-46bd-af33-c203a18fa2eb))
+    (pin "2" (uuid 19839274-f0e5-4020-8cd9-eae32cfc8050))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6895,7 +6895,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 58.42 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9232882e-ca65-453a-8f2c-ba044df0d8cb)
-    (property "Reference" "D69" (at 58.42 21.59 0)
+    (property "Reference" "D3" (at 58.42 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 58.42 24.13 0)
@@ -6913,14 +6913,14 @@
     (property "LCSC" "C5242955" (at 58.42 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e87ab22b-7792-4859-bbe4-238398aec13f))
-    (pin "2" (uuid 1747c119-1ff0-402d-a0bd-94ef62ef87ea))
-    (pin "3" (uuid ba067377-048c-4ee9-905e-1144d93a0513))
-    (pin "4" (uuid 3d3b7119-236a-47f6-a318-3f26760f82a1))
+    (pin "1" (uuid 4f4faf92-cf84-4f1c-93cd-df86464e6eff))
+    (pin "2" (uuid fe873dbf-3577-44b0-a2e9-3360e76d96e1))
+    (pin "3" (uuid cd404622-9b15-4e0d-942c-719cb4b05dde))
+    (pin "4" (uuid ba391f90-8ef1-4b32-950f-21e953c53651))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D69") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -6950,8 +6950,8 @@
     (property "Voltage" "50V" (at 86.36 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 5e6d9bad-1de3-455b-b4ed-3385759e1175))
-    (pin "2" (uuid fb2f8e12-8623-4dae-9f38-7e79fb5287e2))
+    (pin "1" (uuid 9d34c50c-ab98-426e-9dda-5b7464debcce))
+    (pin "2" (uuid 25f6b616-59dc-4ca6-8700-404add9b7d48))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -6970,7 +6970,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 40.64 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 944c6f1a-a21a-4e2d-bc35-aa6c750e07a4)
-    (property "Reference" "D95" (at 40.64 41.91 0)
+    (property "Reference" "D29" (at 40.64 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 40.64 44.45 0)
@@ -6988,14 +6988,14 @@
     (property "LCSC" "C5242955" (at 40.64 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dacc1fa7-d16d-43d1-9d69-65b14018d924))
-    (pin "2" (uuid c7904634-4aac-4d6d-8c6d-13d5cc6a41c4))
-    (pin "3" (uuid dff50fb8-bdae-4b62-8f51-b23dfe2daa4a))
-    (pin "4" (uuid 92af61c0-c376-443b-bd74-3d4858fc6179))
+    (pin "1" (uuid 6698405b-8422-4510-8d83-680c3a9c873e))
+    (pin "2" (uuid 00f9cb53-7c4f-46af-8c6e-24c73c654fde))
+    (pin "3" (uuid 722f4975-2031-4b39-9029-7bb43a5d2804))
+    (pin "4" (uuid e046722b-24ea-4fd5-b5cd-93bc120edd76))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D95") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
     )
@@ -7004,7 +7004,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 58.42 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 968423d1-189a-4556-876a-9608d68a9fda)
-    (property "Reference" "D129" (at 58.42 102.87 0)
+    (property "Reference" "D32" (at 58.42 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 58.42 105.41 0)
@@ -7022,14 +7022,14 @@
     (property "LCSC" "C5242955" (at 58.42 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e6b070ce-6606-40d5-b4f2-dd213bb96780))
-    (pin "2" (uuid 67b470c4-a12d-4407-82eb-d26370b6d1e6))
-    (pin "3" (uuid 831345e7-9139-45b9-ae07-e0bb014eb913))
-    (pin "4" (uuid a12d4698-8c2c-4a17-ae42-263b0c21a887))
+    (pin "1" (uuid 483abd86-349d-4034-802e-5c278663774a))
+    (pin "2" (uuid c3c5fd9d-dee9-4f18-8f21-b3b68e46df08))
+    (pin "3" (uuid e024b9de-146a-4df0-aaa2-0d3f557fd966))
+    (pin "4" (uuid e7661d07-1cae-4c16-9a83-b03d97481849))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D129") (unit 1)
+          (reference "D32") (unit 1)
         )
       )
     )
@@ -7038,7 +7038,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 200.66 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98d2a8a4-cb04-4347-965c-80b3b07ada35)
-    (property "Reference" "D116" (at 200.66 82.55 0)
+    (property "Reference" "D45" (at 200.66 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 200.66 85.09 0)
@@ -7056,14 +7056,14 @@
     (property "LCSC" "C5242955" (at 200.66 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c746b3d-6c04-4ae2-9c18-459616694190))
-    (pin "2" (uuid 79914513-e793-469d-b7ce-887a423d83e7))
-    (pin "3" (uuid 27859eb7-7d6f-48ec-92d4-b54a6a7fc0aa))
-    (pin "4" (uuid 604995f4-8c1f-4ab4-a793-e32f9124f530))
+    (pin "1" (uuid 08889fe1-e3b0-4162-8e35-b92531d9b636))
+    (pin "2" (uuid aafc10f2-b51f-4e0d-9197-6cdbe84515db))
+    (pin "3" (uuid 6a5928e9-6251-4d54-8466-e41bf2003c9a))
+    (pin "4" (uuid 23c02424-1f98-490b-9add-776cd8b3f933))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D116") (unit 1)
+          (reference "D45") (unit 1)
         )
       )
     )
@@ -7093,8 +7093,8 @@
     (property "Voltage" "50V" (at 106.68 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 285cdb80-afc6-4095-a6e7-899a67e50110))
-    (pin "2" (uuid 8fc2eb23-5083-431a-9aa0-9281b3ed79fc))
+    (pin "1" (uuid 00d752e7-c6ce-43a8-8584-90a28388640a))
+    (pin "2" (uuid 2a1e3d0e-a6d5-4604-95c4-7ba1379c5f94))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7113,7 +7113,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 129.54 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cbb88fe-aa20-4c5f-8243-4ad12f84fbff)
-    (property "Reference" "D90" (at 129.54 41.91 0)
+    (property "Reference" "D19" (at 129.54 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 129.54 44.45 0)
@@ -7131,14 +7131,14 @@
     (property "LCSC" "C5242955" (at 129.54 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8ef2af06-9a70-4391-b338-a18226603b5b))
-    (pin "2" (uuid e19e75a4-6518-4c9c-a158-3e8844f71a5a))
-    (pin "3" (uuid a40ee010-02d1-4cfe-b600-569425c63bd3))
-    (pin "4" (uuid 968d4308-8648-4922-b2e4-2ea65250a549))
+    (pin "1" (uuid e995833d-12f5-403b-854b-d84f840d802a))
+    (pin "2" (uuid 0ad45f0c-c8e7-4362-93b7-a49d6051e8a5))
+    (pin "3" (uuid 7ea25552-5935-4a2c-965c-31453a38b5cf))
+    (pin "4" (uuid c6fc42d7-37e6-43c0-bab5-d2965f7fa92a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D90") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -7168,8 +7168,8 @@
     (property "Voltage" "50V" (at 116.84 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 8940147c-c5a2-4e0d-a016-6bc2c60a6588))
-    (pin "2" (uuid 053082e0-aed4-4011-8d7b-42db4124196b))
+    (pin "1" (uuid 4d2c1258-1dbc-4702-9c2a-ed85d313825e))
+    (pin "2" (uuid 6f443c3e-bc1f-43b4-9a0f-b93f8773f9f6))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7209,8 +7209,8 @@
     (property "Voltage" "50V" (at 187.96 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 912bf580-d8d9-4582-8473-c1e9eff2c98d))
-    (pin "2" (uuid d0c1423f-35d8-4ee2-9d96-5f28d97082e1))
+    (pin "1" (uuid 160c0314-d66b-44d3-a7ab-7fdbb7b4274c))
+    (pin "2" (uuid c3a8654f-b927-409f-a6d8-c5fdcb8b75ac))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7250,8 +7250,8 @@
     (property "Voltage" "50V" (at 218.44 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 9954dc4d-5e3f-4065-b52f-df756593e12c))
-    (pin "2" (uuid 1bfa9ad1-1b1b-413c-b19f-4953481a8f96))
+    (pin "1" (uuid 2e6b0b9c-2890-49f6-a5d2-ea8c5ce52e81))
+    (pin "2" (uuid cd65d2fe-1731-407b-9808-6cc61c6c40d3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7291,8 +7291,8 @@
     (property "Voltage" "50V" (at 35.56 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid bc97b369-d9de-40e1-8984-4cdefbe4b629))
-    (pin "2" (uuid 7b6ae13f-886d-4624-a8a2-c7820173d260))
+    (pin "1" (uuid 9d9c8e05-399e-47e2-9baf-0656d52ea763))
+    (pin "2" (uuid 0edc1ea8-d198-460a-9ed6-b77ef4d7b35a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7332,8 +7332,8 @@
     (property "Voltage" "50V" (at 127 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid d830ae1d-6b13-4a8d-8080-a3189e8d2575))
-    (pin "2" (uuid 9669e722-5312-4c18-af8c-36d589f5d435))
+    (pin "1" (uuid 8ec7fff6-449e-4a89-84c3-dd98d022182a))
+    (pin "2" (uuid 7f7d10c1-6ef3-44f2-8eae-af5e112b5892))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7373,8 +7373,8 @@
     (property "Voltage" "50V" (at 228.6 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 68054803-7ca6-4fd5-8196-fa7f05b47ec1))
-    (pin "2" (uuid 03d4800c-60e2-447d-8b25-7200942d06c2))
+    (pin "1" (uuid ae6c13f6-c335-4fa2-b006-53f6d9cb634c))
+    (pin "2" (uuid 258003b8-98a6-4e0e-b25c-d26a10880442))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7414,8 +7414,8 @@
     (property "Voltage" "50V" (at 45.72 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid d7f8054a-6e56-4c63-870d-f21ce64e8c89))
-    (pin "2" (uuid 56345f9d-b282-4015-937d-c763e2c81d5d))
+    (pin "1" (uuid cee09709-2972-4fce-bc0f-2f3038d06d31))
+    (pin "2" (uuid deef4fac-6035-4458-b806-5eefbe0198be))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7434,7 +7434,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 254 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8f27b08-5a1a-43ca-aba7-a5fa71f046b6)
-    (property "Reference" "D83" (at 254 41.91 0)
+    (property "Reference" "D17" (at 254 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 254 44.45 0)
@@ -7452,14 +7452,14 @@
     (property "LCSC" "C5242955" (at 254 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 97609542-f04f-4884-874c-e12fcb3ef364))
-    (pin "2" (uuid 7492636a-d9f5-43e2-91cf-f85a4a9d362c))
-    (pin "3" (uuid 08b9b60c-3a70-4540-b3b6-9fe982bc7c7b))
-    (pin "4" (uuid 4967076e-7b08-471e-a68a-e8514004bf71))
+    (pin "1" (uuid af5eb518-9588-4b50-aaf6-c9af74d37a9f))
+    (pin "2" (uuid 1c4e639e-4a16-4390-beb8-b408a1f2edc1))
+    (pin "3" (uuid 3c0d7ac9-c6ed-43d7-ab4f-6e2b94031f7d))
+    (pin "4" (uuid 8aa27658-f66e-4f7c-9bcc-4f4296987889))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D83") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -7468,7 +7468,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 200.66 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af385d87-4dd7-472b-bb84-5eb9a99f9722)
-    (property "Reference" "D77" (at 200.66 21.59 0)
+    (property "Reference" "D8" (at 200.66 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 200.66 24.13 0)
@@ -7486,14 +7486,14 @@
     (property "LCSC" "C5242955" (at 200.66 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed2924c4-2dd4-40ab-b6dc-1e038fb7c2dd))
-    (pin "2" (uuid 65e8cad2-d61f-44fd-a7d5-c711b314621b))
-    (pin "3" (uuid 07c4a712-7e6b-4149-8d22-cccbdbde780d))
-    (pin "4" (uuid 9d6dc9af-b386-4c47-bdaf-2b4e47805821))
+    (pin "1" (uuid 666f5574-ae3f-47d2-809d-092bfb5c27b0))
+    (pin "2" (uuid 4fc3774d-5db1-4558-95c5-f8731256cc8b))
+    (pin "3" (uuid 2bf4b74c-bdf6-4691-a3aa-773f5794d734))
+    (pin "4" (uuid 28817281-4095-46f6-b887-f0e74604ddae))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D77") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -7523,8 +7523,8 @@
     (property "Voltage" "50V" (at 86.36 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid efddf7e6-9653-4418-92ed-23f2b206f280))
-    (pin "2" (uuid 5f45396b-81cd-4ae5-8eaf-ebd7f6eb134b))
+    (pin "1" (uuid 68c920fb-3ef4-46f1-be25-6b09b08f42c5))
+    (pin "2" (uuid 1daa2bff-6b38-4c6f-bc88-7342dcbd7edf))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7564,8 +7564,8 @@
     (property "Voltage" "50V" (at 228.6 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid c507ba4b-4dbb-47a6-9a32-5b73f6d087a7))
-    (pin "2" (uuid 81cb3aee-e1a2-4385-a949-a8012050d59d))
+    (pin "1" (uuid c6b9aa7b-f128-4df8-ba18-c5d1130baa77))
+    (pin "2" (uuid 5e2b7b37-81fa-4efd-838d-26551757724b))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7584,7 +7584,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 76.2 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4ac1c82-5d6f-4051-9194-47d1aec0cd3a)
-    (property "Reference" "D93" (at 76.2 41.91 0)
+    (property "Reference" "D27" (at 76.2 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 76.2 44.45 0)
@@ -7602,14 +7602,14 @@
     (property "LCSC" "C5242955" (at 76.2 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b5b1e51-ccd3-45cf-b176-74c3235960c2))
-    (pin "2" (uuid b4a0b04b-15f3-402a-b4f8-ab4c585742ef))
-    (pin "3" (uuid 12147f25-67b1-4e6d-ad24-7901d04d173f))
-    (pin "4" (uuid d71e4ece-453f-42fa-a415-bacce6799605))
+    (pin "1" (uuid 958b43bf-82fe-462e-8099-bd0787206ac4))
+    (pin "2" (uuid 312d83b2-ad08-4e95-9d56-633164733e5a))
+    (pin "3" (uuid 590c214c-4263-4a90-904c-39618239dc44))
+    (pin "4" (uuid f1180d87-098c-4072-8f46-d8fff0af3baa))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D93") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
     )
@@ -7618,7 +7618,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 111.76 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6e187e0-7d6a-4460-9978-7c99b3a1b0c9)
-    (property "Reference" "D102" (at 111.76 62.23 0)
+    (property "Reference" "D59" (at 111.76 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 111.76 64.77 0)
@@ -7636,14 +7636,14 @@
     (property "LCSC" "C5242955" (at 111.76 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d80d397-82be-48d0-bc9f-04add94a5d0e))
-    (pin "2" (uuid f630d48b-5129-446c-8d8b-833d12fb7288))
-    (pin "3" (uuid d6bd794b-ade2-46f9-bef3-8640ac271713))
-    (pin "4" (uuid c68922c0-98f0-42c4-9f83-c721a7059138))
+    (pin "1" (uuid d332df51-0aa9-42f6-9da6-1f9ab70d26f5))
+    (pin "2" (uuid 9b974204-248a-4862-8d48-fd9355366a70))
+    (pin "3" (uuid 02b8ee8b-dd18-4350-b996-159245120157))
+    (pin "4" (uuid b5c301c4-e86d-408a-af2a-602d0913a1fd))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D102") (unit 1)
+          (reference "D59") (unit 1)
         )
       )
     )
@@ -7652,7 +7652,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 165.1 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7bce79b-d7d6-402c-8d49-e05fa6161dc6)
-    (property "Reference" "D75" (at 165.1 21.59 0)
+    (property "Reference" "D10" (at 165.1 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 165.1 24.13 0)
@@ -7670,14 +7670,14 @@
     (property "LCSC" "C5242955" (at 165.1 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3a13e7ad-1e4e-4c9c-a28c-4344095ee9b2))
-    (pin "2" (uuid d2f71d5b-5526-4c0d-8596-473434e4bddc))
-    (pin "3" (uuid d25b5f50-3e39-4648-9d02-e92d512ca5e3))
-    (pin "4" (uuid fe8100e3-d340-49b9-8d1d-83d1068e1b16))
+    (pin "1" (uuid dcb0e9cc-c352-49a8-a0c7-33cb59f98608))
+    (pin "2" (uuid 1e5fd880-7afd-4cb9-a039-5e63ab76f876))
+    (pin "3" (uuid 49f58448-ffb1-40ca-8801-fb34ea7921c0))
+    (pin "4" (uuid 654d85f2-0db6-46f7-8022-54b84dac5775))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D75") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -7701,10 +7701,10 @@
     (property "Description" "DNP" (at 246.38 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd869c21-029d-45f6-8102-336803ce7a87))
-    (pin "2" (uuid 3683af98-77a7-4e19-a9f5-9c31e6147276))
-    (pin "3" (uuid 561bb004-f1d7-4d28-9efa-97607fefdfab))
-    (pin "4" (uuid 1ef6c4ff-4969-4167-ace1-383cc69b23a4))
+    (pin "1" (uuid 93f3c991-6a26-4077-910e-62fb8234e4b7))
+    (pin "2" (uuid 9620a4bc-9617-4451-848d-e009f071a3d7))
+    (pin "3" (uuid 4be5473f-544b-4f15-a37a-5af1041e1218))
+    (pin "4" (uuid c58e0797-bc4f-43b4-934a-f4723d38bc7d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
@@ -7741,8 +7741,8 @@
     (property "Voltage" "50V" (at 137.16 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 9283ec03-4dff-44ff-8f84-364c61fc5f43))
-    (pin "2" (uuid c57020d1-b9c3-489d-9efe-5aa6a2956562))
+    (pin "1" (uuid fe34d1a6-44d0-426e-bfce-7bc5deab9e15))
+    (pin "2" (uuid 0ff9cc8c-f180-493c-95a4-8b1484f1cb6f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7789,7 +7789,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 129.54 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf61c3cc-1007-426d-8bc1-7ffe116773bf)
-    (property "Reference" "D133" (at 129.54 102.87 0)
+    (property "Reference" "D70" (at 129.54 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 129.54 105.41 0)
@@ -7807,14 +7807,14 @@
     (property "LCSC" "C5242955" (at 129.54 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 048b5d68-f12e-47bc-953f-5bfb3238a37b))
-    (pin "2" (uuid b63a4bc7-c6b0-4ec3-8a4f-dee720c7eede))
-    (pin "3" (uuid ec1d8f01-fc1d-47a1-9f61-e9be01e70ccd))
-    (pin "4" (uuid 836d6c2c-1844-4f73-a633-cf772c222d34))
+    (pin "1" (uuid aaed044c-4c01-4be2-98c0-57f6b84c53b9))
+    (pin "2" (uuid d348093f-1bb7-4566-8127-f4e4ed946e85))
+    (pin "3" (uuid f03b256e-f62c-434c-8bc7-3d27c4aabd2c))
+    (pin "4" (uuid 114c4beb-a47d-4567-932f-27c804adb983))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D133") (unit 1)
+          (reference "D70") (unit 1)
         )
       )
     )
@@ -7872,8 +7872,8 @@
     (property "Voltage" "50V" (at 116.84 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid fd1f23d2-45eb-409b-8685-5c7c6847364a))
-    (pin "2" (uuid 2c42d8dd-86f3-4e14-bb56-62e7bd6eeb21))
+    (pin "1" (uuid 4fa36cc3-adcb-419f-90a6-9f1c13da037c))
+    (pin "2" (uuid 1d4cb57a-402c-43b1-a8d0-769390c83548))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7913,8 +7913,8 @@
     (property "Voltage" "50V" (at 167.64 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid af5223d3-e51b-410f-a074-001232261ae6))
-    (pin "2" (uuid 642262c5-e4f1-4f2a-b760-e656351c9aa9))
+    (pin "1" (uuid 926cd2a4-c7cf-4faf-8f4c-7346abb91f63))
+    (pin "2" (uuid da0b9acc-8975-4849-a4d3-9d1ca836bddf))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -7933,7 +7933,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 218.44 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5a8eab0-750e-4f7e-8bf2-975cda3f7585)
-    (property "Reference" "D108" (at 218.44 62.23 0)
+    (property "Reference" "D50" (at 218.44 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 218.44 64.77 0)
@@ -7951,14 +7951,14 @@
     (property "LCSC" "C5242955" (at 218.44 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 11ba6eed-7975-431f-88e8-e60bd7e07be4))
-    (pin "2" (uuid 370c0780-3e1e-4b47-9d28-b038a0e69f11))
-    (pin "3" (uuid c5f38e66-27fd-4370-9f04-f685fd02dea3))
-    (pin "4" (uuid 592985ca-0fab-4469-bc18-053a45cc5750))
+    (pin "1" (uuid 2e3eed86-d643-4ec5-93ab-c74551424ce2))
+    (pin "2" (uuid 266bcb9a-a304-4075-9646-01713b65d6da))
+    (pin "3" (uuid 520bfe73-9e90-43e4-aecb-9b4b289f192f))
+    (pin "4" (uuid d6856ffa-8f96-48c3-816a-c748b82c943f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D108") (unit 1)
+          (reference "D50") (unit 1)
         )
       )
     )
@@ -7988,8 +7988,8 @@
     (property "Voltage" "50V" (at 187.96 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 3e652910-416c-42f6-b316-c21968bf2125))
-    (pin "2" (uuid 6142c528-3608-43d7-b978-ddbd13086463))
+    (pin "1" (uuid a2787a1a-b0f6-49a3-b5c8-adf21b651cae))
+    (pin "2" (uuid 371ea53c-5953-43e7-afae-f6ef6065ba13))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8008,7 +8008,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 254 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c874388e-5dc4-4ae5-8131-68f8fa7a723d)
-    (property "Reference" "D80" (at 254 21.59 0)
+    (property "Reference" "D14" (at 254 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 254 24.13 0)
@@ -8026,14 +8026,14 @@
     (property "LCSC" "C5242955" (at 254 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4fd0fac-fe5f-4f2c-a7ba-fc634ab9d847))
-    (pin "2" (uuid 433345a3-1281-424f-a907-5eab4f0425bb))
-    (pin "3" (uuid f134042f-3d3c-434c-9729-9f82dd25fc82))
-    (pin "4" (uuid 23552234-e13a-47e3-8618-9f07f938711b))
+    (pin "1" (uuid f4f38df6-6fe4-4fbb-8fd6-b4bcfe5d92ad))
+    (pin "2" (uuid c978c12f-8016-4d9e-85ce-cfd8146fafd5))
+    (pin "3" (uuid d33ab25c-630c-406b-9237-1b28b2dbe2ce))
+    (pin "4" (uuid 54487ff9-66bc-4518-98d2-a9bb03cd884d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D80") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -8042,7 +8042,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 165.1 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8fffa22-055d-49df-92af-c50be381843f)
-    (property "Reference" "D118" (at 165.1 82.55 0)
+    (property "Reference" "D43" (at 165.1 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 165.1 85.09 0)
@@ -8060,14 +8060,14 @@
     (property "LCSC" "C5242955" (at 165.1 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19b51d38-1d61-4383-988d-5bbbac6455cc))
-    (pin "2" (uuid 0ac616ef-7102-41e0-aaad-b350cfdbc6e6))
-    (pin "3" (uuid 4e34db04-cf1d-4e52-a87c-ccd690c49d48))
-    (pin "4" (uuid e279d276-0594-4ebf-bcd0-f3045026738d))
+    (pin "1" (uuid 3a05dd36-0340-4884-b00d-09816237f847))
+    (pin "2" (uuid 8cb76971-192a-4892-bcbd-06224c754a46))
+    (pin "3" (uuid 14f06f78-99b4-43e1-904c-cecc06f9ee3d))
+    (pin "4" (uuid 28eaf0e6-144e-4229-a3a3-02c48acafda0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D118") (unit 1)
+          (reference "D43") (unit 1)
         )
       )
     )
@@ -8076,7 +8076,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 22.86 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c931a0c7-6588-44bc-949b-4381e1c51696)
-    (property "Reference" "D126" (at 22.86 82.55 0)
+    (property "Reference" "D35" (at 22.86 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 22.86 85.09 0)
@@ -8094,14 +8094,14 @@
     (property "LCSC" "C5242955" (at 22.86 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db1abef3-fc73-419c-82e3-29c262ad4a58))
-    (pin "2" (uuid 3646d7f1-6916-4731-99f9-e22c1b32f4fc))
-    (pin "3" (uuid a7fed9ed-dbc0-465d-9d9a-ee4d2a36f62e))
-    (pin "4" (uuid 3f40b01d-23be-4115-9563-a11d5d247051))
+    (pin "1" (uuid 36aa02fa-437f-41b4-8238-76b708f9ba8d))
+    (pin "2" (uuid d64d3ac1-ac48-4788-ad39-e00dbe8a5eb6))
+    (pin "3" (uuid 208ba18a-046a-4343-9065-230558ace218))
+    (pin "4" (uuid 280c52f4-d993-48bf-9a94-d5b422a1f45a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D126") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
@@ -8110,7 +8110,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 58.42 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb861e9c-af60-470a-a076-192ed65647ce)
-    (property "Reference" "D99" (at 58.42 62.23 0)
+    (property "Reference" "D63" (at 58.42 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 58.42 64.77 0)
@@ -8128,14 +8128,14 @@
     (property "LCSC" "C5242955" (at 58.42 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b671de2-8b13-45cf-9893-abc88b1cea5e))
-    (pin "2" (uuid ce05f06a-11f2-4f86-996c-3ea74f64bdb0))
-    (pin "3" (uuid 447a3553-e15e-4678-b3bb-6d4e43d7a86d))
-    (pin "4" (uuid 5f0af7fe-5be0-4fbd-a053-6815c8711dd3))
+    (pin "1" (uuid e8839b86-cfd5-4103-acaa-23d64745e559))
+    (pin "2" (uuid 8ec3a03d-d7bb-4fd0-9e84-371c26637aa6))
+    (pin "3" (uuid e0108382-be0a-40d5-96e2-5b0911edcb62))
+    (pin "4" (uuid 38302aac-26c3-44e2-b06e-f5d5ae3ff97e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D99") (unit 1)
+          (reference "D63") (unit 1)
         )
       )
     )
@@ -8165,8 +8165,8 @@
     (property "Voltage" "50V" (at 147.32 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid f69989eb-281f-4fce-afdd-3bfc496c7a60))
-    (pin "2" (uuid b7f29755-6ee7-4803-bf4e-b0699c220a6f))
+    (pin "1" (uuid aa31ae9b-7d41-467f-803b-d5582b21eca5))
+    (pin "2" (uuid c609b3a5-c897-43e0-8ef9-0e597695f837))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8206,8 +8206,8 @@
     (property "Voltage" "50V" (at 55.88 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid add0ed91-6f72-46ca-a9e8-c782315e0161))
-    (pin "2" (uuid a8e63a7e-8515-4032-9396-27d3fadd2a10))
+    (pin "1" (uuid 5217b7d9-e552-4d3f-badb-5f7e5f506dde))
+    (pin "2" (uuid 6df6f31a-ee0b-4120-ab54-5c2866e2060e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8226,7 +8226,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 200.66 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccf9640d-9ca6-4945-9b81-f8f0fa1fc885)
-    (property "Reference" "D107" (at 200.66 62.23 0)
+    (property "Reference" "D49" (at 200.66 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 200.66 64.77 0)
@@ -8244,14 +8244,14 @@
     (property "LCSC" "C5242955" (at 200.66 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 203d67bc-4401-4481-bd5f-ef7216fbda5d))
-    (pin "2" (uuid d2e286fe-4407-47a6-9f95-f150c52ec2b1))
-    (pin "3" (uuid 745bad5d-363a-473c-a93e-3d08b0f92148))
-    (pin "4" (uuid d329fb24-ac60-4cef-863a-9ff47acfffb3))
+    (pin "1" (uuid b825474e-eb6d-4a8c-868e-215e240fae51))
+    (pin "2" (uuid 916f5574-db38-4ef0-b770-1caeb3d16310))
+    (pin "3" (uuid 57868f0c-0cd6-4ae6-a67f-e4636d85e4e6))
+    (pin "4" (uuid 42a7323e-b88c-4384-966e-100e125afc50))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D107") (unit 1)
+          (reference "D49") (unit 1)
         )
       )
     )
@@ -8309,8 +8309,8 @@
     (property "Voltage" "50V" (at 177.8 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 8d5d470d-3d23-4f07-99c4-4c455ba14d6e))
-    (pin "2" (uuid 8e0def1e-728d-4715-afd4-22cf06f8a2ea))
+    (pin "1" (uuid 16f6aed6-5b5b-441d-a643-f7a31dbc8d25))
+    (pin "2" (uuid b0d9535a-fe92-4646-aca0-a4b2c943e798))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8329,7 +8329,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 165.1 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1378ef3-5cc1-46d8-b764-36632bbf89c2)
-    (property "Reference" "D105" (at 165.1 62.23 0)
+    (property "Reference" "D56" (at 165.1 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 165.1 64.77 0)
@@ -8347,14 +8347,14 @@
     (property "LCSC" "C5242955" (at 165.1 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c6fcee96-4a00-471d-83ae-a1e90d9cce64))
-    (pin "2" (uuid b844801d-a148-4e33-8277-4075ee557e7a))
-    (pin "3" (uuid 8ffbd3d0-059a-47ef-9053-4fea806ff08e))
-    (pin "4" (uuid 7216e62b-9b7b-4d3c-ad8f-eafd6d18b17f))
+    (pin "1" (uuid e3084d51-5f1a-4ad7-b22a-458a0c3ebf9f))
+    (pin "2" (uuid b1281459-eb55-407f-a489-9edc47866b6d))
+    (pin "3" (uuid 842babaf-c75f-43c2-bc92-0d826d7d38e3))
+    (pin "4" (uuid 2d3c23a8-56b6-4760-a75b-7abd748717a3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D105") (unit 1)
+          (reference "D56") (unit 1)
         )
       )
     )
@@ -8388,7 +8388,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 111.76 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5a35dec-08c0-4a5b-a362-28a0b68890da)
-    (property "Reference" "D132" (at 111.76 102.87 0)
+    (property "Reference" "D71" (at 111.76 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 111.76 105.41 0)
@@ -8406,14 +8406,14 @@
     (property "LCSC" "C5242955" (at 111.76 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8927a5be-bdd8-4611-8aed-03c985eabef9))
-    (pin "2" (uuid 69fa9f72-6f23-4d39-8847-c208d160dac3))
-    (pin "3" (uuid df4152ef-d2cd-4c61-8b18-4862661119d1))
-    (pin "4" (uuid 54037349-3f9c-4ac6-802d-affb3248d9b4))
+    (pin "1" (uuid 872c9990-7f8c-46d8-b580-c367361cbf81))
+    (pin "2" (uuid d326d6f0-5980-4a6f-a38e-4ab878b21b73))
+    (pin "3" (uuid b3d34902-7dbf-44c8-b5a1-bfe08231d30d))
+    (pin "4" (uuid b9cb7113-5c04-4859-984c-7aaa8e8986a1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D132") (unit 1)
+          (reference "D71") (unit 1)
         )
       )
     )
@@ -8422,7 +8422,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 22.86 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5aa2d03-f7bb-4980-aa37-e984dffce8b4)
-    (property "Reference" "D96" (at 22.86 41.91 0)
+    (property "Reference" "D30" (at 22.86 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 22.86 44.45 0)
@@ -8440,14 +8440,14 @@
     (property "LCSC" "C5242955" (at 22.86 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aedf84d5-afb3-4be2-8dac-8cd17747fc01))
-    (pin "2" (uuid 3904a44f-e75f-4922-87cd-54391183ccab))
-    (pin "3" (uuid ccbc65a3-7823-4f4f-8bd4-f6e41b6ef3c5))
-    (pin "4" (uuid 760b6566-4a8e-406f-9cad-4d3820ac76af))
+    (pin "1" (uuid dadee338-200b-4343-abee-4f2c165d1edd))
+    (pin "2" (uuid e561c67f-d2cf-4e21-8572-df5ee3cf363a))
+    (pin "3" (uuid 7ed513e7-4f8c-480c-85e8-f542e25b120b))
+    (pin "4" (uuid 61c08472-4674-4e65-9b6a-5bc6966023a3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D96") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -8477,8 +8477,8 @@
     (property "Voltage" "50V" (at 55.88 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 2a01341f-a625-4a3e-9be9-23585490db96))
-    (pin "2" (uuid 4303052d-c60e-4c0a-98bf-beef74c14bad))
+    (pin "1" (uuid e8aca334-d3d7-4197-9e7e-7c0ed4ed57f8))
+    (pin "2" (uuid 943d3112-8ca4-408f-ac49-8cfc2664ece2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8497,7 +8497,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 200.66 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid daad7613-1a39-4b6c-805f-d5344665812f)
-    (property "Reference" "D86" (at 200.66 41.91 0)
+    (property "Reference" "D23" (at 200.66 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 200.66 44.45 0)
@@ -8515,14 +8515,14 @@
     (property "LCSC" "C5242955" (at 200.66 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e826c783-eb9f-432a-9d53-ec68be9f1aba))
-    (pin "2" (uuid 3c3c83ca-30c7-477d-8143-f4b495e0be74))
-    (pin "3" (uuid aae38437-1824-4a34-a1b1-85bdbfce30a9))
-    (pin "4" (uuid 50232c96-76da-4cdd-a654-afd5ff36b8a8))
+    (pin "1" (uuid 5bb84886-b003-4b31-a149-97a0eacde682))
+    (pin "2" (uuid 638993b6-b9df-4d44-81df-c8d274aca3c1))
+    (pin "3" (uuid f0c1fe6c-0b0f-487b-b2ba-3f5fcfcc8e54))
+    (pin "4" (uuid 8ff8a616-e563-46e1-a169-2e4211eb5ec0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D86") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -8552,8 +8552,8 @@
     (property "Voltage" "50V" (at 25.4 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid a9faba64-6acc-4e3c-860f-5f0096e97169))
-    (pin "2" (uuid 09046587-6ed6-49a1-8e71-b522a6d73fe3))
+    (pin "1" (uuid d26db9ab-1d23-4cd1-b08f-8508faec9358))
+    (pin "2" (uuid c6ac8240-368c-4db4-9483-1c9f66663f4a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8572,7 +8572,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 147.32 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd3caf2d-5d8e-46fd-8f10-04a245f17e7d)
-    (property "Reference" "D134" (at 147.32 102.87 0)
+    (property "Reference" "D69" (at 147.32 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 147.32 105.41 0)
@@ -8590,14 +8590,14 @@
     (property "LCSC" "C5242955" (at 147.32 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d7ee9fe-ff7f-4b91-9dac-15c63f1dcb5b))
-    (pin "2" (uuid e4b93730-95b9-4ec7-9086-c94fa387afbc))
-    (pin "3" (uuid b1e67a2d-c87c-48aa-99bb-5a65ef345bd3))
-    (pin "4" (uuid 21ace576-014a-42d0-a023-27665d427146))
+    (pin "1" (uuid ab5a432d-26a1-40a6-9bec-2048b6367130))
+    (pin "2" (uuid 6ea01cbd-db23-4135-b5ae-8ba57518e188))
+    (pin "3" (uuid 574def83-1d9d-423d-885f-3149f70e25cf))
+    (pin "4" (uuid 3583b2b9-7c51-4133-969e-83546370da32))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D134") (unit 1)
+          (reference "D69") (unit 1)
         )
       )
     )
@@ -8627,8 +8627,8 @@
     (property "Voltage" "50V" (at 127 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 96d07468-fdd8-4800-9af9-180ab2161a20))
-    (pin "2" (uuid d7d2febe-2758-4031-b876-76725c227022))
+    (pin "1" (uuid 83d36e20-7493-48d1-9f91-ac289c33684a))
+    (pin "2" (uuid 5d43096f-cbd9-46b2-a29d-47c9da5818ed))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8668,8 +8668,8 @@
     (property "Voltage" "50V" (at 238.76 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 00cc1f89-3a88-4bce-a5cc-016d5689ef59))
-    (pin "2" (uuid c2be3a93-c836-4bd3-b0f7-4e2d458c41cd))
+    (pin "1" (uuid de21f8ba-89c5-46dc-8dad-0e7268e1564d))
+    (pin "2" (uuid 9d9d5d62-a240-48fd-91f2-5ec336ea4599))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8709,8 +8709,8 @@
     (property "Voltage" "50V" (at 25.4 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 7a003edf-ec97-4f1d-a4e1-bdd8ccf407fc))
-    (pin "2" (uuid 10356658-700f-4ae1-a2c0-b9f61986997b))
+    (pin "1" (uuid 2f2250a2-da99-4a69-853c-b5eccccb9a99))
+    (pin "2" (uuid bd3b8408-b225-4082-83c8-4bc1e7fc89a5))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8729,7 +8729,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 76.2 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2bc97f6-7f49-405e-b7a8-79589bd3f44e)
-    (property "Reference" "D130" (at 76.2 102.87 0)
+    (property "Reference" "D31" (at 76.2 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 76.2 105.41 0)
@@ -8747,14 +8747,14 @@
     (property "LCSC" "C5242955" (at 76.2 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 447fdcc2-f3b0-4932-adbb-eeab5d35f7af))
-    (pin "2" (uuid ca393302-3bb0-459c-a8e6-793104df368f))
-    (pin "3" (uuid a3e08aa6-2d55-4511-b96c-fb0cdaf4528c))
-    (pin "4" (uuid 76f0e434-a8fd-4b79-9586-2d3038b0f9ff))
+    (pin "1" (uuid 9b75ce23-282f-40d6-8698-11b8e735f419))
+    (pin "2" (uuid 054cfad8-b370-425c-9aa5-175e2d30d01d))
+    (pin "3" (uuid c74f024d-c05b-4838-9ad0-03587ade2851))
+    (pin "4" (uuid 0427be70-5827-41fe-b7ad-4cc81454cdae))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D130") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -8763,7 +8763,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 254 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5875f34-b3d2-49a3-b5d2-6a6f5292c3e5)
-    (property "Reference" "D113" (at 254 82.55 0)
+    (property "Reference" "D48" (at 254 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 254 85.09 0)
@@ -8781,14 +8781,14 @@
     (property "LCSC" "C5242955" (at 254 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 536c8ea2-efed-4fd7-8470-466096780f95))
-    (pin "2" (uuid e799cf58-7a08-435c-a83a-ea6c6c3294ac))
-    (pin "3" (uuid 6e7ec565-79ac-45ae-a81f-a87f5d14924a))
-    (pin "4" (uuid dfbdb5f8-c62c-48f9-ad84-31562d426929))
+    (pin "1" (uuid 49be1a57-f707-4370-ae38-76195914dd1e))
+    (pin "2" (uuid 8a9c19b5-0abf-49d9-9496-16a32d3b47b9))
+    (pin "3" (uuid f0e387b9-b108-4507-9e44-2d124ac14c73))
+    (pin "4" (uuid a66cf571-6586-4a98-a454-d9078881e14d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D113") (unit 1)
+          (reference "D48") (unit 1)
         )
       )
     )
@@ -8797,7 +8797,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 129.54 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebec9970-2e85-4c8f-ae0b-b46afe6aa480)
-    (property "Reference" "D120" (at 129.54 82.55 0)
+    (property "Reference" "D38" (at 129.54 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 129.54 85.09 0)
@@ -8815,14 +8815,14 @@
     (property "LCSC" "C5242955" (at 129.54 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 24aa442e-5d00-4a08-bc55-00151f331e02))
-    (pin "2" (uuid 64efc413-bde0-4a49-ad25-4d4646d2bb5e))
-    (pin "3" (uuid 73216d9c-aeee-457a-a9c7-356c09debf79))
-    (pin "4" (uuid 56d1ce52-6e88-47cd-9371-da2458a31dfa))
+    (pin "1" (uuid c002de01-deab-4a70-8b9c-143f207f0b6e))
+    (pin "2" (uuid 4924ae1b-63bd-42ed-950f-1fe857d514f1))
+    (pin "3" (uuid d2e2c989-ebaf-4f09-8884-b04fa303f473))
+    (pin "4" (uuid 4ad06d3e-a804-447b-9741-d6ee0f728226))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D120") (unit 1)
+          (reference "D38") (unit 1)
         )
       )
     )
@@ -8831,7 +8831,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 22.86 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eeeac6f9-3efb-4636-8747-eb541427a113)
-    (property "Reference" "D97" (at 22.86 62.23 0)
+    (property "Reference" "D61" (at 22.86 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 22.86 64.77 0)
@@ -8849,14 +8849,14 @@
     (property "LCSC" "C5242955" (at 22.86 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6400e58d-9554-49b6-8e6d-8d8ec0ea316b))
-    (pin "2" (uuid 24bd816d-6ac9-40d3-ada8-e606627498a1))
-    (pin "3" (uuid 82ae9bf5-3306-45ac-b0fe-4e8788766ffa))
-    (pin "4" (uuid e6cc31ab-004a-4de0-acfe-b892e3226409))
+    (pin "1" (uuid c58cb741-a2d2-4ac0-831d-927a0901efb5))
+    (pin "2" (uuid 035d9cd7-f766-4656-823f-a7a84fee510b))
+    (pin "3" (uuid fb29a758-05e5-4576-bab5-8961ef853936))
+    (pin "4" (uuid 3edbe8a3-5d46-4fb2-b0fa-29d11676348c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D97") (unit 1)
+          (reference "D61") (unit 1)
         )
       )
     )
@@ -8865,7 +8865,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 58.42 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efb7848a-d59c-4cd5-83ab-fbcf808e6be5)
-    (property "Reference" "D124" (at 58.42 82.55 0)
+    (property "Reference" "D42" (at 58.42 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 58.42 85.09 0)
@@ -8883,14 +8883,14 @@
     (property "LCSC" "C5242955" (at 58.42 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32bfd23d-8a78-4611-81cd-8444abc64c64))
-    (pin "2" (uuid 265c4e63-3534-4940-9769-5bbfd34a4389))
-    (pin "3" (uuid 29f51259-b965-4417-bc64-4079b93aa7bf))
-    (pin "4" (uuid 6242190c-3492-4deb-996f-0d4a3a91dbe0))
+    (pin "1" (uuid ebd4027a-80f5-49e0-a1ac-a5f3a85ad603))
+    (pin "2" (uuid eff28850-d034-4685-9f10-6977aeec1f59))
+    (pin "3" (uuid 29909ee1-f1bd-4fc7-8010-f677b19cfb4a))
+    (pin "4" (uuid b9dd457e-1811-443d-ac03-b9292b02e037))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D124") (unit 1)
+          (reference "D42") (unit 1)
         )
       )
     )
@@ -8899,7 +8899,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 165.1 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f093eaab-e0c2-4990-ac45-7743baf9c4a7)
-    (property "Reference" "D135" (at 165.1 102.87 0)
+    (property "Reference" "D68" (at 165.1 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 165.1 105.41 0)
@@ -8917,14 +8917,14 @@
     (property "LCSC" "C5242955" (at 165.1 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b5d3b78-4c3e-40f8-b9d2-2aca3e20bc3d))
-    (pin "2" (uuid cf95771c-1897-4ff7-a578-866bb4833a37))
-    (pin "3" (uuid 713cdaaa-8f31-4ddd-a253-92def572df70))
-    (pin "4" (uuid aa5bce56-6052-4793-9e08-ce8542270814))
+    (pin "1" (uuid 7bff890b-0904-469c-ac2f-dc87ceb3bb24))
+    (pin "2" (uuid f42b4923-90aa-4e8f-a5c2-23356f08db15))
+    (pin "3" (uuid 46f6fb9a-844f-49d9-981a-73e240c5a25d))
+    (pin "4" (uuid 35e9ec49-860f-49de-b9ef-e7294581f378))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D135") (unit 1)
+          (reference "D68") (unit 1)
         )
       )
     )
@@ -8954,8 +8954,8 @@
     (property "Voltage" "50V" (at 238.76 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 4bf7044e-e3c0-4729-86f0-f1740dfc6a06))
-    (pin "2" (uuid 27777e4f-da53-421f-91bc-48e308cf8c8a))
+    (pin "1" (uuid bc75ebff-998b-41bc-820c-53e351b87929))
+    (pin "2" (uuid c08fda11-2c94-4004-89cb-1eefb0648975))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -8974,7 +8974,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 147.32 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8f74651-0edc-4dd5-86cb-2cf2ced5ad5a)
-    (property "Reference" "D74" (at 147.32 21.59 0)
+    (property "Reference" "D11" (at 147.32 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 147.32 24.13 0)
@@ -8992,14 +8992,14 @@
     (property "LCSC" "C5242955" (at 147.32 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9bde0ef4-9ddd-4989-9659-e049b575100c))
-    (pin "2" (uuid f83b7952-108a-4259-9556-2db4738ea139))
-    (pin "3" (uuid 58edc352-3069-469c-8cd9-879a7f9ed942))
-    (pin "4" (uuid c3b47c9a-aa2f-4a2b-9b5f-b06d5c10177c))
+    (pin "1" (uuid e562a94e-a7d6-4f76-9982-6c418a6d3e23))
+    (pin "2" (uuid 28bcd543-5ad0-4e8c-9cc0-3a23c85eddc3))
+    (pin "3" (uuid a2def48b-551d-4e56-b10c-28d05ea6e491))
+    (pin "4" (uuid 4132581c-59b0-471b-8b5c-2c2ae2b247e7))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D74") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -9008,7 +9008,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 236.22 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9c25d19-b30d-4264-bd41-9ce51f3f3fb5)
-    (property "Reference" "D84" (at 236.22 41.91 0)
+    (property "Reference" "D18" (at 236.22 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SK6812MINI-E" (at 236.22 44.45 0)
@@ -9026,14 +9026,14 @@
     (property "LCSC" "C5242955" (at 236.22 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9961e2bd-2425-423f-92a8-705f414a2f5e))
-    (pin "2" (uuid 686215c8-ee5a-419e-b1be-2a35bc46b0b5))
-    (pin "3" (uuid 55d34cd0-303e-41fe-8bcf-a02fa2d1aae4))
-    (pin "4" (uuid 63a0070f-fa6d-4ed7-be44-47ed551ad4e3))
+    (pin "1" (uuid ca90da49-9ce8-4358-8581-c66b79de5fab))
+    (pin "2" (uuid 1e8f15b4-fb67-459a-8eb9-e1364c15136c))
+    (pin "3" (uuid 9d0ce487-caad-48e6-bf27-363af6409e25))
+    (pin "4" (uuid c88a3d1a-e112-4742-b9c2-75ee4d50f80a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D84") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -9063,8 +9063,8 @@
     (property "Voltage" "50V" (at 259.08 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid f0d51351-1a75-4b97-8f93-9ee31c79c5ba))
-    (pin "2" (uuid 41c49e12-1f45-48f6-a89d-7490682c6569))
+    (pin "1" (uuid c9ff2249-90c2-457c-9d6a-bfa3b48759ec))
+    (pin "2" (uuid 32de2efd-20c8-41b4-8e80-4d5c2029b223))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -9104,8 +9104,8 @@
     (property "Voltage" "50V" (at 137.16 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 00dc6155-e31e-4a43-b4f3-490a5e702609))
-    (pin "2" (uuid 8f9984c7-e286-49a9-8ea3-520790a1615d))
+    (pin "1" (uuid 54d37c4f-e95f-4460-8d85-b86cd9583846))
+    (pin "2" (uuid 8e02a430-b96d-4da6-acaa-8e5ad9b2e447))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -9124,7 +9124,7 @@
   (symbol (lib_name "SK6812MINI-E_54") (lib_id "Honeydew:SK6812MINI-E") (at 22.86 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid feaa680a-15b5-4fb8-93e3-9c2b190f294c)
-    (property "Reference" "D127" (at 22.86 102.87 0)
+    (property "Reference" "D34" (at 22.86 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 22.86 105.41 0)
@@ -9142,14 +9142,14 @@
     (property "LCSC" "C5242955" (at 22.86 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 636eca41-c773-442a-80eb-784fdec1ecf9))
-    (pin "2" (uuid edeadbb6-d823-42d5-b24d-32875ad92626))
-    (pin "3" (uuid ac9600e4-1488-4c41-bace-90f087f04e88))
-    (pin "4" (uuid 1fdbdf2c-d0c7-43a0-bea5-83757d663fb4))
+    (pin "1" (uuid dfa4d96b-978d-4ce8-a518-77fe6ed879dd))
+    (pin "2" (uuid a91e9e44-d409-49e9-aaa8-b6136dfe5256))
+    (pin "3" (uuid 20a81303-5701-4743-a115-b865b66c7947))
+    (pin "4" (uuid 9d87339f-8a41-4386-b1e8-5e7a8882fa9a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "D127") (unit 1)
+          (reference "D34") (unit 1)
         )
       )
     )
@@ -9179,8 +9179,8 @@
     (property "Voltage" "50V" (at 218.44 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (pin "1" (uuid 89818bf5-57b8-45d9-aaf9-26515a52a3cc))
-    (pin "2" (uuid feaa5942-2009-4d60-a6f9-1afebc698986))
+    (pin "1" (uuid 0b1e9005-4367-4012-adae-d502dc774f28))
+    (pin "2" (uuid 2c3b6b91-2dca-4057-a994-f16b48176e30))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
