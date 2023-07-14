@@ -5,7 +5,7 @@
 This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm/). The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards.
 
 ## Key Features
-* Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys in the middle.
+* Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 4 keys in the middle.
 * Each half is rotated 15 degrees inwards.
 * On-board Raspberry Pi RP2040 processor.
 * Uses shift registers for the columns.
@@ -17,12 +17,14 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 * Rotary encoder ring around the trackball or trackpad.
 * 1.5" 128x128 SSD1351 RGB QP OLED support, either bare OLED panel or using the Waveshare breakout board.
 * Gasket-mount case.
+* Thumb scroll wheel at bottom of keyboard, replacing the 2.25u key in that position.
 
 ![Render Front](Showcase/Render-F.png)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
-* 06/07/2023: Replaced 0805 ferrite with 1206. Repositioned components. Improved CPG151101S11 footprints.
+* 14/07/2023: Replaced 1N4148 switch diodes with BAV70. Replaced switch footprints with combination MX/Choc hotswap footprints. Replaced flash IC with much smaller version. Removed buttons and USB-C port and replaced it with an FFC connector for [Galia](https://github.com/Ariamelon/Galia) (a USB-C daughterboard designed specifically for the Honeydew). Added case STEP file and renders.
+* 06/07/2023: Replaced 0805 ferrite with 1206. Repositioned components.
 * 30/06/2023: Routed 13V EN pin to the MCU. Removed 13V solder jumper.
 * 27/06/2023: V3.0 initial update. Wired RST pin of OLED to MCU. Reduced size of OLED FFC cutout. Repositioned components. Added REF3033 3.3V voltage reference and connected it to the ADC input. Added pullup to RGB current limit switch enable input. 
 * 11/06/2023: Updated BOM. Added new tentative plate file. Updated 3D files.

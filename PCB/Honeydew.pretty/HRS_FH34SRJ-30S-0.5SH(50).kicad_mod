@@ -289,6 +289,8 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp c95745b8-56d6-4f74-b39f-ae1d96b8d286))
   (fp_line (start 8.5 -2.35) (end 8.5 -0.72)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 69de1979-4167-4e3c-b4de-c80fc2cb5e60))
+  (fp_circle (center 0 0) (end 0.25 0)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp f43e8f7b-5901-4abc-98ad-4ee9306cce7f))
   (fp_circle (center 7.25 -3.5) (end 7.35 -3.5)
     (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp 8beb1be6-20e0-40fc-9b17-8bd49549edf5))
   (fp_line (start -8.75 -3.5) (end 8.75 -3.5)

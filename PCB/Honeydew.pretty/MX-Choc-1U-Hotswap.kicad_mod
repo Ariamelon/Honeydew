@@ -1,4 +1,4 @@
-(footprint "MXOnly-1U-Hotswap" (version 20221018) (generator pcbnew)
+(footprint "MX-Choc-1U-Hotswap" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 0) (layer "F.Fab") hide
@@ -210,5 +210,10 @@
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/Honeydew.pretty/3d/DSA 1u.step"
+    (offset (xyz 0 0 -13.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 0))
   )
 )

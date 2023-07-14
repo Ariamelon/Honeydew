@@ -204,10 +204,10 @@
       e6da34f9-8d76-498c-835b-65f6ce27225e
     )
   )
-  (model "${KIPRJMOD}/Honeydew.pretty/3d/kailh_socket_mx.stp"
-    (offset (xyz 0.57 3.8 1.8))
+  (model "${KIPRJMOD}/Honeydew.pretty/3d/kailh-socket-mx.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 -180 -180))
+    (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/Honeydew.pretty/3d/SW_Cherry_MX_PCB.STEP"
     (offset (xyz 0 0 -1.58))

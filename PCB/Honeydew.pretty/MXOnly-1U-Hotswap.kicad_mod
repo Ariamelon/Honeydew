@@ -116,10 +116,10 @@
   (pad "2" thru_hole circle (at -4.892 -3.53) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 6def15a2-2576-4293-a44c-d3353420a59a))
   (pad "2" smd rect (at -4.225 -5.1) (size 1.35 2.5) (layers "F.Cu") (tstamp 7f19cb7d-fb7f-40d1-8860-ae55e1dd6504))
   (pad "2" thru_hole circle (at -2.54 -5.08) (size 3.3 3.3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp beb28a53-d1ea-4b59-8f04-94ba71f7c899))
-  (model "${KIPRJMOD}/Honeydew.pretty/3d/kailh_socket_mx.stp"
-    (offset (xyz 0.57 3.8 1.8))
+  (model "${KIPRJMOD}/Honeydew.pretty/3d/kailh-socket-mx.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 -180 -180))
+    (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/Honeydew.pretty/3d/SW_Cherry_MX_PCB.STEP"
     (offset (xyz 0 0 -1.58))
