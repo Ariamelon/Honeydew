@@ -5572,7 +5572,7 @@
     (property "Value" "Bootsel" (at 121.92 99.06 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "Honeydew:SW_SPST_PTS645" (at 121.92 96.52 0)
+    (property "Footprint" "Honeydew:SW_SPST_PTS645_SMT+THT" (at 121.92 96.52 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 121.92 96.52 0)
