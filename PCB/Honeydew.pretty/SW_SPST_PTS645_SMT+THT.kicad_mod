@@ -51,7 +51,7 @@
   (pad "2" thru_hole circle (at -3.25 2.25 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 081f0910-be9d-4a05-9c9a-ba14e14b6f1c))
   (pad "2" thru_hole circle (at 3.25 2.25 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 181c4a62-0abe-4064-863b-d85ae80a0cd3))
   (pad "2" smd rect (at 3.98 2.25) (size 1.55 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8b1a4e7c-2c57-45f5-a14c-d56aeb1bb5f3))
-  (model "${KIPRJMOD}/Honeydew.pretty/3d/SW_SPST_PTS645.step"
+  (model "${KIPRJMOD}/Honeydew.pretty/3d/SW_SPST_PTS645_7mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

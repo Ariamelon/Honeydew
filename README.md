@@ -23,7 +23,8 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
-* 16/07/2023: Updated case file. Added individual 3D case files. Added kicad plate files.
+* 17/07/2023: Changed 20 pin FFC connector to 14 pin JST SH connector. Repositioned components.
+* 16/07/2023: Updated case file. Added individual case files. Added kicad plate files.
 * 14/07/2023: Replaced 1N4148 switch diodes with BAV70. Replaced switch footprints with combination MX/Choc hotswap footprints. Replaced flash IC with much smaller version. Removed buttons and USB-C port and replaced it with an FFC connector for [Galia](https://github.com/Ariamelon/Galia) (a USB-C daughterboard designed specifically for the Honeydew). Added case STEP file and renders. Added footprint for PTS645 SMT and THT parts to the mouse switch in the thumb encoder.
 * 06/07/2023: Replaced 0805 ferrite with 1206. Repositioned components.
 * 30/06/2023: Routed 13V EN pin to the MCU. Removed 13V solder jumper.
