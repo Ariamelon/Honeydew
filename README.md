@@ -23,6 +23,7 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 21/07/2023: Changed 20 pin FFC to 7 pin and 8 pin JST SH connector.
 * 18/07/2023: Changed JST connector back to 20 pin FFC. Centered connector. Increased size of PMW3360 cutout.
 * 17/07/2023: Changed 20 pin FFC connector to 14 pin JST SH connector. Repositioned components.
 * 16/07/2023: Updated case file. Added individual case files. Added kicad plate files.
