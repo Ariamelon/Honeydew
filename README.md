@@ -5,24 +5,24 @@
 This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm/). The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards.
 
 ## Key Features
-* Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 4 keys in the middle.
-* Each half is rotated 15 degrees inwards.
+* Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys around a center ring encoder and a 2.25u key below that.
+* 40mm cirque trackpad or 34mm trackball support inside the ring encoder.
+* Thumb scroll wheel at bottom of keyboard, replacing the 2.25u key in that position.
+* Each half rotated 15 degrees inwards.
 * On-board Raspberry Pi RP2040 processor.
-* Uses shift registers for the columns.
+* Uses HC595 shift registers for the columns.
 * SWD header for debugging purposes.
-* USB-C input with full ESD protection and up to 15W of power depending on source capability.
-* MX switch support with kailh hot-swap sockets.
-* 40mm cirque trackpad support in the middle, alternately supports a 34mm trackball instead of the trackpad.
+* USB-C input with full ESD protection and up to 5V 3A of power depending on source capability.
+* MX and choc hotswap switch support with kailh hotswap sockets.
 * Per-key RGB backlight, illuminated center ring and ARGB header for adding more.
-* Rotary encoder ring around the trackball or trackpad.
 * 1.5" 128x128 SSD1351 RGB QP OLED support, either bare OLED panel or using the Waveshare breakout board.
 * Gasket-mount case.
-* Thumb scroll wheel at bottom of keyboard, replacing the 2.25u key in that position.
 
 ![Render Front](Showcase/Render-F.png)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 25/07/2023: Changed 8 pin JST SH connector to 6 pin. Pushed JST connectors back. Improved 3D model of SSD1351. Minor fix to PER56 footprint.
 * 21/07/2023: Changed 20 pin FFC to 7 pin and 8 pin JST SH connector.
 * 18/07/2023: Changed JST connector back to 20 pin FFC. Centered connector. Increased size of PMW3360 cutout.
 * 17/07/2023: Changed 20 pin FFC connector to 14 pin JST SH connector. Repositioned components.
