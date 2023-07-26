@@ -375,7 +375,7 @@
       )
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
-          (reference "H12") (unit 1)
+          (reference "H14") (unit 1)
         )
       )
     )
@@ -405,6 +405,35 @@
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
           (reference "H7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 116.84 91.44 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 474fcb22-5545-4d94-abaf-79e87ae8e2cf)
+    (property "Reference" "H2" (at 119.38 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "M3" (at 119.38 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Honeydew:MountingHole_3.2mm_M3_Pad" (at 116.84 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 116.84 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Casaba"
+        (path "/24378b90-16c2-4770-828b-ef30a4dde4ac"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Honeydew"
+        (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
+          (reference "H13") (unit 1)
         )
       )
     )
@@ -492,7 +521,7 @@
       )
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
-          (reference "H14") (unit 1)
+          (reference "H16") (unit 1)
         )
       )
     )
@@ -522,6 +551,35 @@
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
           (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 116.84 86.36 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 99c73d93-3b5c-4d82-8609-9b0c1b293821)
+    (property "Reference" "H2" (at 119.38 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "M3" (at 119.38 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Honeydew:MountingHole_3.2mm_M3_Pad" (at 116.84 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 116.84 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Casaba"
+        (path "/24378b90-16c2-4770-828b-ef30a4dde4ac"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Honeydew"
+        (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
+          (reference "H12") (unit 1)
         )
       )
     )
@@ -604,7 +662,7 @@
       )
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
-          (reference "H13") (unit 1)
+          (reference "H15") (unit 1)
         )
       )
     )
@@ -691,7 +749,7 @@
       )
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
-          (reference "H15") (unit 1)
+          (reference "H17") (unit 1)
         )
       )
     )

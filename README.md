@@ -22,6 +22,7 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 26/07/2023: Sent to JLC (V3.0 release version). Slightly increased size of screw hole pads. Added two more screw holes. Added mounting holes to plate. Flipped gerbers for scrollwheel plate.
 * 25/07/2023: Changed 8 pin JST SH connector to 6 pin. Pushed JST connectors back. Improved 3D model of SSD1351. Minor fix to PER56 footprint.
 * 21/07/2023: Changed 20 pin FFC to 7 pin and 8 pin JST SH connector.
 * 18/07/2023: Changed JST connector back to 20 pin FFC. Centered connector. Increased size of PMW3360 cutout.
