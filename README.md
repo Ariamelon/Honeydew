@@ -1,28 +1,30 @@
 # Honeydew
-~60% 63-key QMK-compatible unified split ergonomic keyboard.
+~60% 63-key QMK-compatible unified split ergonomic keyboard with [VIK](https://github.com/sadekbaroudi/vik) module support.
 
 ## Disclaimer
-This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm/). The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards.
+This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) and is compatible with the [VIK](https://github.com/sadekbaroudi/vik) standard. The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards.
 
 ## Key Features
-* Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys around a center ring encoder and a 2.25u key below that.
-* 40mm cirque trackpad or 34mm trackball support inside the ring encoder.
+* Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys around a center VIK module spot and a 2.25u key below that.
 * Thumb scroll wheel at bottom of keyboard, replacing the 2.25u key in that position.
 * Each half rotated 15 degrees inwards.
 * On-board Raspberry Pi RP2040 processor.
-* Uses HC595 shift registers for the columns.
+* Uses 74HC595 shift registers for the columns.
 * SWD header for debugging purposes.
 * USB-C input with full ESD protection and up to 5V 3A of power depending on source capability.
 * MX and choc hotswap switch support with kailh hotswap sockets.
-* Per-key RGB backlight, illuminated center ring and ARGB header for adding more.
-* 1.5" 128x128 SSD1351 RGB QP OLED support, either bare OLED panel or using the Waveshare breakout board.
+* Per-key RGB backlight and ARGB header for adding more.
+* 1.5" 128x128 SSD1351 RGB QP OLED support using the Waveshare breakout board [Waveshare breakout board](https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module) or the [Crenshaw](https://github.com/Ariamelon/Crenshaw)
 * Gasket-mount case.
 
-![Render Front](Showcase/Render-F.png)
-![Render Back](Showcase/Render-B.png)
+![Full Render Front](Showcase/Full-Render-B.png)
+![Full Render Back](Showcase/Full-Render-F.png)
+![Board Render Front](Showcase/Board-Render-B.png)
+![BoardRender Back](Showcase/Board-Render-F.png)
 
 ## Changelog
-* 26/07/2023: Sent to JLC (V3.0 release version). Slightly increased size of screw hole pads. Added two more screw holes. Added mounting holes to plate. Flipped gerbers for scrollwheel plate.
+* 28/07/2023: Removed center ring encoder, cirque trackpad and PMW3360 support. Added VIK header and hole in the center of the PCB for the [Kiwano](https://github.com/Ariamelon/Kiwano). Changed JST connectors back to 20 pin FFC. Total rearrangement of parts in keyboard center. Stitched ground planes together. Added USB module to board rather than have it be separate.
+* 26/07/2023: Slightly increased size of screw hole pads. Added two more screw holes. Added mounting holes to plate. Flipped gerbers for scrollwheel plate.
 * 25/07/2023: Changed 8 pin JST SH connector to 6 pin. Pushed JST connectors back. Improved 3D model of SSD1351. Minor fix to PER56 footprint.
 * 21/07/2023: Changed 20 pin FFC to 7 pin and 8 pin JST SH connector.
 * 18/07/2023: Changed JST connector back to 20 pin FFC. Centered connector. Increased size of PMW3360 cutout.

@@ -41,7 +41,7 @@
   (pad "C" thru_hole circle (at 2.5 0) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 40998eb5-3492-475c-a6b5-c239207add3d))
   (pad "MP" thru_hole roundrect (at -4.5 -2 90) (size 2.5 2.3) (drill oval 2 1.8) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 65e89f49-c760-41da-badb-29151c264739))
   (pad "MP" thru_hole roundrect (at 4.5 -2 90) (size 2.5 2.3) (drill oval 2 1.8) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 7dee088a-dbff-492a-8edd-23696e825d99))
-  (model "${KIPRJMOD}/Honeydew.pretty/3d/EC10E.step"
+  (model "${KIPRJMOD}/Honeydew.pretty/3d/EC10E-9MM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
