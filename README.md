@@ -17,12 +17,26 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 * 1.5" 128x128 SSD1351 RGB QP OLED support using the Waveshare breakout board [Waveshare breakout board](https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module) or the [Crenshaw](https://github.com/Ariamelon/Crenshaw)
 * Gasket-mount case.
 
-![Full Render Front](Showcase/Full-Render-B.png)
-![Full Render Back](Showcase/Full-Render-F.png)
-![Board Render Front](Showcase/Board-Render-B.png)
-![BoardRender Back](Showcase/Board-Render-F.png)
+## VIK keyboard certification card
+| Category                 | Classification          | Response           |
+| -----------------------  | ----------------------- | ------------------ |
+| FPC connector            | Required                | :heavy_check_mark: |
+| Breakout pins            | Recommended             | :x:                |
+| Supplies: SPI            | Strongly recommended    | :heavy_check_mark: |
+| Supplies: I2C            | Strongly recommended    | :heavy_check_mark: |
+| I2C on main PCB          | Discouraged             | No                 |
+| I2C pull ups             | Informative             | N/A                |
+| Supplies: RGB            | Strongly recommended    | :heavy_check_mark: |
+| Supplies: Extra GPIO 1   | Required                | Analog/Digital     |
+| Supplies: Extra GPIO 2   | Required                | Analog/Digital     |
+
+![Full Render Front](Showcase/Full-Render-F.png)
+![Full Render Back](Showcase/Full-Render-B.png)
+![Board Render Front](Showcase/Board-Render-F.png)
+![BoardRender Back](Showcase/Board-Render-B.png)
 
 ## Changelog
+* 30/07/2023: Added VIK keyboard certification card. Added USB connector back to PCB, but left the two buttons on a separate daughterboard. Modified case to accommodate large VIK module.
 * 28/07/2023: Removed center ring encoder, cirque trackpad and PMW3360 support. Added VIK header and hole in the center of the PCB for the [Kiwano](https://github.com/Ariamelon/Kiwano). Changed JST connectors back to 20 pin FFC. Total rearrangement of parts in keyboard center. Stitched ground planes together. Added USB module to board rather than have it be separate.
 * 26/07/2023: Slightly increased size of screw hole pads. Added two more screw holes. Added mounting holes to plate. Flipped gerbers for scrollwheel plate.
 * 25/07/2023: Changed 8 pin JST SH connector to 6 pin. Pushed JST connectors back. Improved 3D model of SSD1351. Minor fix to PER56 footprint.

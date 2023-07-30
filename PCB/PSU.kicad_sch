@@ -6,7 +6,7 @@
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-07-29")
+    (date "2023-07-30")
     (rev "V3.0")
     (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
@@ -1483,12 +1483,12 @@
     (property "LCSC" "C456075" (at 137.16 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d27bf1c8-9dc8-40a2-aae4-2783f79a545a))
-    (pin "2" (uuid 9787c1a2-1ecd-48e9-8bf6-9b6995c67605))
-    (pin "6" (uuid 07b8cb3d-cb50-4abb-a264-3876170d0431))
-    (pin "3" (uuid 48247fac-7a88-4109-938b-b60e9e3e6ad9))
-    (pin "4" (uuid cab70361-4343-45cb-8f66-e232584a4902))
-    (pin "5" (uuid 4bfc59b2-c338-441d-b0d3-b13b07e76248))
+    (pin "1" (uuid 2bd7e022-fbf0-4bdf-9c1f-8a7c4d1f01a5))
+    (pin "2" (uuid cc13b4a7-da5a-46c4-a5eb-e07c4ae829a5))
+    (pin "6" (uuid 1b92b626-e890-499f-8a18-a2a2017ef685))
+    (pin "3" (uuid a4ee26e2-ea9d-4e7b-a51e-e5f1014eb06a))
+    (pin "4" (uuid 79340f4d-fe4c-40b8-af59-6d65090f99ae))
+    (pin "5" (uuid 32f4bab5-9532-4927-98ca-0244b19bb980))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -1550,8 +1550,8 @@
     (property "Voltage" "25V" (at 22.86 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 17568b9f-f3c3-4d8f-a47e-8d856bfa3816))
-    (pin "2" (uuid 67f38b18-e493-4efd-9048-1f95402c3350))
+    (pin "1" (uuid 11edc14a-775d-4237-9210-784df50eec79))
+    (pin "2" (uuid 9d5428d3-8aab-4839-b45a-e5c180f46a6b))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -1666,15 +1666,15 @@
     (property "LCSC" "C2155777" (at 91.44 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8dc31079-5470-4cd7-9a89-bf361a2be604))
-    (pin "2" (uuid ffa3c89c-a118-4b0e-a7d5-7976da0fecc7))
-    (pin "3" (uuid 87ca2123-dec7-4e9f-9a42-acbdcbbf37d4))
-    (pin "4" (uuid a9e52a95-e4c9-43ac-b7e9-55ff223f52e5))
-    (pin "5" (uuid 715336fa-bed7-452a-9f63-37379314e524))
-    (pin "6" (uuid 2c34a5e2-17cf-4e57-b1e6-68fafade189c))
-    (pin "7" (uuid 9fb99357-bf9c-4bed-a709-a1afabf18b1d))
-    (pin "8" (uuid 7d859ea6-f1ef-4817-8293-52c1e8b291a1))
-    (pin "9" (uuid f76b2cab-558b-41a2-81e0-24370db31540))
+    (pin "1" (uuid bfcaff1e-dc89-4d15-af96-b15432c171ce))
+    (pin "2" (uuid dad70357-059e-47c3-810c-051b930350eb))
+    (pin "3" (uuid 7981d846-1c4a-4d72-bb73-27a3acbc74a2))
+    (pin "4" (uuid 6e47a15a-fc74-4eb3-b737-e8432ed5d8a8))
+    (pin "5" (uuid 0b4e55ac-f0ab-4ba4-ba64-e387f59ad9b3))
+    (pin "6" (uuid 26829197-7149-4905-860b-2d4fc4198eb6))
+    (pin "7" (uuid e5fbd549-e1f4-4cf1-a00f-009088b1c203))
+    (pin "8" (uuid c2b0d990-2eb4-4cc8-9462-d31f645ec71d))
+    (pin "9" (uuid 4105e345-9c32-4792-b158-d8d536fca5f9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -1708,8 +1708,8 @@
     (property "Voltage" "10V" (at 233.68 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dee9aa58-29e1-499b-83b8-daf80dce8e82))
-    (pin "2" (uuid 8317f487-800b-4232-841e-ea3c6d3692c6))
+    (pin "1" (uuid acff0dca-709f-4891-9095-25ed49bc2740))
+    (pin "2" (uuid cdd1471b-0ca8-4163-940d-3c3f597d269d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -1768,8 +1768,8 @@
     (property "LCSC" "C25744" (at 109.22 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c11d240c-02ed-4f14-998d-23b9cf889c9d))
-    (pin "2" (uuid f1ae2191-4cb0-4b46-a5d8-a4f696f51569))
+    (pin "1" (uuid b83ff135-ed35-434e-ad48-88b94de40df7))
+    (pin "2" (uuid a893369c-5d7c-408c-8843-85c67b7bbf97))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -1965,8 +1965,8 @@
     (property "LCSC" "C25752" (at 104.14 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64760dc7-68f3-4575-893c-6be03d608298))
-    (pin "2" (uuid 5ffb9e24-08c0-4ff7-92df-26bf650b3740))
+    (pin "1" (uuid 22cb8d26-a20f-4feb-bdcb-8b01d694e110))
+    (pin "2" (uuid b63c2ee2-b737-437a-9a16-27e4a98a1859))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -1994,9 +1994,9 @@
     (property "LCSC" "C5446" (at 33.02 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0365ac8a-4992-490c-a174-5f8f6dae97a7))
-    (pin "2" (uuid 03dc8972-979b-409e-ab5a-a837c39161fa))
-    (pin "3" (uuid 303dab02-f727-4fe6-8449-e250b7c4f41b))
+    (pin "1" (uuid 8380113c-dc9e-4ef2-b977-d39d8a57602b))
+    (pin "2" (uuid 8b46b399-d139-4304-80db-b4ecf2167536))
+    (pin "3" (uuid f2e0096f-3de1-4e41-815e-ba22d6e1cf0b))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2027,15 +2027,15 @@
     (property "LCSC" "C2155777" (at 195.58 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c88e1d5-d4b2-4c00-91e9-e945f986c601))
-    (pin "2" (uuid 6fb29fbe-d786-41d9-befe-67d1b1522c51))
-    (pin "3" (uuid fe541104-d250-4e31-911e-411b7f0d69dd))
-    (pin "4" (uuid db7aa4e0-390a-444c-aaea-d0ce652c5bc5))
-    (pin "5" (uuid 4ed63f59-76ed-4104-b2af-fdc729e5e825))
-    (pin "6" (uuid 8a893ff1-984b-4fc5-b091-d6c4aeb49bbf))
-    (pin "7" (uuid cf69d5f8-6657-449e-89b9-7d1608d375c7))
-    (pin "8" (uuid 39330e99-f290-4718-98fb-08c6ca0c6678))
-    (pin "9" (uuid 120a2aad-e1c7-4416-84ed-56053a408719))
+    (pin "1" (uuid f27e7128-b5f1-47d0-99e4-53c87b7be182))
+    (pin "2" (uuid 66d2c54d-2182-4bc1-a4cc-40237ff9b053))
+    (pin "3" (uuid 0d639780-3721-4382-86ca-f14f99e54fe4))
+    (pin "4" (uuid f08e3aa7-4813-4f83-ae14-075013933503))
+    (pin "5" (uuid 37ca8a5a-73d3-48a6-8701-4320c79d9634))
+    (pin "6" (uuid b022debc-0b58-4269-9513-4622f06fabd0))
+    (pin "7" (uuid d0009804-1f3d-4fb4-8a9a-23eddf366f2e))
+    (pin "8" (uuid 73e274ab-8bc9-4a50-aed1-05f91d34a76d))
+    (pin "9" (uuid 254c3d1b-dfdd-41a8-bf54-98bf5ad685cb))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2069,8 +2069,8 @@
     (property "Voltage" "50V" (at 87.63 48.2537 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5f91bf7-0564-4487-9bb0-598cdab6265c))
-    (pin "2" (uuid 450b1395-4c0e-40ba-8d5d-49b6161e43c9))
+    (pin "1" (uuid 910482c8-a05f-4b84-a9ad-ce29320bde9f))
+    (pin "2" (uuid 5010280a-5008-4e8a-8402-4a440badd4f6))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2101,8 +2101,8 @@
     (property "LCSC" "C25756" (at 43.18 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 144575d7-e458-442a-a347-d29c93e64315))
-    (pin "2" (uuid ad3a2061-fa74-4121-94df-950b4ae654a0))
+    (pin "1" (uuid 6e349241-4571-4302-a4cf-32dd9dc3ffd4))
+    (pin "2" (uuid 7b6acda2-2903-4d34-a535-2c9a15af305c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2133,8 +2133,8 @@
     (property "LCSC" "C2939747" (at 27.94 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 11cc94cd-dbdc-4b9a-9c5c-bfa9c0ca4cc7))
-    (pin "2" (uuid d97e178e-0959-42f9-8918-3fcb710afa0e))
+    (pin "1" (uuid a3b70d42-afa9-4919-86f3-86903daf35d4))
+    (pin "2" (uuid b4fc3eb4-bdc2-4a16-843b-1c683d9c43a5))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2162,11 +2162,11 @@
     (property "LCSC" "C188337" (at 27.94 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e7ff59a-05a5-4e88-9933-b36bcf5599f8))
-    (pin "2" (uuid 2228eda4-1890-4fb2-9dbd-e07bc847c4ce))
-    (pin "3" (uuid c9f9395a-b18e-4b16-b747-25d2f99d639a))
-    (pin "4" (uuid bd454059-255f-4368-b07f-0b6ed03e5e45))
-    (pin "5" (uuid 8761672c-b5b9-4b89-b31b-78a91632749f))
+    (pin "1" (uuid 95176a98-a1d5-44ee-942f-7c8785601e15))
+    (pin "2" (uuid a8891f63-9aa4-4652-983b-661090e20abd))
+    (pin "3" (uuid 7e016946-ac69-4d6b-aee5-4e7453506082))
+    (pin "4" (uuid d7583d1f-c119-40cd-ae1f-c8a0ab1df811))
+    (pin "5" (uuid 6a4804c5-3d75-464d-89da-03af825590f9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2197,8 +2197,8 @@
     (property "LCSC" "C25744" (at 73.66 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 269165bf-42c8-4be7-b537-4c40d0e5b106))
-    (pin "2" (uuid c1d18680-1218-429a-b4e9-25251384bf5a))
+    (pin "1" (uuid e3209e43-d23e-4537-b3d9-8a33b68875dc))
+    (pin "2" (uuid 0eb04431-f259-44a5-b3e5-e666d4895a13))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2229,8 +2229,8 @@
     (property "LCSC" "C4109" (at 119.38 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4b43a9a-05f7-4f99-b227-c29b8ce748d8))
-    (pin "2" (uuid 0ab51d18-e25f-4ed2-8e03-4d01c1c53899))
+    (pin "1" (uuid eeb26b60-076d-4eb3-a605-7f8c69573ba4))
+    (pin "2" (uuid 898610b7-dfa6-48f2-b20c-e2d8a10e401c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2317,8 +2317,8 @@
     (property "Voltage" "50V" (at 26.67 48.2537 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4098123c-62fd-408d-8b65-4eb558c65854))
-    (pin "2" (uuid abd4573c-2bd4-4f3a-aa15-65dd960be0ee))
+    (pin "1" (uuid 31469952-264b-4c7a-b3d1-c781dd933365))
+    (pin "2" (uuid 45d93061-6a8d-44f3-b8dd-1372fbadc2b5))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2380,8 +2380,8 @@
     (property "Voltage" "50V" (at 173.99 45.7137 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe1eacbd-d4c5-4500-8c5f-2fee873883bb))
-    (pin "2" (uuid a9b909dc-f234-4a8d-a014-b4b3152795cf))
+    (pin "1" (uuid 537a94e5-525a-4dbf-9124-efbaedae89d0))
+    (pin "2" (uuid 2c34689b-5cf6-478a-b53b-5af7f00de783))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2443,8 +2443,8 @@
     (property "Voltage" "50V" (at 176.53 33.0137 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 351f58d9-e067-44ac-a1ab-a54122a3c69a))
-    (pin "2" (uuid 686b42b6-e52c-454c-b0a0-9a0c1f6c6a00))
+    (pin "1" (uuid 1e6583c1-c1ca-46d4-8f4d-df211817dbcb))
+    (pin "2" (uuid 57262d8d-f1cf-4524-a71f-1cbe37796d6d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2506,8 +2506,8 @@
     (property "Voltage" "25V" (at 124.46 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc798524-11e9-45de-9fe7-24c548e8d1ba))
-    (pin "2" (uuid c8b9b1f1-cd58-4829-98d2-e2dd0b02f0e4))
+    (pin "1" (uuid 820d3fd5-6fa4-457a-97a1-d2f9a4f8d041))
+    (pin "2" (uuid 2c39a0dc-0ba4-4444-b102-82b96cd7de14))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2566,8 +2566,8 @@
     (property "LCSC" "C25917" (at 111.76 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db31284d-01bb-41fb-b554-92bffedabaf1))
-    (pin "2" (uuid 8f3ffe04-930f-4795-a3ed-d727e58c9023))
+    (pin "1" (uuid 18803187-0245-4bac-8892-90e4cd979077))
+    (pin "2" (uuid 3b947b0a-0fe4-47a2-bc24-f86bf68029d3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2626,8 +2626,8 @@
     (property "Voltage" "50V" (at 54.61 33.0137 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b2d13d9-0009-4419-87a4-a35802be2f17))
-    (pin "2" (uuid 7b2b4186-cdf4-43b2-afb5-cd7f0a5d93fc))
+    (pin "1" (uuid 1b199ab2-4181-4d79-a325-0329850fc9a5))
+    (pin "2" (uuid 836b9ad7-f7d0-4470-9b55-10272042f416))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2739,8 +2739,8 @@
     (property "LCSC" "C25744" (at 73.66 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d34eb3a7-3453-4028-8d0e-d244fda27c8f))
-    (pin "2" (uuid d4d33c77-a4c0-458e-881d-8b6a5e243b0e))
+    (pin "1" (uuid 24a10acf-70d2-4afb-9a5d-046315750800))
+    (pin "2" (uuid 77baae67-53dd-4db1-904d-66860e9132d4))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2774,8 +2774,8 @@
     (property "Voltage" "25V" (at 223.52 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f1eaf568-9e1b-4a82-9601-96c427babadc))
-    (pin "2" (uuid fbffab71-b9b4-4f02-b5ee-16b19ad9d165))
+    (pin "1" (uuid f20c94cb-74f2-4186-9ba7-c8ba5adde746))
+    (pin "2" (uuid 93881d64-b1d7-47d9-b16b-e1a579792222))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2809,8 +2809,8 @@
     (property "Voltage" "10V" (at 243.84 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 057c2c00-72a4-4b34-9e23-72555510a91a))
-    (pin "2" (uuid 85024baf-634c-46ed-bde0-0b871a9c5273))
+    (pin "1" (uuid f560f092-06d7-4cc9-8bf4-dd1d862c20e9))
+    (pin "2" (uuid 32dd48a9-0957-42e7-9c5a-c1c563c38ba1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2841,8 +2841,8 @@
     (property "LCSC" "C4109" (at 208.28 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bc949a2-ebc2-4d88-93e4-2a4674dceff1))
-    (pin "2" (uuid 8c29ad9d-f520-4fca-b63a-e1f644411558))
+    (pin "1" (uuid 956ff4b8-8280-4173-8e10-fc8ce4369998))
+    (pin "2" (uuid 1ab6d235-ec24-4ecf-ae88-27d6596a7b96))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2873,8 +2873,8 @@
     (property "LCSC" "C4109" (at 142.24 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 236f52aa-3fab-4438-a890-b82accce8b08))
-    (pin "2" (uuid 192906c0-0973-44aa-945e-88d0e56bdf34))
+    (pin "1" (uuid f713cb01-27ff-47a4-95ab-6633727e898b))
+    (pin "2" (uuid ee8f05f4-c463-46cc-96ec-2ea5c0138df2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2905,8 +2905,8 @@
     (property "LCSC" "C11702" (at 215.9 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f850a577-bcbd-434f-82e5-ff0357f5fa48))
-    (pin "2" (uuid 94025ee4-0ad3-4323-b780-b4956ffc84c3))
+    (pin "1" (uuid 95289492-7cac-42a2-b6d5-14b28f603ea7))
+    (pin "2" (uuid 26b9f2ab-82cd-4138-8c2b-0f117da6e6dc))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/d133c1c6-f35d-4b98-81a0-3607ab1d2de1"
@@ -2940,8 +2940,8 @@
     (property "LCSC" "C25744" (at 43.18 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e06db5e-f126-406d-9d83-f5849bbb93bb))
-    (pin "2" (uuid 4281bc48-9918-4ae2-8dcb-0264b4cdd972))
+    (pin "1" (uuid a725b94c-d367-4343-bdb6-9387f4c39c12))
+    (pin "2" (uuid e0401926-cdca-44eb-bf85-0cf6c896614d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -2972,8 +2972,8 @@
     (property "LCSC" "C25744" (at 182.88 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5cd11cc0-3108-40aa-843b-e123f6435ecb))
-    (pin "2" (uuid 6296be0a-4f30-4850-9cbe-b4ed468be11c))
+    (pin "1" (uuid 4129a089-5541-4946-b60c-4cc119e52b54))
+    (pin "2" (uuid 2b2a0ccc-f4d6-49ba-9d5a-1cdc18b42d80))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3032,12 +3032,12 @@
     (property "LCSC" "C456075" (at 116.84 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a90ede97-2a1e-4793-81e3-a2eb00910212))
-    (pin "2" (uuid 9765e7f4-e8aa-4438-a125-45de990d36f6))
-    (pin "6" (uuid e1d95a24-c019-4f1c-8125-66acc9a6955b))
-    (pin "3" (uuid 37cccc67-10e6-44f2-bed9-28b1e231636c))
-    (pin "4" (uuid 63e326b7-e6f4-45e1-9470-39e766c4c58e))
-    (pin "5" (uuid 81d80489-1229-4ef2-9b06-1860a6b28105))
+    (pin "1" (uuid cc31e03d-f544-486f-b3f0-d46bbdcd6501))
+    (pin "2" (uuid a5003aff-d825-4c05-877b-cfd2b9d2c9db))
+    (pin "6" (uuid 7e1878de-9153-4153-af01-fe1922fd6374))
+    (pin "3" (uuid 4958767a-5233-46f8-8fa6-22add6874260))
+    (pin "4" (uuid b422d377-ca89-4c2a-9724-048994e9ca57))
+    (pin "5" (uuid f3aba7cd-0dec-4f43-a2e2-6337ae4a9adc))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3071,8 +3071,8 @@
     (property "Voltage" "10V" (at 254 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9204c158-edfb-4a05-b918-187ad022572a))
-    (pin "2" (uuid 929e6229-a4b7-449f-8ddb-d7cc9993aeaa))
+    (pin "1" (uuid faf961be-385b-4f9f-afde-819242256c70))
+    (pin "2" (uuid 44eaf1cc-b3b1-421b-b399-9471d96e6d3e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3159,8 +3159,8 @@
     (property "LCSC" "C25744" (at 144.78 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 580d6b4b-c8c9-4015-a909-23399fe5d465))
-    (pin "2" (uuid 13373ac6-1906-49d9-a9a6-d94b0323e754))
+    (pin "1" (uuid a8ef8a18-e7d7-496a-b04a-785e8d78c531))
+    (pin "2" (uuid e2b2c996-ad59-4086-8a50-ff3fc7ee5f98))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3225,8 +3225,8 @@
     (property "Voltage" "25V" (at 43.18 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 24ca5c1d-7767-448b-948e-899f0b067080))
-    (pin "2" (uuid d28427f8-6466-4fd3-86c0-26de0f035a2a))
+    (pin "1" (uuid 9052279e-6054-468b-85df-c0775bd235eb))
+    (pin "2" (uuid 12fd37da-ef03-42d8-8686-117e338dd0d8))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
@@ -3282,8 +3282,8 @@
     (property "LCSC" "C25900" (at 134.62 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 632c02da-9b6f-4029-8aee-385397b17b58))
-    (pin "2" (uuid 023f633e-30eb-4c6b-ad78-93fa582c4ea3))
+    (pin "1" (uuid d5a975a0-d112-40cd-96e3-e294ff699ff6))
+    (pin "2" (uuid ac83623e-881c-4665-89c6-994baffc18d0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/0e23afb1-1d24-49d7-b6b4-dea31b732359"
