@@ -6,7 +6,7 @@
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-07-30")
+    (date "2023-07-31")
     (rev "V3.0")
     (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
@@ -7121,10 +7121,10 @@
     (property "Description" "DNP" (at 119.38 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 92c9215a-fef4-4f3a-aad6-4dbd529a4482))
-    (pin "2" (uuid 57f0ea0e-607e-46b6-9558-e039b3b95bef))
-    (pin "3" (uuid ccf9293c-4c6a-4c0e-9d13-8c68923de1b7))
-    (pin "4" (uuid 92205948-6b59-48d9-8eb3-31babbe22cfe))
+    (pin "1" (uuid 59246434-346a-4109-ad1a-8be160a55b5a))
+    (pin "2" (uuid d2c83a5b-2e3f-4e7e-b5be-34863132b5eb))
+    (pin "3" (uuid dd1b97c1-49ee-4a05-85a2-dd6939b54c5c))
+    (pin "4" (uuid ee8e4518-7834-4c42-8fcd-3557697a27b1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f"
