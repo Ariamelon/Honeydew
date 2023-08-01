@@ -34,8 +34,10 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 ![Full Render Trackball Ring Back](Showcase/Full-Render-Trackball-Ring-B.png)
 ![Full Render Trackball Illuminated Front](Showcase/Full-Render-Trackball-Illuminated-F.png)
 ![Full Render Trackball Illuminated Back](Showcase/Full-Render-Trackball-Illuminated-B.png)
+![Full Render Trackpad Front](Showcase/Full-Render-Trackpad-F.png)
+![Full Render Trackpad Back](Showcase/Full-Render-Trackpad-B.png)
 ![Board Render Front](Showcase/Board-Render-F.png)
-![BoardRender Back](Showcase/Board-Render-B.png)
+![Board Render Back](Showcase/Board-Render-B.png)
 
 ## Changelog
 * 01/08/2023: Removed 3D files for trackpad mount and knob, moved to [Kiwano](https://github.com/Ariamelon/Kiwano) repository. Increased size of center hole in plate. Added renders with trackball configurations (refer to Kiwano).
