@@ -30,12 +30,15 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 | Supplies: Extra GPIO 1   | Required                | Analog/Digital     |
 | Supplies: Extra GPIO 2   | Required                | Analog/Digital     |
 
-![Full Render Front](Showcase/Full-Render-F.png)
-![Full Render Back](Showcase/Full-Render-B.png)
+![Full Render Trackball Ring Front](Showcase/Full-Render-Trackball-Ring-F.png)
+![Full Render Trackball Ring Back](Showcase/Full-Render-Trackball-Ring-B.png)
+![Full Render Trackball Illuminated Front](Showcase/Full-Render-Trackball-Illuminated-F.png)
+![Full Render Trackball Illuminated Back](Showcase/Full-Render-Trackball-Illuminated-B.png)
 ![Board Render Front](Showcase/Board-Render-F.png)
 ![BoardRender Back](Showcase/Board-Render-B.png)
 
 ## Changelog
+* 01/08/2023: Removed 3D files for trackpad mount and knob, moved to [Kiwano](https://github.com/Ariamelon/Kiwano) repository. Increased size of center hole in plate. Added renders with trackball configurations (refer to Kiwano).
 * 31/07/2023: Removed button daughterboard. Reduced size of case and gaskets and added locating features. Added o-ring mounting for the PCB to the bottom case. Added fittings BOM.
 * 30/07/2023: Added VIK keyboard certification card. Added USB connector back to PCB, but left the two buttons on a separate daughterboard. Modified case to accommodate large VIK module.
 * 28/07/2023: Removed center ring encoder, cirque trackpad and PMW3360 support. Added VIK header and hole in the center of the PCB for the [Kiwano](https://github.com/Ariamelon/Kiwano). Changed JST connectors back to 20 pin FFC. Total rearrangement of parts in keyboard center. Stitched ground planes together. Added USB module to board rather than have it be separate.
