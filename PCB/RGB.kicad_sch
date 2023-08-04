@@ -6,7 +6,7 @@
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-07-31")
+    (date "2023-08-04")
     (rev "V3.0")
     (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
@@ -3317,7 +3317,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C53") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -3426,7 +3426,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C58") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -3495,7 +3495,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C59") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -3536,7 +3536,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C73") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
     )
@@ -3577,7 +3577,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C93") (unit 1)
+          (reference "C90") (unit 1)
         )
       )
     )
@@ -3652,7 +3652,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C90") (unit 1)
+          (reference "C87") (unit 1)
         )
       )
     )
@@ -3786,7 +3786,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C86") (unit 1)
+          (reference "C83") (unit 1)
         )
       )
     )
@@ -3895,7 +3895,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C62") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -4032,7 +4032,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C45") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -4073,7 +4073,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C46") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -4114,7 +4114,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C41") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -4207,7 +4207,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C101") (unit 1)
+          (reference "C98") (unit 1)
         )
       )
     )
@@ -4375,7 +4375,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C79") (unit 1)
+          (reference "C76") (unit 1)
         )
       )
     )
@@ -4416,7 +4416,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C68") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
     )
@@ -4457,7 +4457,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C88") (unit 1)
+          (reference "C85") (unit 1)
         )
       )
     )
@@ -4566,7 +4566,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C71") (unit 1)
+          (reference "C68") (unit 1)
         )
       )
     )
@@ -4607,7 +4607,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C102") (unit 1)
+          (reference "C99") (unit 1)
         )
       )
     )
@@ -4750,7 +4750,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C67") (unit 1)
+          (reference "C64") (unit 1)
         )
       )
     )
@@ -4791,7 +4791,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C100") (unit 1)
+          (reference "C97") (unit 1)
         )
       )
     )
@@ -4922,7 +4922,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C69") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
     )
@@ -4963,7 +4963,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C44") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -5004,7 +5004,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C47") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -5147,7 +5147,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C89") (unit 1)
+          (reference "C86") (unit 1)
         )
       )
     )
@@ -5188,7 +5188,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C103") (unit 1)
+          (reference "C100") (unit 1)
         )
       )
     )
@@ -5263,7 +5263,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C99") (unit 1)
+          (reference "C96") (unit 1)
         )
       )
     )
@@ -5406,7 +5406,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C78") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
     )
@@ -5481,7 +5481,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C77") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
     )
@@ -5624,7 +5624,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C50") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
     )
@@ -5665,7 +5665,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C81") (unit 1)
+          (reference "C78") (unit 1)
         )
       )
     )
@@ -5740,7 +5740,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C80") (unit 1)
+          (reference "C77") (unit 1)
         )
       )
     )
@@ -5815,7 +5815,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C84") (unit 1)
+          (reference "C81") (unit 1)
         )
       )
     )
@@ -5856,7 +5856,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C48") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -5931,7 +5931,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C82") (unit 1)
+          (reference "C79") (unit 1)
         )
       )
     )
@@ -6006,7 +6006,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C76") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -6081,7 +6081,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C92") (unit 1)
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -6122,7 +6122,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C72") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -6163,7 +6163,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C63") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
     )
@@ -6204,7 +6204,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C66") (unit 1)
+          (reference "C63") (unit 1)
         )
       )
     )
@@ -6313,7 +6313,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C95") (unit 1)
+          (reference "C92") (unit 1)
         )
       )
     )
@@ -6388,7 +6388,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C57") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -6463,7 +6463,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C94") (unit 1)
+          (reference "C91") (unit 1)
         )
       )
     )
@@ -6606,7 +6606,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C96") (unit 1)
+          (reference "C93") (unit 1)
         )
       )
     )
@@ -6681,7 +6681,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C97") (unit 1)
+          (reference "C94") (unit 1)
         )
       )
     )
@@ -6722,7 +6722,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C56") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -6763,7 +6763,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C65") (unit 1)
+          (reference "C62") (unit 1)
         )
       )
     )
@@ -6804,7 +6804,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C98") (unit 1)
+          (reference "C95") (unit 1)
         )
       )
     )
@@ -6845,7 +6845,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C42") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -6954,7 +6954,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C70") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
     )
@@ -6995,7 +6995,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C60") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -7172,7 +7172,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C51") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
     )
@@ -7241,7 +7241,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C49") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -7282,7 +7282,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C54") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -7493,7 +7493,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C52") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -7534,7 +7534,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C43") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -7637,7 +7637,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C55") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -7771,7 +7771,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C91") (unit 1)
+          (reference "C88") (unit 1)
         )
       )
     )
@@ -7846,7 +7846,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C40") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -7887,7 +7887,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C74") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -7928,7 +7928,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C85") (unit 1)
+          (reference "C82") (unit 1)
         )
       )
     )
@@ -7969,7 +7969,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C64") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
     )
@@ -8180,7 +8180,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C61") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -8289,7 +8289,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C87") (unit 1)
+          (reference "C84") (unit 1)
         )
       )
     )
@@ -8330,7 +8330,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C75") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -8405,7 +8405,7 @@
           (reference "C30") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/6e258a66-57df-44a5-ad7a-a7c1b9255fcb"
-          (reference "C83") (unit 1)
+          (reference "C80") (unit 1)
         )
       )
     )

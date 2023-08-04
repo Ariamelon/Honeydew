@@ -185,7 +185,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d4f0a957-ac93-4708-9a07-d1af791e68a2))
   (fp_arc (start 4.125 -6.82478) (mid 5.539213 -6.238994) (end 6.125 -4.82478)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c970b03d-c151-4a38-8492-86bae53c425f))
-  (pad "" np_thru_hole circle (at 0 0 180) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 0276d87f-7570-4a89-a64d-7ed0588f6c07))
+  (pad "" np_thru_hole circle (at 0 0 180) (size 5 5) (drill 5) (layers "F&B.Cu" "*.Mask") (tstamp 0276d87f-7570-4a89-a64d-7ed0588f6c07))
   (pad "" np_thru_hole circle (at 3.81 -2.54) (size 3 3) (drill 3) (layers "F&B.Cu" "*.Mask") (tstamp c077bde8-cdce-484c-b920-d28f7b88923a))
   (pad "1" smd rect (at 1.425 -5.95) (size 1.45 2.6) (layers "F.Cu") (tstamp 59c3eb1b-e04a-42a4-a4db-c54b8bbc4158))
   (pad "1" smd rect (at 3.245 -5.95 180) (size 2.65 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 645b6b34-fa83-4c06-8072-d7a7808d4526))
@@ -193,8 +193,8 @@
   (pad "1" smd rect (at 5.53 -2.54 180) (size 1.86 2.5) (layers "F.Cu") (tstamp 9f7d980c-ec40-4c14-887c-da795bb33827))
   (pad "1" smd rect (at 7.36 -2.54) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b2b2b71b-27e2-4343-baa6-4686b5faa7cc))
   (pad "2" smd rect (at -8.245 -3.75 180) (size 2.65 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp db31d922-5a75-4095-8b87-3935f7733bf5))
+  (pad "2" smd rect (at -7.1925 -5.08) (size 4.755 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 09961932-126a-41d9-baaf-becf455e48d0))
   (pad "2" smd rect (at -6.424998 -3.749998 180) (size 1.449996 2.599996) (layers "F.Cu") (tstamp 6665267b-ec70-40fb-9784-7e710869dc7f))
-  (pad "2" smd rect (at -6.09 -5.08) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 09961932-126a-41d9-baaf-becf455e48d0))
   (pad "2" smd rect (at -4.232499 -5.08) (size 1.864998 2.5) (layers "F.Cu") (tstamp 477e0103-6948-41b4-960f-a7f65955de0b))
   (model "${KIPRJMOD}/Honeydew.pretty/3d/SW_Cherry_MX_PCB.STEP"
     (offset (xyz 0 0 -1.58))
