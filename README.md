@@ -40,6 +40,7 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 ![Board Render Back](Showcase/Board-Render-B.png)
 
 ## Changelog
+* 05/08/2023: Fixed switch and SK6812 MINI-E footprints to get rid of DRC errors. Fixed EC10 footprint and merged together PTS645 and D2F footprints. Fixed plate files to fit JLC 1.6mm minimum slot specification. Added fusion file for overall design.
 * 04/08/2023: Updated SK6812 MINI-E and switch footprints. Changed VIK FFC to FH12. Fixed VIK footprint. Replaced second TPS2595 with AO3401 PFET. Fixed trackpad mount, thumb scroll wheel and scroll wheel mount.
 * 01/08/2023: Removed 3D files for trackpad mount and knob, moved to [Kiwano](https://github.com/Ariamelon/Kiwano) repository. Increased size of center hole in plate. Added renders with trackball configurations (refer to Kiwano).
 * 31/07/2023: Removed button daughterboard. Reduced size of case and gaskets and added locating features. Added o-ring mounting for the PCB to the bottom case. Added fittings BOM.
