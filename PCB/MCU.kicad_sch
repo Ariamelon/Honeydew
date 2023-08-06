@@ -6,7 +6,7 @@
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-08-05")
+    (date "2023-08-06")
     (rev "V3.0")
     (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
@@ -2731,7 +2731,7 @@
     )
   )
 
-  (hierarchical_label "ROTC" (shape output) (at 165.1 71.12 0) (fields_autoplaced)
+  (hierarchical_label "ROTA" (shape output) (at 165.1 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 061b7da6-4f33-4cce-a059-c38fb1d67d23)
   )
@@ -2759,7 +2759,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 41835e63-7281-454f-9c7e-237b25e23ab6)
   )
-  (hierarchical_label "ROTD" (shape output) (at 165.1 73.66 0) (fields_autoplaced)
+  (hierarchical_label "ROTB" (shape output) (at 165.1 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 44ca28ca-405c-4525-8f48-1344dfbff866)
   )
