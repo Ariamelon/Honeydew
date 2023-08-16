@@ -10323,11 +10323,27 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SW_SPST_Small_0_1"
+      (circle (center -1.27 0) (radius 0.254)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (polyline
         (pts
-          (xy -1.27 0)
-          (xy 1.27 1.016)
+          (xy -1.27 0.635)
+          (xy 1.27 0.635)
         )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0.635)
+          (xy 0 1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle (center 1.27 0) (radius 0.254)
         (stroke (width 0) (type default))
         (fill (type none))
       )

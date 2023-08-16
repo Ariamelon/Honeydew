@@ -6,11 +6,12 @@
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-08-06")
-    (rev "V3.0")
+    (date "2023-08-16")
+    (rev "V3.1")
     (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
-    (comment 2 "Licensed under CC BY 4.0.")
+    (comment 2 "Follows the VIK standard by Sadek Baroudi (https://github.com/sadekbaroudi/VIK)")
+    (comment 3 "Licensed under CC BY 4.0.")
   )
 
   (lib_symbols
@@ -106,46 +107,6 @@
         (rectangle (start -7.62 12.7) (end 7.62 -15.24)
           (stroke (width 0.254) (type default))
           (fill (type background))
-        )
-      )
-    )
-    (symbol "Cantaloupe:SW_SPST_Small" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 -4.318 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SW_SPST_Small" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "switch lever" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Single Pole Single Throw (SPST) switch" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_SPST_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 1.27 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SW_SPST_Small_1_1"
-        (pin passive line (at -2.54 0 0) (length 1.27)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 0 180) (length 1.27)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -437,6 +398,62 @@
       (symbol "D_Dual_CommonCathode_AAK_Split_Small_2_1"
         (pin passive line (at -2.54 0 0) (length 1.778)
           (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Honeydew:SW_SPST_Small" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 0 -4.318 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "SW_SPST_Small" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "switch lever" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Single Pole Single Throw (SPST) switch" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SW_SPST_Small_0_1"
+        (circle (center -1.27 0) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0.635)
+            (xy 1.27 0.635)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.635)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 1.27 0) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "SW_SPST_Small_1_1"
+        (pin passive line (at -2.54 0 0) (length 1.27)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 0 180) (length 1.27)
+          (name "B" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2937,7 +2954,7 @@
     (uuid f59833da-3805-4313-9380-3562a544f237)
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 83.82 40.64 0) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 83.82 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 026e8223-7c4a-4ed2-9b4b-ed453b4d37ff)
     (property "Reference" "SW22" (at 83.82 38.1 0)
@@ -2949,7 +2966,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 83.82 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 83.82 35.56 0)
+    (property "Datasheet" "~" (at 83.82 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 83.82 40.64 0)
@@ -2958,8 +2975,8 @@
     (property "LCSC" "" (at 83.82 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76f5b481-32d9-4bb9-a6ed-8d52a5f835b7))
-    (pin "2" (uuid 77bd5cfa-eb8b-48e5-876b-bf3ec05bb69d))
+    (pin "1" (uuid 162926ec-fb20-470f-835a-c6fe60e33e4b))
+    (pin "2" (uuid 90f25ee7-7d89-4f5d-ad0e-f653541dbbbc))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -2969,7 +2986,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 58.42 71.12 0) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 58.42 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a39ea27-f16b-46a3-989a-b83ade6d97c1)
     (property "Reference" "SW14" (at 58.42 68.58 0)
@@ -2981,7 +2998,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 58.42 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 58.42 66.04 0)
+    (property "Datasheet" "~" (at 58.42 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 58.42 71.12 0)
@@ -2990,8 +3007,8 @@
     (property "LCSC" "" (at 58.42 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca2086d8-f5c6-4191-8f00-eb4250cf2a45))
-    (pin "2" (uuid ceb07890-1d21-4db3-991b-ffa2c2ee200f))
+    (pin "1" (uuid 3bdb2e96-b7a8-4c2d-b258-d4b158540ebc))
+    (pin "2" (uuid d953f2df-4c9e-49e8-92b1-41821fe992ee))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3001,7 +3018,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 71.12 86.36 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 71.12 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e6253ff-48ed-4b3e-a1fd-a8bfa62d3458)
     (property "Reference" "SW20" (at 71.12 83.82 0)
@@ -3013,7 +3030,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 71.12 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 71.12 81.28 0)
+    (property "Datasheet" "~" (at 71.12 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 71.12 86.36 0)
@@ -3022,8 +3039,8 @@
     (property "LCSC" "" (at 71.12 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ffb6390-b082-485b-90c8-63719eb8e7b0))
-    (pin "2" (uuid 9342c7c7-a00e-4bc6-b4eb-8cd64951e747))
+    (pin "1" (uuid 3d68a1ee-b4ce-4e4e-9051-650d01ce33a2))
+    (pin "2" (uuid 0f87c04a-b0fb-4ca0-886e-ca88f518e205))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3033,8 +3050,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 33.02 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 33.02 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12fa3aae-24db-4dbd-b6c2-c09838a28ba0)
     (property "Reference" "SW1" (at 33.02 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -3045,7 +3062,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 33.02 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 33.02 20.32 0)
+    (property "Datasheet" "~" (at 33.02 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 33.02 25.4 0)
@@ -3054,8 +3071,8 @@
     (property "LCSC" "" (at 33.02 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 27f087e6-f14d-4082-9550-4d9710028d55))
-    (pin "2" (uuid 43dde323-1301-401d-8fc3-faa9b49cd303))
+    (pin "1" (uuid 48a12b2b-78d8-44cb-a5db-f672a02d2208))
+    (pin "2" (uuid 2f4b68d7-a216-4893-8b63-aabb6a127f12))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3083,9 +3100,9 @@
     (property "LCSC" "C68978" (at 101.6 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid c3f70deb-f8b7-4025-a497-f4e3aa89a394))
-    (pin "1" (uuid 1db03f8b-43ef-4d1c-b2d0-97f79e7fa94b))
-    (pin "2" (uuid d442ebf0-0d35-4837-81ef-772128cdb37c))
+    (pin "3" (uuid 45909297-ee83-49ca-9369-a0a20442d00b))
+    (pin "1" (uuid 3a0c7d52-41d5-4599-b3ea-0aa34a8145df))
+    (pin "2" (uuid 9b2f412f-cbf9-4dc6-bfe1-9e6f3bb3e961))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3113,9 +3130,9 @@
     (property "LCSC" "C68978" (at 101.6 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 91b72f12-5b0e-4357-a107-76ecda3e71bc))
-    (pin "1" (uuid c1ecd082-0fc5-483e-a057-764f1d6f68f1))
-    (pin "2" (uuid 6fa6712e-6c83-4bb8-b107-d879a510e413))
+    (pin "3" (uuid ffb9cde1-b97e-4d50-b2bb-b5d4119bd567))
+    (pin "1" (uuid 76cb4ae2-46a4-48e9-b47e-cf1a7e48b906))
+    (pin "2" (uuid 7e15a2d1-c70f-4be7-94b4-2fd9ac3097df))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3125,8 +3142,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 198.12 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 198.12 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14d1854b-0a6b-4034-b244-4ef865b06dc6)
     (property "Reference" "SW37" (at 198.12 38.1 0)
       (effects (font (size 1.27 1.27)))
@@ -3137,7 +3154,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 198.12 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 198.12 35.56 0)
+    (property "Datasheet" "~" (at 198.12 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 198.12 40.64 0)
@@ -3146,8 +3163,8 @@
     (property "LCSC" "" (at 198.12 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5475d5b4-0c60-49a0-aaa6-81f3caf6bfd1))
-    (pin "2" (uuid a396b2d8-6319-4739-9daf-2d0c4c75a0f1))
+    (pin "1" (uuid 517e38c3-2896-4290-aee6-9c8e78a410a4))
+    (pin "2" (uuid 4bd263fb-4647-4739-bfdb-348a4284559c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3158,7 +3175,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 139.7 76.2 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 154cbb55-f21b-46c5-b00c-3f12ae6b7b1e)
     (property "Reference" "D97" (at 137.16 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3175,9 +3192,9 @@
     (property "LCSC" "C68978" (at 139.7 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid aeae2936-7e20-4168-b8ef-42f29d6c651e))
-    (pin "1" (uuid 1d9063d1-a6d8-4276-9f6b-5efbe6ff0cda))
-    (pin "2" (uuid 37efd10b-6c60-433f-b772-9b1aaaa895b5))
+    (pin "3" (uuid a6bdafe1-1b10-4cfc-8ff6-89f12122663b))
+    (pin "1" (uuid 93bbe842-9318-4b6a-b081-1eb14f92ee55))
+    (pin "2" (uuid 0fe888fa-c878-4382-989f-0961951b5f2a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3205,9 +3222,9 @@
     (property "LCSC" "C68978" (at 165.1 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 30543380-ac6c-4fee-b65b-119a9a542be5))
-    (pin "1" (uuid 3cb3010d-0739-4318-8259-5bd145688d7d))
-    (pin "2" (uuid 02539343-3bb4-4a21-9bcf-6410442a8f2c))
+    (pin "3" (uuid 448d3a5b-938e-4555-83d9-3d6fa9dd09e8))
+    (pin "1" (uuid 5bc0175a-359d-4d0f-af9a-41c6c3a27d12))
+    (pin "2" (uuid 581a7305-1b08-404f-849f-c3d46b8db279))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3217,8 +3234,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 185.42 25.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 185.42 25.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16edc936-b4f4-4a4e-b68d-2485a5a5e759)
     (property "Reference" "SW41" (at 185.42 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -3229,7 +3246,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 185.42 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 185.42 20.32 0)
+    (property "Datasheet" "~" (at 185.42 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 185.42 25.4 0)
@@ -3238,8 +3255,8 @@
     (property "LCSC" "" (at 185.42 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f83eca5-2a2e-4793-8b3c-4cb59e04ca33))
-    (pin "2" (uuid 30920840-3e53-494c-b654-41f2c6f33816))
+    (pin "1" (uuid a764e843-6f51-4ca9-9dc5-f792000fe10b))
+    (pin "2" (uuid 95e4a71c-74e1-4810-8b4a-1d15ffd57a67))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3250,13 +3267,13 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 152.4 76.2 270) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18850cf2-3891-4d59-9d66-aff55b894d23)
-    (property "Reference" "D94" (at 149.86 74.93 90)
+    (property "Reference" "D94" (at 150.622 74.9879 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "BAV70" (at 149.86 77.47 90)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BAV70" (at 150.622 77.4121 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Honeydew:SOT-23-3" (at 149.86 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3267,9 +3284,9 @@
     (property "LCSC" "C68978" (at 152.4 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 9a75612d-8222-4197-97f3-0375b9aa9a62))
-    (pin "1" (uuid 0c734169-27d6-4a2a-98e9-c3b5eca62c6a))
-    (pin "2" (uuid 5b92df67-5f9c-4eb3-a511-8c7b246579e1))
+    (pin "3" (uuid 4efc0547-d122-40cb-8d39-5027f2b70a4d))
+    (pin "1" (uuid 0639ece8-baf4-4364-b644-0122b81149b9))
+    (pin "2" (uuid 08be64fc-a3b9-4364-a4d4-734348ecc807))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3335,9 +3352,9 @@
     (property "LCSC" "C68978" (at 63.5 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 15177468-0e71-40df-bf3f-e1cdc9cbcee2))
-    (pin "1" (uuid 9b6d24cf-21f1-47f1-9377-9d63d31016d7))
-    (pin "2" (uuid da98a920-81bf-4e6c-9b9a-46a8ec868d9f))
+    (pin "3" (uuid e3e2936d-df35-419f-bf00-49f6bec86a60))
+    (pin "1" (uuid a1661862-b2b7-453a-9c95-6fe9a90f50bb))
+    (pin "2" (uuid 87d1a91f-b366-4fa7-a5c1-d19ba097b300))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3347,8 +3364,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 33.02 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 33.02 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f7eaa24-f5c6-4374-9ef6-db3c8c10c78b)
     (property "Reference" "SW5" (at 33.02 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -3359,7 +3376,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 33.02 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 33.02 81.28 0)
+    (property "Datasheet" "~" (at 33.02 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 33.02 86.36 0)
@@ -3368,8 +3385,8 @@
     (property "LCSC" "" (at 33.02 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f05ce372-aaf3-48a8-b98a-4df06ea540a4))
-    (pin "2" (uuid 4ab0532d-5ee7-4b75-8f27-81600a50cc56))
+    (pin "1" (uuid b75291d4-a6ee-435a-b5f9-7a3fd4c952f9))
+    (pin "2" (uuid fcd93735-723c-423c-b019-aac141c39f2d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3397,9 +3414,9 @@
     (property "LCSC" "C68978" (at 101.6 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 13afa0b9-2417-4a1c-a264-818c1bf4f2bf))
-    (pin "1" (uuid 3c459f5a-2990-4390-89e9-957fe0b9a0e3))
-    (pin "2" (uuid 8ec77f7d-da1d-43e8-b2df-bca47ced4404))
+    (pin "3" (uuid 90ef870e-4117-45aa-8f5f-8119b58cbf88))
+    (pin "1" (uuid 72284991-0720-4f9d-bada-a905dd40a2ce))
+    (pin "2" (uuid 036e91ef-01f4-4d4e-b6c4-2f95939f1e36))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3434,7 +3451,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 83.82 55.88 0) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 83.82 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24995a52-8464-4b35-bfd9-41ff32db0647)
     (property "Reference" "SW23" (at 83.82 53.34 0)
@@ -3446,7 +3463,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 83.82 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 83.82 50.8 0)
+    (property "Datasheet" "~" (at 83.82 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 83.82 55.88 0)
@@ -3455,8 +3472,8 @@
     (property "LCSC" "" (at 83.82 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da5a48e5-c4d7-4bf1-9af3-9048166d8cc6))
-    (pin "2" (uuid b9d98502-088c-4377-af09-6526188a3383))
+    (pin "1" (uuid 0180d1a8-7ae5-42d6-9506-77109e9291b5))
+    (pin "2" (uuid e79fb42d-4173-47c9-9495-1c8d2e050de9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3466,8 +3483,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 172.72 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 172.72 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2770871e-3358-4191-96b3-f29defbe0a0a)
     (property "Reference" "SW49" (at 172.72 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -3478,7 +3495,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 172.72 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 172.72 66.04 0)
+    (property "Datasheet" "~" (at 172.72 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 172.72 71.12 0)
@@ -3487,8 +3504,8 @@
     (property "LCSC" "" (at 172.72 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 97fcfca5-a5d1-4512-ab2b-4c9646064b82))
-    (pin "2" (uuid e9efd7df-e63e-4037-9ec7-0977a31e6ef3))
+    (pin "1" (uuid 09f21d2f-0640-4ad8-ae35-b24ea31010f1))
+    (pin "2" (uuid 44dd5ab9-a947-44b6-b62c-5a1fd712f6a4))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3499,13 +3516,13 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 152.4 91.44 270) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2820cc67-e8bf-4b02-84a7-feb3df212cab)
-    (property "Reference" "D95" (at 149.86 90.17 90)
+    (property "Reference" "D95" (at 150.622 90.2279 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "BAV70" (at 149.86 92.71 90)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BAV70" (at 150.622 92.6521 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Honeydew:SOT-23-3" (at 149.86 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3516,9 +3533,9 @@
     (property "LCSC" "C68978" (at 152.4 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid ece3edea-7c83-4927-9e61-05ec580b44f7))
-    (pin "1" (uuid 23e8861e-738e-4dbf-8cd1-4aab17bb30b4))
-    (pin "2" (uuid 8bf2a758-0a73-43ff-b2c2-9b10bf4b2819))
+    (pin "3" (uuid 896f177e-5bfe-47f2-8e97-26445e85e0d6))
+    (pin "1" (uuid 622a943d-56ae-4e2a-9430-39e89f2500ac))
+    (pin "2" (uuid fbb559a9-acc8-4553-89fe-152fc18dd3ff))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3546,9 +3563,9 @@
     (property "LCSC" "C68978" (at 50.8 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid ae2955dd-cf0d-4d46-a7e9-9e39117824f2))
-    (pin "1" (uuid 7d9176ab-ea0b-4bce-9792-54a87bcd6853))
-    (pin "2" (uuid b887ed4a-1f00-445c-b533-6c1b7a282f9f))
+    (pin "3" (uuid f8e7a998-1e89-4c02-9fc5-afca81274d0b))
+    (pin "1" (uuid 602e7b8f-b2c2-42f6-be37-700a169e49e3))
+    (pin "2" (uuid bed2c926-af30-4b81-80ae-bae21cfb0194))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3576,9 +3593,9 @@
     (property "LCSC" "C68978" (at 101.6 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 6c336053-1461-444d-8c4b-1090bf3b4d7e))
-    (pin "1" (uuid 21c11423-c828-44f3-ad52-47ef0950ce63))
-    (pin "2" (uuid 242fb5e0-d3f8-4bb4-9f6b-c2074ea671c9))
+    (pin "3" (uuid 18d4ff49-8310-4acd-a39c-442c36e10b66))
+    (pin "1" (uuid 8b697680-b2a7-4550-9309-7a8703df2f78))
+    (pin "2" (uuid fda01db9-76a5-4299-ab85-402998b9ea7f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3620,8 +3637,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 147.32 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 147.32 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ef76d6d-1cf6-454b-ada7-1b3db0a124f1)
     (property "Reference" "SW58" (at 147.32 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -3632,7 +3649,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 147.32 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 147.32 50.8 0)
+    (property "Datasheet" "~" (at 147.32 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 147.32 55.88 0)
@@ -3641,8 +3658,8 @@
     (property "LCSC" "" (at 147.32 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be440491-fed2-4784-8921-3c5aedfe0ddf))
-    (pin "2" (uuid a57fbf9f-bb9b-4c5d-91fc-1caf519aff84))
+    (pin "1" (uuid 13093834-801c-4887-8350-be65eb18e2aa))
+    (pin "2" (uuid 456ab815-47c5-4615-8901-d7a0c5e3d6e2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3653,7 +3670,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 38.1 60.96 270) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3189f488-dcca-4d58-904c-f3f8f693007c)
     (property "Reference" "D68" (at 35.56 59.69 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3670,9 +3687,9 @@
     (property "LCSC" "C68978" (at 38.1 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 8f67494c-4291-405d-b92f-851056ad1ed4))
-    (pin "1" (uuid 70456d77-0057-4811-b871-26a65bc71482))
-    (pin "2" (uuid 8539618c-2f7b-4eda-b790-a79b9ea0d63c))
+    (pin "3" (uuid b91903d8-a678-4a77-b851-e7921bb62160))
+    (pin "1" (uuid 6eb21c0c-7c2c-47eb-8434-f472a4c2c1e6))
+    (pin "2" (uuid f76a7608-4ca7-4657-a85e-62466d9aee51))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3682,8 +3699,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 185.42 86.36 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 185.42 86.36 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32a6d275-aa35-4a83-bf4d-b27f7fc2a11f)
     (property "Reference" "SW45" (at 185.42 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -3694,7 +3711,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 185.42 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 185.42 81.28 0)
+    (property "Datasheet" "~" (at 185.42 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 185.42 86.36 0)
@@ -3703,8 +3720,8 @@
     (property "LCSC" "" (at 185.42 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28b08236-fb6c-43eb-b331-9dcdf317ffa2))
-    (pin "2" (uuid 54026666-5d03-4fb7-9a8e-0f1d9f6e6034))
+    (pin "1" (uuid 141be2f5-43b1-4980-b975-e4b3474f0365))
+    (pin "2" (uuid 23671023-5a09-4772-8750-f2c74e2be320))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3806,8 +3823,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 147.32 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 147.32 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36a0063d-1043-47c6-8826-744204187113)
     (property "Reference" "SW56" (at 147.32 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -3818,7 +3835,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 147.32 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 147.32 20.32 0)
+    (property "Datasheet" "~" (at 147.32 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 147.32 25.4 0)
@@ -3827,8 +3844,8 @@
     (property "LCSC" "" (at 147.32 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1155113-2b5d-48c6-964e-fcd5960c4a34))
-    (pin "2" (uuid 0cdf57a4-dc74-4c07-899d-18da616cff0d))
+    (pin "1" (uuid ceb3b3c6-3240-4106-a8b7-53a5b4599bdf))
+    (pin "2" (uuid f2c2e851-2860-4996-959d-0c8f35a19800))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3856,9 +3873,9 @@
     (property "LCSC" "C68978" (at 88.9 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 20b084a5-d029-4e0c-85ae-c6ffc1455c3b))
-    (pin "1" (uuid 26e891a1-d8cd-496d-95f1-b3a339cfaefe))
-    (pin "2" (uuid c62b089f-1aef-4750-8f57-bcc2582b16dd))
+    (pin "3" (uuid 801bf443-f7eb-42c7-9b38-1e2b675e48ee))
+    (pin "1" (uuid 066a7901-d91c-44f5-80f9-e355dce8aff5))
+    (pin "2" (uuid f20ba95f-457e-4a3c-b27b-ba2d6183d08d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3886,9 +3903,9 @@
     (property "LCSC" "C68978" (at 165.1 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 18568ad0-626e-4e6b-a525-30d2db493708))
-    (pin "1" (uuid 990c2f4a-1423-4cbf-9d17-91fd08c0f7f2))
-    (pin "2" (uuid e2008b20-fdee-4200-a7b5-612d04df931a))
+    (pin "3" (uuid 71eb3d38-a4fe-4ae5-8695-b959f25ea36b))
+    (pin "1" (uuid bc5e5f73-7ed9-4ccf-900c-12642ca4a598))
+    (pin "2" (uuid 8e13b4c6-ce80-4ba2-a809-2a8da514997a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3898,8 +3915,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 172.72 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 172.72 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d313186-7166-473a-ab1a-0d079d4cc25e)
     (property "Reference" "SW46" (at 172.72 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -3910,7 +3927,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 172.72 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 172.72 20.32 0)
+    (property "Datasheet" "~" (at 172.72 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 172.72 25.4 0)
@@ -3919,8 +3936,8 @@
     (property "LCSC" "" (at 172.72 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4f3d29c-b8c6-4b8f-a444-2e6f634e87a9))
-    (pin "2" (uuid fc10931e-d4dd-4aea-a3ae-fcd80c5a9da8))
+    (pin "1" (uuid 29b2faae-cbe3-4f58-b749-973b8a4d84af))
+    (pin "2" (uuid b451138e-09ce-4c45-a05d-1f0f4988e8d3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3948,9 +3965,9 @@
     (property "LCSC" "C68978" (at 101.6 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 83a4782e-b9b6-4225-8501-dbcf81c0afc7))
-    (pin "1" (uuid 62cbbd0f-887a-4cfc-b5d3-394c092c4bf8))
-    (pin "2" (uuid 59c2cfaa-c43d-4d76-8374-2d08b8f53b64))
+    (pin "3" (uuid 55020811-ed62-4080-8605-a6b1a07c819d))
+    (pin "1" (uuid e43d4f13-0259-4b78-8e18-59bd01a1ad92))
+    (pin "2" (uuid d3c1b6e5-d03a-4d94-bd16-695f8082a59c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3960,8 +3977,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 71.12 25.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 71.12 25.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e34ccad-cad5-4dac-8971-3f0c634e2bb3)
     (property "Reference" "SW16" (at 71.12 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -3972,7 +3989,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 71.12 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 71.12 20.32 0)
+    (property "Datasheet" "~" (at 71.12 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 71.12 25.4 0)
@@ -3981,8 +3998,8 @@
     (property "LCSC" "" (at 71.12 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 112b2a9e-26d0-4ca3-9def-404bf2a920f7))
-    (pin "2" (uuid 117dde2c-9772-480b-bb42-ff4318ce7410))
+    (pin "1" (uuid 7a7f2477-c6fc-4ae0-9eac-0684342bfe3b))
+    (pin "2" (uuid 8cf3f34a-ea90-439a-bb80-982017e6b090))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4010,9 +4027,9 @@
     (property "LCSC" "C68978" (at 190.5 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid a3d05691-bd45-4cfb-9171-74443d134513))
-    (pin "1" (uuid 2dd5159f-6884-42da-8086-6f9b4fa7d4a8))
-    (pin "2" (uuid 6371f9c3-66c0-4221-b7cf-67b370d50477))
+    (pin "3" (uuid 6541de54-707f-4a93-9128-7d8a3a096887))
+    (pin "1" (uuid e9e38678-63aa-4311-b105-829d6c34e59a))
+    (pin "2" (uuid 49dbb7ca-a384-4871-abc9-a44de10cab13))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4022,8 +4039,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 160.02 71.12 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 160.02 71.12 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41a53078-1336-4095-9c8b-d80e0797655c)
     (property "Reference" "SW54" (at 160.02 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -4034,7 +4051,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 160.02 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 160.02 66.04 0)
+    (property "Datasheet" "~" (at 160.02 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 160.02 71.12 0)
@@ -4043,8 +4060,8 @@
     (property "LCSC" "" (at 160.02 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae906bf7-feba-4e68-9ce4-a55de1bea9f1))
-    (pin "2" (uuid 93fe7bfd-82f3-4433-a0e9-a54b28615d5a))
+    (pin "1" (uuid a78a9875-c386-4a4d-843b-04ff3ce7f053))
+    (pin "2" (uuid c057adc2-ba9f-4b29-9c05-d41604a0d091))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4097,9 +4114,9 @@
     (property "LCSC" "C68978" (at 152.4 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 5fde829e-adb7-4e27-a23e-80cc6515c76a))
-    (pin "1" (uuid 3be0ff40-ae12-4333-8156-1f87dbdfb82f))
-    (pin "2" (uuid 5d185ce0-398c-405b-b4d8-8d3b2e84a82e))
+    (pin "3" (uuid 85afc096-4a23-4702-825b-4fbcd54d8251))
+    (pin "1" (uuid dda8897d-83b0-4364-b1c2-fb010f167006))
+    (pin "2" (uuid 7a4b99a0-0e59-48ae-a6a1-ca97380a5f64))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4127,9 +4144,9 @@
     (property "LCSC" "C68978" (at 203.2 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 18801b53-917f-4bd5-82ff-1fd90cd0de9d))
-    (pin "1" (uuid a9d73af4-1e5c-4665-9407-6acf25605597))
-    (pin "2" (uuid f8cf93bc-b95f-465b-82f1-ce2561f87fea))
+    (pin "3" (uuid 6fe8acc6-2196-4322-ad60-2946b58719c1))
+    (pin "1" (uuid 7c34244b-fd11-47e8-a46e-20d03ba1ae62))
+    (pin "2" (uuid 38e5b545-67e9-4091-8bda-098f1e2b1cbe))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4139,8 +4156,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 147.32 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 147.32 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47ee7620-0cfe-48c6-87c2-3fd244693e36)
     (property "Reference" "SW57" (at 147.32 38.1 0)
       (effects (font (size 1.27 1.27)))
@@ -4151,7 +4168,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 147.32 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 147.32 35.56 0)
+    (property "Datasheet" "~" (at 147.32 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 147.32 40.64 0)
@@ -4160,8 +4177,8 @@
     (property "LCSC" "" (at 147.32 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 66239c07-b750-41db-947d-94b9353964a0))
-    (pin "2" (uuid 1779c0fa-59bb-4581-8e7e-eddaf794c4fd))
+    (pin "1" (uuid 7de27789-642a-4d5f-81f2-407acf69190e))
+    (pin "2" (uuid 351e9e5d-e51e-4d8a-b9fa-25c756cc9d45))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4189,9 +4206,9 @@
     (property "LCSC" "C68978" (at 50.8 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid af03a327-8396-4979-bb0a-2c510dbae1de))
-    (pin "1" (uuid c54152f7-9c2e-43bf-a0b8-0a902540c366))
-    (pin "2" (uuid 8a52365a-a5fa-4d6f-baa6-1d9470f64929))
+    (pin "3" (uuid c67855cd-28d3-4f4e-b52b-6f706080a806))
+    (pin "1" (uuid 36794dfd-95ce-4430-8f6c-366d38016f96))
+    (pin "2" (uuid 9676ff92-badb-4193-8e63-e1abd8017a24))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4202,9 +4219,9 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 127 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4c8286b0-7ea8-4f73-8ff6-f084b162634d)
-    (property "Reference" "D96" (at 124.46 97.79 90)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4821b1dd-c00f-4289-a2e0-8c81858d6113)
+    (property "Reference" "D98" (at 124.46 97.79 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BAV70" (at 124.46 100.2142 90)
@@ -4219,26 +4236,26 @@
     (property "LCSC" "C68978" (at 127 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 6f652a34-1dd0-4440-816b-918227b92bd6))
-    (pin "1" (uuid e85fd8ab-49a7-4049-a32c-a1e47f603cd5))
-    (pin "2" (uuid 4c8c8cc2-1186-494b-9735-a29ff4a870a7))
+    (pin "3" (uuid b9bf6611-71af-42ed-bb61-b84d6d1a339e))
+    (pin "1" (uuid 6c41bf29-24a5-45b1-bd90-4df155d7a848))
+    (pin "2" (uuid 156e438d-7891-4c55-8c8f-f111580cc864))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
-          (reference "D96") (unit 1)
+          (reference "D98") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 152.4 60.96 270) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d8482a3-f3a8-4911-b9aa-57c56428ffea)
-    (property "Reference" "D93" (at 149.86 59.69 90)
+    (property "Reference" "D93" (at 150.622 59.7479 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "BAV70" (at 149.86 62.23 90)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BAV70" (at 150.622 62.1721 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Honeydew:SOT-23-3" (at 149.86 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4249,9 +4266,9 @@
     (property "LCSC" "C68978" (at 152.4 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 284b7b75-1496-4de6-a07d-367308824219))
-    (pin "1" (uuid 2c2a18d8-dd01-40b9-8800-4f4811bbfa0e))
-    (pin "2" (uuid 6b8d490b-11d9-46aa-9e0b-af5d92ce31da))
+    (pin "3" (uuid a30bfc01-7817-447e-9d69-fb183f454d9c))
+    (pin "1" (uuid 94fa51f1-d79b-4353-9629-b15234b3cc03))
+    (pin "2" (uuid 1774693b-c776-44ec-89f1-90be4564f6a0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4262,7 +4279,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 38.1 45.72 270) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4eabb55c-d732-4e46-af5a-74e19fd10b3d)
     (property "Reference" "D67" (at 35.56 44.45 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4279,9 +4296,9 @@
     (property "LCSC" "C68978" (at 38.1 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 23cd3d42-0c48-45c4-b239-db913f75f064))
-    (pin "1" (uuid 2668a52b-cf4a-42cf-92d9-35787f53c14c))
-    (pin "2" (uuid 34879e1f-7b47-4fa2-9c13-cda42b405574))
+    (pin "3" (uuid d5e0432e-0cdc-4060-9e73-5cc512d2a837))
+    (pin "1" (uuid d8077d57-341f-4657-8029-d6e1c478727d))
+    (pin "2" (uuid ee92f831-4166-4291-b701-027ff090eaac))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4291,8 +4308,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 96.52 25.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 96.52 25.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 512fed9d-0ad4-4e6f-b97b-082162fd7aa1)
     (property "Reference" "SW26" (at 96.52 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -4303,7 +4320,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 96.52 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 96.52 20.32 0)
+    (property "Datasheet" "~" (at 96.52 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 96.52 25.4 0)
@@ -4312,8 +4329,8 @@
     (property "LCSC" "" (at 96.52 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ea20c0d3-0878-4e45-9d68-37dbe5b8b05d))
-    (pin "2" (uuid 139ecb50-4cd5-4de9-8133-93e9b1578f22))
+    (pin "1" (uuid 315af3f9-c024-48ed-b8cc-fbb5960e0cd5))
+    (pin "2" (uuid 81bb2766-94cc-43fc-adc1-92d18aeae3fb))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4341,9 +4358,9 @@
     (property "LCSC" "C68978" (at 203.2 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid ea1a5c19-4219-49e4-a98f-563f3a51ccec))
-    (pin "1" (uuid 6e238c35-da79-4595-bde7-e782bb9005cc))
-    (pin "2" (uuid a44f3c5f-431e-4f33-9950-1f81f3f22a30))
+    (pin "3" (uuid 67cddddf-64e7-4e69-896f-b35f3be4e1ed))
+    (pin "1" (uuid 601c6109-9e31-4184-9e86-2c0dc1bb409b))
+    (pin "2" (uuid d879dd99-d6d4-4ca1-8de5-f6f532a724ba))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4371,9 +4388,9 @@
     (property "LCSC" "C68978" (at 88.9 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid c66961e8-459c-4047-b19e-86f0a0b2d929))
-    (pin "1" (uuid 7a371fe2-337f-45da-a98f-c6c394cb25a8))
-    (pin "2" (uuid 0eb0c39a-d900-47a1-8c08-5ed74f00cd50))
+    (pin "3" (uuid 9014a04f-250f-479c-b06a-d296a8c7b577))
+    (pin "1" (uuid 62900522-9c64-40ef-b338-b9da11581f2c))
+    (pin "2" (uuid 9c648c21-448d-4fdb-abb2-8befd3ce2042))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4401,9 +4418,9 @@
     (property "LCSC" "C68978" (at 88.9 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 3aecf15e-c422-4b98-bac1-79b745922ee0))
-    (pin "1" (uuid 22e2b642-f5f9-42ca-9311-908229867e88))
-    (pin "2" (uuid bf2d267a-b5ce-41b3-b290-dcaed470c39f))
+    (pin "3" (uuid 166d2285-aa92-4a19-a2c3-a07050eb4d9f))
+    (pin "1" (uuid 935152de-ea73-4de6-b15f-b44f364c767e))
+    (pin "2" (uuid 3105ab5d-e4ce-4899-a3d5-7f1dafd954c6))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4431,9 +4448,9 @@
     (property "LCSC" "C68978" (at 177.8 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid bac87a2b-47f7-4c16-ae11-ec4d7076f6fd))
-    (pin "1" (uuid 9c9bffd2-b13f-4221-a8f0-df2b35fed6bd))
-    (pin "2" (uuid 9e2c408f-b482-493c-bf76-041229afcbfb))
+    (pin "3" (uuid fe5fa25f-42d5-49f0-88d9-fd75a5763fff))
+    (pin "1" (uuid 37ef31a4-1dfc-4bc8-a1e0-7a74079d6c58))
+    (pin "2" (uuid 13258b57-704f-40b9-95d9-f04302c21f4a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4443,8 +4460,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 33.02 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 33.02 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a3131c7-adb0-4d07-b273-502887be42a5)
     (property "Reference" "SW4" (at 33.02 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -4455,7 +4472,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 33.02 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 33.02 66.04 0)
+    (property "Datasheet" "~" (at 33.02 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 33.02 71.12 0)
@@ -4464,8 +4481,8 @@
     (property "LCSC" "" (at 33.02 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a83b5c97-ff12-442d-af7a-c6139a2ad20d))
-    (pin "2" (uuid d6f02aa5-d77b-4a79-9900-d5395e3830e3))
+    (pin "1" (uuid b3e54c70-c2ad-4e68-9e9c-d7906d7ca00e))
+    (pin "2" (uuid cf0ed3fb-3e2a-4e4c-bf1c-771ef2b2f8c3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4475,8 +4492,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 210.82 25.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 210.82 25.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b719e95-5d77-44d7-a91c-ec5ec81cb89d)
     (property "Reference" "SW31" (at 210.82 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -4487,7 +4504,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 210.82 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 210.82 20.32 0)
+    (property "Datasheet" "~" (at 210.82 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 210.82 25.4 0)
@@ -4496,8 +4513,8 @@
     (property "LCSC" "" (at 210.82 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f0d7aa2-4880-4a75-a169-639c3e883fd1))
-    (pin "2" (uuid ae0bf31d-f9ec-4171-b6a6-ad71bd45a2d4))
+    (pin "1" (uuid 95818e09-35ae-4e92-b4c1-a218169f45a3))
+    (pin "2" (uuid 6abd0394-6682-4bca-beaa-b5464079dc5d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4507,8 +4524,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 185.42 55.88 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 185.42 55.88 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b7bcf9c-7e8d-4c6d-9384-4e4dea31ed1a)
     (property "Reference" "SW43" (at 185.42 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -4519,7 +4536,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 185.42 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 185.42 50.8 0)
+    (property "Datasheet" "~" (at 185.42 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 185.42 55.88 0)
@@ -4528,8 +4545,8 @@
     (property "LCSC" "" (at 185.42 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4abfc8b6-08de-45de-a07a-53eb1ff7e43f))
-    (pin "2" (uuid 6f1a767d-7456-4699-934a-e99df6aa9eff))
+    (pin "1" (uuid e513ddd3-60f7-408c-a4bc-2004146e7032))
+    (pin "2" (uuid 61fa05e1-fa3e-4e47-808b-2bb67cb582bd))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4557,9 +4574,9 @@
     (property "LCSC" "C68978" (at 177.8 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 9c8ba5d1-5cac-4416-844f-a05ec7572759))
-    (pin "1" (uuid 9a0c0416-150f-4988-bf9b-d72ee573dce4))
-    (pin "2" (uuid eafff43f-74a0-43bc-9e39-5d52bd088f03))
+    (pin "3" (uuid 904bc472-e4a2-43f5-b296-3cb36ccd09fc))
+    (pin "1" (uuid fbff170e-d92c-480d-b754-d837c2b12095))
+    (pin "2" (uuid 1bb71057-4727-4487-ae35-6d87e984e541))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4569,8 +4586,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 121.92 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 121.92 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 614e7868-5fde-4a3a-b3ea-7de29c96305b)
     (property "Reference" "SW62" (at 121.92 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -4581,7 +4598,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 121.92 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 121.92 66.04 0)
+    (property "Datasheet" "~" (at 121.92 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 121.92 71.12 0)
@@ -4590,8 +4607,8 @@
     (property "LCSC" "" (at 121.92 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8fd15c31-ee28-46eb-869f-ba33eca9b2df))
-    (pin "2" (uuid 113c3957-8b38-4cf4-9597-80817aa2c7cc))
+    (pin "1" (uuid cb2f0869-5f42-4461-b25b-2fa49c1a1bb8))
+    (pin "2" (uuid 429d5741-dace-460f-993d-0c51978cc2c8))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4626,8 +4643,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 147.32 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 147.32 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64f88855-81f9-48c2-8a3f-65e789e63ef3)
     (property "Reference" "SW59" (at 147.32 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -4638,7 +4655,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 147.32 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 147.32 66.04 0)
+    (property "Datasheet" "~" (at 147.32 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 147.32 71.12 0)
@@ -4647,8 +4664,8 @@
     (property "LCSC" "" (at 147.32 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5c6e9e1-499d-4713-ad20-a32432e03e9e))
-    (pin "2" (uuid 33741125-a9d1-4742-8ec4-1198a2a76947))
+    (pin "1" (uuid ef3e69a9-96c1-4dfa-aeea-0998e1791da4))
+    (pin "2" (uuid 226b80df-3e83-4583-bd10-0e353b2fb625))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4659,7 +4676,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 38.1 30.48 270) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6563425c-9f8e-40db-854f-0387a789625f)
     (property "Reference" "D66" (at 35.56 29.21 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4676,9 +4693,9 @@
     (property "LCSC" "C68978" (at 38.1 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid dd837f4d-93a2-4801-9c3e-96c436984266))
-    (pin "1" (uuid f8d24087-8a40-438f-963b-c235f03f7fdb))
-    (pin "2" (uuid 252633eb-8160-4a60-b2e1-fcc6827cc893))
+    (pin "3" (uuid a2c0f48a-fe0b-4ea1-960a-bddc6880283f))
+    (pin "1" (uuid ea32fbcd-e9e7-4822-9fd5-8ebbbc85e7f2))
+    (pin "2" (uuid 540eac84-9f31-43be-940d-85a205d1a656))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4688,7 +4705,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 58.42 86.36 0) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 58.42 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65ba315a-0859-4f7e-97d2-0524ed15c243)
     (property "Reference" "SW15" (at 58.42 83.82 0)
@@ -4700,7 +4717,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 58.42 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 58.42 81.28 0)
+    (property "Datasheet" "~" (at 58.42 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 58.42 86.36 0)
@@ -4709,8 +4726,8 @@
     (property "LCSC" "" (at 58.42 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 78bea1a1-07a2-4621-b22c-67947c314820))
-    (pin "2" (uuid 1dd7d35d-cb3d-4dff-b9af-f5dd10175cc2))
+    (pin "1" (uuid 63670b24-794a-4db4-a8a1-eedccbb13af2))
+    (pin "2" (uuid 3aede07c-9b71-470e-a203-2a0e9d14dff9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4738,9 +4755,9 @@
     (property "LCSC" "C68978" (at 190.5 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 4a206716-0c22-4009-8c0c-419b5d772966))
-    (pin "1" (uuid 9f0665d3-98ba-4d82-96ad-642565be04b8))
-    (pin "2" (uuid 878d5687-2dfa-4f8f-adfb-da24db1f7e5b))
+    (pin "3" (uuid fde9d982-e85f-4292-9ca0-b3e131ac7fc5))
+    (pin "1" (uuid 0bf7d69a-8ba6-41ca-b2a1-bc9958f79943))
+    (pin "2" (uuid 8b9e6295-7ea1-44f5-96c2-cd158b7f5208))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4768,9 +4785,9 @@
     (property "LCSC" "C68978" (at 152.4 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid eea6ea0d-ac5b-47c4-b2c0-19258c4a1e14))
-    (pin "1" (uuid 5ad5403f-78f5-4ac8-b562-9f428249e992))
-    (pin "2" (uuid a874d0d7-991a-4a02-9991-ede15e87310e))
+    (pin "3" (uuid f35b5f0e-d552-494f-8b71-0a77c16b1b46))
+    (pin "1" (uuid a5291511-d91a-4e6a-8d25-9d4e5266dd4f))
+    (pin "2" (uuid 6a0b77a8-3443-49a6-b748-951d0e60f271))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4823,9 +4840,9 @@
     (property "LCSC" "C68978" (at 76.2 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid bcdd07ef-e7a0-4eb1-b3b8-6346713eed14))
-    (pin "1" (uuid 01d79d3b-4871-405b-8d1c-30fce5c3e274))
-    (pin "2" (uuid 725c3ae2-424a-4024-8050-3aa15645b848))
+    (pin "3" (uuid d2c2fc11-9e7a-4e2e-90d7-1b616472ead6))
+    (pin "1" (uuid b05aeb5b-57c2-4cb1-9cc4-ae7e8d068241))
+    (pin "2" (uuid b750043c-6e80-44c4-abac-f4f8f10644b2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4835,8 +4852,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 210.82 55.88 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 210.82 55.88 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6eff29ed-c783-40a9-bb8f-d7c486928538)
     (property "Reference" "SW33" (at 210.82 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -4847,7 +4864,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 210.82 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 210.82 50.8 0)
+    (property "Datasheet" "~" (at 210.82 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 210.82 55.88 0)
@@ -4856,8 +4873,8 @@
     (property "LCSC" "" (at 210.82 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a3e96e6d-5c9d-487c-a4d4-cd2b77df3117))
-    (pin "2" (uuid 0b3f336b-993b-4e23-9133-edcd26ec3d6c))
+    (pin "1" (uuid c62fe279-2e68-437a-b70f-bd57538d0202))
+    (pin "2" (uuid f65500e0-812f-45e4-874e-3a19d95ec616))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4885,9 +4902,9 @@
     (property "LCSC" "C68978" (at 63.5 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 019fc878-778e-4317-9c9f-d246c337edf1))
-    (pin "1" (uuid 99e8fcc4-71fb-4fbb-a231-25861e6e8f66))
-    (pin "2" (uuid a3206b9a-9396-4838-b5c9-68d1cc1d6534))
+    (pin "3" (uuid a778c896-719e-42f0-9938-f3b9741ebfaa))
+    (pin "1" (uuid 2ed6f45d-a19e-4e66-b7bb-65bf42fabff5))
+    (pin "2" (uuid 982809f3-ab71-41ee-9b9e-ad010a66e4bf))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4897,7 +4914,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 58.42 40.64 0) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 58.42 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fc91dc7-e1d9-422e-9e5f-17383921dd7b)
     (property "Reference" "SW12" (at 58.42 38.1 0)
@@ -4909,7 +4926,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 58.42 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 58.42 35.56 0)
+    (property "Datasheet" "~" (at 58.42 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 58.42 40.64 0)
@@ -4918,8 +4935,8 @@
     (property "LCSC" "" (at 58.42 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a2126145-015a-4391-8236-45048a4715eb))
-    (pin "2" (uuid 3ec15d96-26c3-43e1-8427-68e84a21838d))
+    (pin "1" (uuid 7142fe4e-6404-475b-a370-a6133251fdab))
+    (pin "2" (uuid 80a63992-9b8f-467e-8984-661dda6c4d7d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4929,8 +4946,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 210.82 40.64 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 210.82 40.64 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71386cfd-c6c4-4902-b84c-2da16956e398)
     (property "Reference" "SW32" (at 210.82 38.1 0)
       (effects (font (size 1.27 1.27)))
@@ -4941,7 +4958,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 210.82 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 210.82 35.56 0)
+    (property "Datasheet" "~" (at 210.82 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 210.82 40.64 0)
@@ -4950,8 +4967,8 @@
     (property "LCSC" "" (at 210.82 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 783d5471-73da-4fbd-a4ec-3db4ecfd077a))
-    (pin "2" (uuid 5d86b3f6-1435-4f26-b278-ac4a66cb786b))
+    (pin "1" (uuid a721982e-b02d-48d8-8bc0-6729763eda47))
+    (pin "2" (uuid 5c94bd63-7808-4fde-a360-1f187e3a6f9f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4986,8 +5003,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 172.72 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 172.72 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74a37a7d-b1ea-48f4-89a9-233e58bee22d)
     (property "Reference" "SW50" (at 172.72 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -4998,7 +5015,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 172.72 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 172.72 81.28 0)
+    (property "Datasheet" "~" (at 172.72 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 172.72 86.36 0)
@@ -5007,8 +5024,8 @@
     (property "LCSC" "" (at 172.72 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed4e61a7-36f0-4252-a9f4-913c234849c2))
-    (pin "2" (uuid 8f03f1a2-e02c-4b4a-af6d-679c87b2a76c))
+    (pin "1" (uuid 8b90de66-5436-4f34-8f64-7fb76f81fbcb))
+    (pin "2" (uuid b7978db9-bd28-4af1-810f-960d427e6568))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5018,8 +5035,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 210.82 86.36 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 210.82 86.36 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75262843-89b8-451e-907e-e9276f8f8964)
     (property "Reference" "SW35" (at 210.82 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -5030,7 +5047,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 210.82 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 210.82 81.28 0)
+    (property "Datasheet" "~" (at 210.82 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 210.82 86.36 0)
@@ -5039,8 +5056,8 @@
     (property "LCSC" "" (at 210.82 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fa707fb-48da-478c-93a8-c185292ff91b))
-    (pin "2" (uuid a9c68d27-a562-4d0a-b44b-d61d7f263f6e))
+    (pin "1" (uuid 41e8214f-be20-4949-b8f2-9b7ee14d05a0))
+    (pin "2" (uuid c2d409fd-ffdb-4ab5-8b86-598ff91e7482))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5050,8 +5067,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 83.82 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 83.82 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75ba0818-fb93-40ea-b638-16c1f1d773d7)
     (property "Reference" "SW21" (at 83.82 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -5062,7 +5079,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 83.82 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 83.82 20.32 0)
+    (property "Datasheet" "~" (at 83.82 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 83.82 25.4 0)
@@ -5071,8 +5088,8 @@
     (property "LCSC" "" (at 83.82 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eea80505-1247-41ab-a587-414070f11370))
-    (pin "2" (uuid 3d4b1f95-b5b4-4754-ae63-be5618d46018))
+    (pin "1" (uuid c0ffeb47-cd1d-4e19-bf09-f4e3584dda89))
+    (pin "2" (uuid b99fec5e-8c47-4d33-9d21-23a7eb29ae8c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5082,8 +5099,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 160.02 40.64 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 160.02 40.64 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 767dcef7-6c45-4ae7-b1bf-21b55767535b)
     (property "Reference" "SW52" (at 160.02 38.1 0)
       (effects (font (size 1.27 1.27)))
@@ -5094,7 +5111,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 160.02 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 160.02 35.56 0)
+    (property "Datasheet" "~" (at 160.02 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 160.02 40.64 0)
@@ -5103,8 +5120,8 @@
     (property "LCSC" "" (at 160.02 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70bd8ab8-8bc5-4306-9aa0-af3f2af55fb9))
-    (pin "2" (uuid ddddac50-7100-45a9-b858-6d9010cff2c2))
+    (pin "1" (uuid 91cf6325-f5ee-43e2-ae0a-57bc3f2ffb60))
+    (pin "2" (uuid 007c7359-9aec-4be9-a053-32fa84b5446a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5196,8 +5213,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 185.42 40.64 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 185.42 40.64 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bf4df2f-48a9-4e5b-8039-036c294a8a8e)
     (property "Reference" "SW42" (at 185.42 38.1 0)
       (effects (font (size 1.27 1.27)))
@@ -5208,7 +5225,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 185.42 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 185.42 35.56 0)
+    (property "Datasheet" "~" (at 185.42 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 185.42 40.64 0)
@@ -5217,8 +5234,8 @@
     (property "LCSC" "" (at 185.42 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0219f903-fb2b-42b2-8872-52b9912a13f2))
-    (pin "2" (uuid 3e9c6f7b-4c63-455e-834a-dd05c262083a))
+    (pin "1" (uuid 689a53b6-6716-415b-85f1-e78e1ae5ea1f))
+    (pin "2" (uuid e24b9ebf-d921-482e-a92c-adaf74124d68))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5228,8 +5245,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 121.92 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 121.92 93.98 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ccc1f6b-e54b-4f92-9572-3eda7fdc0711)
     (property "Reference" "SW1" (at 121.92 91.44 0)
       (effects (font (size 1.27 1.27)))
@@ -5240,7 +5257,7 @@
     (property "Footprint" "Honeydew:SW_SPST_D2F_PTS645_SMT+THT" (at 121.92 88.9 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 121.92 88.9 0)
+    (property "Datasheet" "~" (at 121.92 88.9 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Momentary pushbutton" (at 121.92 93.98 0)
@@ -5249,8 +5266,8 @@
     (property "LCSC" "" (at 121.92 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ecf674f-ddd0-49ab-80da-5e1c99056789))
-    (pin "2" (uuid d39b2ff9-7e7e-4638-a1e9-df11940d25d8))
+    (pin "1" (uuid 660337e8-d1ac-4ef1-b914-9d318f72ea09))
+    (pin "2" (uuid 2896b33b-7b8d-427e-b16a-68b383e00029))
     (instances
       (project "Galia"
         (path "/1215eee5-143d-4cdd-be21-2ea99cea4a06"
@@ -5286,9 +5303,9 @@
     (property "LCSC" "C68978" (at 63.5 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 8c3e8dea-ede5-410c-a06f-e5cc4273a784))
-    (pin "1" (uuid cc11b3cd-fa8c-4f96-b2de-41e342153156))
-    (pin "2" (uuid ea4252b3-6261-4f7c-aa98-e0fc9f6d5056))
+    (pin "3" (uuid 430e6049-caab-4e8a-8de1-b1714c18ccb6))
+    (pin "1" (uuid d6d4100c-59eb-4734-bab7-b94e8e9e680d))
+    (pin "2" (uuid 5901f7a8-7a87-4bb3-a790-e69078e388f9))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5298,8 +5315,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 198.12 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 198.12 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8043a6c5-46d5-4bcb-997a-199c8141daf2)
     (property "Reference" "SW38" (at 198.12 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -5310,7 +5327,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 198.12 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 198.12 50.8 0)
+    (property "Datasheet" "~" (at 198.12 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 198.12 55.88 0)
@@ -5319,8 +5336,8 @@
     (property "LCSC" "" (at 198.12 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 80408f28-fd35-4525-b94b-2b27b1eb93a8))
-    (pin "2" (uuid ff9b00b4-052a-4bc0-8b0f-aa45a669c5f1))
+    (pin "1" (uuid 9311f46e-cb2c-41b5-9f1a-fac63e75573d))
+    (pin "2" (uuid 06f48096-8819-4c03-b512-74f085062a88))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5330,7 +5347,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 58.42 55.88 0) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 58.42 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80aced55-3116-4411-b598-36ce2b3f8f7e)
     (property "Reference" "SW13" (at 58.42 53.34 0)
@@ -5342,7 +5359,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 58.42 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 58.42 50.8 0)
+    (property "Datasheet" "~" (at 58.42 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 58.42 55.88 0)
@@ -5351,8 +5368,8 @@
     (property "LCSC" "" (at 58.42 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eae0af50-31d2-456b-a752-158f1c0cd60e))
-    (pin "2" (uuid 6acbeffc-86e1-4b07-98ab-7aed4c4c1f67))
+    (pin "1" (uuid 2b386d76-5419-4a71-92cf-ced00d441b0d))
+    (pin "2" (uuid 22a10af5-4480-4814-97f6-8e8a383ac366))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5387,8 +5404,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 121.92 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 121.92 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8475af01-2e1a-4343-91b7-48af1105b701)
     (property "Reference" "SW64" (at 121.92 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -5399,7 +5416,7 @@
     (property "Footprint" "Honeydew:MXOnly-2U-Hotswap" (at 121.92 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 121.92 81.28 0)
+    (property "Datasheet" "~" (at 121.92 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 121.92 86.36 0)
@@ -5408,8 +5425,8 @@
     (property "LCSC" "" (at 121.92 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1179a9eb-3c4a-4e02-ae2b-e5e1a79bc00d))
-    (pin "2" (uuid 47de4cc9-b2ce-44e1-8587-8ea498885196))
+    (pin "1" (uuid c516d439-181f-4461-977d-3339eab53bfa))
+    (pin "2" (uuid 1d8cbb01-ac75-4453-b905-03b6c3f70b05))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5420,7 +5437,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 215.9 91.44 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8719133b-2ca2-44b0-9077-766ec1af2baf)
     (property "Reference" "D85" (at 213.36 90.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5437,9 +5454,9 @@
     (property "LCSC" "C68978" (at 215.9 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 48581c26-9d4c-4cab-af67-a67d711c0bc4))
-    (pin "1" (uuid c0c876a1-0837-4388-834b-daeb17f3a91a))
-    (pin "2" (uuid 261a9a13-6f1d-4d2a-854e-c916af70d810))
+    (pin "3" (uuid d5ef45e9-842c-45c3-b380-59092d02bc69))
+    (pin "1" (uuid 7763b6fa-270b-4725-a662-de7256a3b246))
+    (pin "2" (uuid 72ce1130-17e5-495b-8a36-b2ef6415736c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5492,9 +5509,9 @@
     (property "LCSC" "C68978" (at 177.8 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid e6e7487c-75f8-4376-81f0-2f7e7438afdd))
-    (pin "1" (uuid a913a806-d6b7-4c79-8b65-ab6d58be386c))
-    (pin "2" (uuid 2f363519-7156-442d-94bc-7d9af812f1c6))
+    (pin "3" (uuid a09b6604-66fa-4ab6-bbc3-c25a206ae55d))
+    (pin "1" (uuid 65e310ef-6753-47a1-b407-034789a176fe))
+    (pin "2" (uuid 39bb42f7-9759-410d-b43f-6848feff6a97))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5504,7 +5521,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 96.52 55.88 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 96.52 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89b47cf5-b36e-493d-9eb9-c663cac1ced2)
     (property "Reference" "SW28" (at 96.52 53.34 0)
@@ -5516,7 +5533,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 96.52 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 96.52 50.8 0)
+    (property "Datasheet" "~" (at 96.52 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 96.52 55.88 0)
@@ -5525,8 +5542,8 @@
     (property "LCSC" "" (at 96.52 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a183289-8b8c-4565-892d-64d9d5032e7f))
-    (pin "2" (uuid def99215-77bd-4f61-b3ed-bb32f19286f4))
+    (pin "1" (uuid 301a8bfd-f06d-44cd-b70a-ea0fc3924047))
+    (pin "2" (uuid 2c459526-78a7-4b53-9260-de31eab96e4d))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5536,7 +5553,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 83.82 71.12 0) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 83.82 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b30ee5f-8113-444c-bdfa-eb8017a37d35)
     (property "Reference" "SW24" (at 83.82 68.58 0)
@@ -5548,7 +5565,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 83.82 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 83.82 66.04 0)
+    (property "Datasheet" "~" (at 83.82 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 83.82 71.12 0)
@@ -5557,8 +5574,8 @@
     (property "LCSC" "" (at 83.82 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ea3e1a1-ec4c-4a06-956e-3978a80f7154))
-    (pin "2" (uuid 36ee5bca-72e8-481e-aa90-32bb6ec2f2cc))
+    (pin "1" (uuid 61dbeed4-c815-4b33-93fa-504657d21158))
+    (pin "2" (uuid c51d67cb-9817-4c25-9cf2-b1f386a0ec08))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5568,8 +5585,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 198.12 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 198.12 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f47d4bb-1389-4f78-b4ee-f3fc430aa3cb)
     (property "Reference" "SW40" (at 198.12 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -5580,7 +5597,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 198.12 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 198.12 81.28 0)
+    (property "Datasheet" "~" (at 198.12 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 198.12 86.36 0)
@@ -5589,8 +5606,8 @@
     (property "LCSC" "" (at 198.12 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60fc19ea-7837-49ae-8954-05d29424fc7d))
-    (pin "2" (uuid f07dda3a-7eb8-4c5b-b023-fd2c9f0e6af2))
+    (pin "1" (uuid 61c28fbf-3fa3-49a2-949c-5ea5012d3507))
+    (pin "2" (uuid 24f0997a-e3e2-4c7c-ba05-7fd38fde1163))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5601,7 +5618,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 215.9 60.96 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 91f82720-5c2d-4aa9-9d7f-e947d836a6d2)
     (property "Reference" "D83" (at 213.36 59.69 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5618,9 +5635,9 @@
     (property "LCSC" "C68978" (at 215.9 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid ccc9bab4-af4a-43a7-b6ac-086ab5c6527e))
-    (pin "1" (uuid d239d224-984f-451a-b5e4-9eb2c23f80c9))
-    (pin "2" (uuid 8c1b3cf7-384e-4613-a855-0920303860a8))
+    (pin "3" (uuid 1938e488-70bf-49db-beab-36e9bd9e47a7))
+    (pin "1" (uuid f958f92f-9ac4-4659-ab2d-0f5ae561a4d1))
+    (pin "2" (uuid 501069b9-ba20-42da-acd3-8a6719537755))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5630,7 +5647,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 45.72 71.12 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 45.72 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93dd4937-ce11-418f-9373-c643e0bbf3b3)
     (property "Reference" "SW9" (at 45.72 68.58 0)
@@ -5642,7 +5659,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 45.72 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 45.72 66.04 0)
+    (property "Datasheet" "~" (at 45.72 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 45.72 71.12 0)
@@ -5651,8 +5668,8 @@
     (property "LCSC" "" (at 45.72 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9aae1d36-0c9a-4400-b1ae-271ebd7f4751))
-    (pin "2" (uuid 146f5dee-7c47-4c1a-82ba-2ced662bc394))
+    (pin "1" (uuid 448c545c-45d8-4002-825a-4a2d3e3a3632))
+    (pin "2" (uuid be5e1305-4666-439d-a64e-e953c0e7dca0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5662,8 +5679,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 147.32 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 147.32 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94043c88-0bdd-4252-829a-8cc1001ba464)
     (property "Reference" "SW60" (at 147.32 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -5674,7 +5691,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 147.32 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 147.32 81.28 0)
+    (property "Datasheet" "~" (at 147.32 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 147.32 86.36 0)
@@ -5683,8 +5700,8 @@
     (property "LCSC" "" (at 147.32 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63d32e96-9a2a-40ed-9421-a456007f3102))
-    (pin "2" (uuid 2ceadbf4-77e5-464c-99ca-2c103f81408e))
+    (pin "1" (uuid d6d3ee30-58b6-42cb-8e71-57a51104ef7a))
+    (pin "2" (uuid ed886292-ef9e-4c33-8d60-10f1d13d3622))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5694,7 +5711,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 71.12 71.12 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 71.12 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 941d38f6-9bc4-41a7-96af-7a98a72ffd36)
     (property "Reference" "SW19" (at 71.12 68.58 0)
@@ -5706,7 +5723,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 71.12 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 71.12 66.04 0)
+    (property "Datasheet" "~" (at 71.12 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 71.12 71.12 0)
@@ -5715,8 +5732,8 @@
     (property "LCSC" "" (at 71.12 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7f4b843a-1237-4807-9dbc-bb1de896efbd))
-    (pin "2" (uuid d2395e74-e39f-4d9c-9ba9-2ffb6a7f6579))
+    (pin "1" (uuid 9a7de202-c66b-4c57-8fa8-11803a2d1991))
+    (pin "2" (uuid fc416e4a-66de-4d0e-bcec-2db981a8c011))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5727,7 +5744,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 177.8 45.72 270) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 972e2775-dc39-4dea-a597-f86cb6e58a5e)
     (property "Reference" "D87" (at 175.26 44.45 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5744,9 +5761,9 @@
     (property "LCSC" "C68978" (at 177.8 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid eeadca91-1770-48e3-a5fa-fa0b930df556))
-    (pin "1" (uuid c1c2a613-81ac-46e6-8930-78b6ae8895f3))
-    (pin "2" (uuid 7a3478da-e110-49b6-b598-79512649b217))
+    (pin "3" (uuid bf23912b-f521-4d1d-9063-5d291328e88c))
+    (pin "1" (uuid f71ff7cd-75b6-4b0a-8f4c-45be38ad64f9))
+    (pin "2" (uuid cb5acaf2-57a5-4ed0-95c0-3b980013b044))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5756,8 +5773,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 45.72 25.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 45.72 25.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 976975ac-b738-4f94-b285-c1a0767524be)
     (property "Reference" "SW6" (at 45.72 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -5768,7 +5785,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 45.72 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 45.72 20.32 0)
+    (property "Datasheet" "~" (at 45.72 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 45.72 25.4 0)
@@ -5777,8 +5794,8 @@
     (property "LCSC" "" (at 45.72 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bde14c80-1f1f-4ea8-81af-4b26b6060df9))
-    (pin "2" (uuid af9a64cb-4166-4731-9608-614f2a2d9f76))
+    (pin "1" (uuid 44327d75-006c-4fb7-a79d-2ba0ff0bd74d))
+    (pin "2" (uuid 10e04d8c-dc8d-41f6-a94f-cd4b7d7ba177))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5788,7 +5805,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 71.12 40.64 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 71.12 40.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 982b1bd9-dfa9-4489-ab2f-7a0f2f498135)
     (property "Reference" "SW17" (at 71.12 38.1 0)
@@ -5800,7 +5817,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 71.12 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 71.12 35.56 0)
+    (property "Datasheet" "~" (at 71.12 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 71.12 40.64 0)
@@ -5809,8 +5826,8 @@
     (property "LCSC" "" (at 71.12 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c1dd789e-0a51-46c2-a97d-dd6586c9f87a))
-    (pin "2" (uuid eb5a8b89-bab2-4f47-8b74-a66ffdaf792b))
+    (pin "1" (uuid 46b790c8-1a75-4713-a62c-16975b4a6cd8))
+    (pin "2" (uuid 49b68dcc-120d-4489-a352-e7b427e796f7))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5821,7 +5838,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 165.1 76.2 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98c2622f-d0b2-4306-988c-2d6fcd9e629b)
     (property "Reference" "D94" (at 162.56 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5838,9 +5855,9 @@
     (property "LCSC" "C68978" (at 165.1 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid b3ecd2fc-6645-43a5-b6e0-d2951448238b))
-    (pin "1" (uuid aef4fd8c-a766-4d26-97c7-3ec0a1555ff5))
-    (pin "2" (uuid 5d45cfa0-3ddc-4e18-8556-8c51be12d955))
+    (pin "3" (uuid bc0d5502-2ea3-4257-b102-4f6574b782e0))
+    (pin "1" (uuid 5ed88053-a978-47e0-ba37-5e327727d9f3))
+    (pin "2" (uuid 70ff513c-8c84-4742-b215-ddcedbdc3640))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5868,9 +5885,9 @@
     (property "LCSC" "C68978" (at 76.2 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 4bb56400-10eb-478a-b214-9c519ad788a1))
-    (pin "1" (uuid c13b950c-c17c-43be-8b9f-c912a4d22f01))
-    (pin "2" (uuid 92c0f89c-9de8-4744-925e-a898c090372f))
+    (pin "3" (uuid 260b67bf-c245-43b3-be74-0518cf14418d))
+    (pin "1" (uuid 46be808e-6c6b-456c-b33c-0237b1b072d0))
+    (pin "2" (uuid 8533fbd3-f0ab-4bf4-915d-7db5d8a490f4))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5880,8 +5897,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 172.72 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 172.72 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0732942-98c2-4331-9c14-a607613aed1c)
     (property "Reference" "SW47" (at 172.72 38.1 0)
       (effects (font (size 1.27 1.27)))
@@ -5892,7 +5909,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 172.72 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 172.72 35.56 0)
+    (property "Datasheet" "~" (at 172.72 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 172.72 40.64 0)
@@ -5901,8 +5918,8 @@
     (property "LCSC" "" (at 172.72 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02a8eb40-1fee-4f8e-ae9f-705794522c70))
-    (pin "2" (uuid 02611fe6-5a22-4fe1-b04f-189be29856ec))
+    (pin "1" (uuid f1ce50b8-3908-4a2b-816d-420b206efc92))
+    (pin "2" (uuid de27d2c0-2f26-4efd-8a1a-3f8d27546f26))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5912,7 +5929,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 45.72 55.88 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 45.72 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2429735-5aaf-4b46-a6f0-9ee85972a737)
     (property "Reference" "SW8" (at 45.72 53.34 0)
@@ -5924,7 +5941,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 45.72 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 45.72 50.8 0)
+    (property "Datasheet" "~" (at 45.72 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 45.72 55.88 0)
@@ -5933,8 +5950,8 @@
     (property "LCSC" "" (at 45.72 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c73b387a-2479-4e50-8001-57924ad1dd00))
-    (pin "2" (uuid f7f1f91c-c70f-4070-8d09-e4186b0459ab))
+    (pin "1" (uuid a6f703b2-8100-439c-9539-a5bc27214914))
+    (pin "2" (uuid b7f7e593-8c3b-4e36-a016-225c50441196))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5962,9 +5979,9 @@
     (property "LCSC" "C68978" (at 50.8 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 38f884f0-6860-47d3-a3ba-1d2dbc185d6e))
-    (pin "1" (uuid 6b2b2383-a1f5-48ca-8230-4275052d66e0))
-    (pin "2" (uuid 60899f2e-a424-4930-8d2d-44a3c3c3a194))
+    (pin "3" (uuid 4771ec50-3250-4389-8b14-c4e6dcd28332))
+    (pin "1" (uuid b3d692c1-9ad1-4da0-b65c-19b378c5919c))
+    (pin "2" (uuid 8dee72f1-3198-43d3-83e1-c5f06f129752))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5974,8 +5991,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 198.12 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 198.12 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a64d6e8e-86bf-44d5-a250-0ef12be94835)
     (property "Reference" "SW36" (at 198.12 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -5986,7 +6003,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 198.12 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 198.12 20.32 0)
+    (property "Datasheet" "~" (at 198.12 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 198.12 25.4 0)
@@ -5995,8 +6012,8 @@
     (property "LCSC" "" (at 198.12 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bfc8d74-27aa-4aef-ad77-ad027900bc35))
-    (pin "2" (uuid 55f12d28-4caa-4ea5-8cb4-dadc6af94700))
+    (pin "1" (uuid 9b8e6477-f821-49b0-9551-6e279c917032))
+    (pin "2" (uuid ea5d7879-d095-457c-a088-1851d1946b4a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6024,9 +6041,9 @@
     (property "LCSC" "C68978" (at 190.5 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 831596b8-a008-4fb8-8c3a-0ce7fe0d7854))
-    (pin "1" (uuid ac91bac7-11dc-4c51-9f61-dc24f35e3498))
-    (pin "2" (uuid a7d34c52-00b1-4095-943b-e94818915f79))
+    (pin "3" (uuid 521ea409-8860-4a94-b774-f68a3360aeff))
+    (pin "1" (uuid 6cba5c72-0b4d-4b6f-9fb8-5f3519e44f93))
+    (pin "2" (uuid 45a86555-b7b2-48fc-b995-3787405d23d8))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6036,8 +6053,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 210.82 71.12 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 210.82 71.12 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6d072dc-f400-48e0-b625-099ccbd64b22)
     (property "Reference" "SW34" (at 210.82 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -6048,7 +6065,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 210.82 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 210.82 66.04 0)
+    (property "Datasheet" "~" (at 210.82 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 210.82 71.12 0)
@@ -6057,8 +6074,8 @@
     (property "LCSC" "" (at 210.82 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7020f186-a2a8-4196-b679-856c4f6cf3c4))
-    (pin "2" (uuid 405c7423-a41d-42b8-8c8f-8e5e7a95b06f))
+    (pin "1" (uuid d2a17830-17fe-4ef9-a928-8625087a3c5b))
+    (pin "2" (uuid 974a38e1-4ee1-4346-bd8c-b2b8d9d5fb7e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6114,7 +6131,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 96.52 71.12 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 96.52 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0166391-f897-42dd-a252-62f88a185144)
     (property "Reference" "SW29" (at 96.52 68.58 0)
@@ -6126,7 +6143,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 96.52 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 96.52 66.04 0)
+    (property "Datasheet" "~" (at 96.52 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 96.52 71.12 0)
@@ -6135,8 +6152,8 @@
     (property "LCSC" "" (at 96.52 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3fb0c47c-6a98-4747-9e40-9c673007431e))
-    (pin "2" (uuid 2b8ba035-6abe-427f-af01-68980bde646d))
+    (pin "1" (uuid 0e930b05-35fc-4867-a850-05b740990af7))
+    (pin "2" (uuid 9aa5c47d-78de-4002-bd8e-8e0f4950a3db))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6146,7 +6163,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 45.72 86.36 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 45.72 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b34ab3bf-2122-4280-8152-4c9de8846fad)
     (property "Reference" "SW10" (at 45.72 83.82 0)
@@ -6158,7 +6175,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 45.72 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 45.72 81.28 0)
+    (property "Datasheet" "~" (at 45.72 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 45.72 86.36 0)
@@ -6167,8 +6184,8 @@
     (property "LCSC" "" (at 45.72 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4fd6ec11-9e0e-4588-82f2-33f7a8a969e8))
-    (pin "2" (uuid c1d0a579-6fcb-44c1-a1f1-ddbdc6eeca63))
+    (pin "1" (uuid 0f6cb0bf-c1d0-4cef-abaf-85d0e89ebd1e))
+    (pin "2" (uuid 4af1c06f-2a00-4c56-af72-f4c223a03a96))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6178,8 +6195,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 33.02 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 33.02 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7b9f5c6-8a93-4b1f-a6ce-1cd8d791e34a)
     (property "Reference" "SW2" (at 33.02 38.1 0)
       (effects (font (size 1.27 1.27)))
@@ -6190,7 +6207,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 33.02 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 33.02 35.56 0)
+    (property "Datasheet" "~" (at 33.02 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 33.02 40.64 0)
@@ -6199,8 +6216,8 @@
     (property "LCSC" "" (at 33.02 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b49737d-81e0-4bc0-bcb9-68f5a6d2fc86))
-    (pin "2" (uuid 067e8317-898f-494b-b28c-b35a6f1972f2))
+    (pin "1" (uuid ea6ad8e5-1261-4bfa-a2f3-be63ccd197b8))
+    (pin "2" (uuid 97cd54e4-c68c-45fe-9c4d-9db28d01c5d3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6228,9 +6245,9 @@
     (property "LCSC" "C68978" (at 203.2 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 699fd26b-8f25-4cd6-9a15-2027b228c325))
-    (pin "1" (uuid f00c8b73-f8c2-4f01-a37b-c5994c34348b))
-    (pin "2" (uuid a6891e75-8d5c-474b-98e5-7aebc878ae35))
+    (pin "3" (uuid e4fef361-de5e-4ba8-9529-20a63e695533))
+    (pin "1" (uuid 900e6ac5-1588-4dd4-8369-391343ed14ea))
+    (pin "2" (uuid 57407cd9-cb8f-4f2b-99d0-f639f8fb89b0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6265,7 +6282,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 45.72 40.64 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 45.72 40.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c38c00ef-f9af-47b8-b6ee-5bbe90fc7bec)
     (property "Reference" "SW7" (at 45.72 38.1 0)
@@ -6277,7 +6294,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 45.72 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 45.72 35.56 0)
+    (property "Datasheet" "~" (at 45.72 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 45.72 40.64 0)
@@ -6286,8 +6303,8 @@
     (property "LCSC" "" (at 45.72 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b0cae322-92b8-453b-9ac0-47d8bfe5ad05))
-    (pin "2" (uuid 83ecb790-136d-451f-8938-1c59e90865c0))
+    (pin "1" (uuid 0539a6d0-d11c-4b60-9320-24267cdfdddc))
+    (pin "2" (uuid cb2af378-e371-44e5-b44c-b2e0beff9e2f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6315,9 +6332,9 @@
     (property "LCSC" "C68978" (at 165.1 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 7883307c-f5a9-4423-a5fd-9973e354eb46))
-    (pin "1" (uuid a56e4bb5-c806-4257-a9a2-b740c3f63155))
-    (pin "2" (uuid f5714bd1-781e-45de-998c-6dd67b4dc2dd))
+    (pin "3" (uuid 62d74967-1309-43d6-b871-a2b3f64a914d))
+    (pin "1" (uuid 7f750ed2-06a0-4d2a-9aad-c8d6ffa08049))
+    (pin "2" (uuid 6bcf5d49-591d-4039-9a26-c862899ee658))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6328,7 +6345,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 215.9 76.2 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid c5bc5de6-bbc4-4a41-b4ea-4aa5a935f0b6)
     (property "Reference" "D84" (at 213.36 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -6345,9 +6362,9 @@
     (property "LCSC" "C68978" (at 215.9 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 40e08ce6-7bd4-4abb-8707-18ee9fc52fb7))
-    (pin "1" (uuid 07053fb9-d70f-4ee6-8a35-a4af070a7171))
-    (pin "2" (uuid 154cf777-93e5-424b-8d83-d4a4583d5186))
+    (pin "3" (uuid e1a90776-3275-4510-88c0-3e2028279ce9))
+    (pin "1" (uuid e07f8f1e-b0cd-4cae-9972-c71cb1aa6d27))
+    (pin "2" (uuid adfbcbf0-06bc-4359-86d2-a49d4c65faf5))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6357,7 +6374,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 71.12 55.88 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 71.12 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5c53200-1655-4b50-9f23-e7f775fd5142)
     (property "Reference" "SW18" (at 71.12 53.34 0)
@@ -6369,7 +6386,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 71.12 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 71.12 50.8 0)
+    (property "Datasheet" "~" (at 71.12 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 71.12 55.88 0)
@@ -6378,8 +6395,8 @@
     (property "LCSC" "" (at 71.12 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12318af5-489c-41f4-b7ce-4a113df49e56))
-    (pin "2" (uuid a3df376d-de57-4fa4-ad17-d5578faa5e85))
+    (pin "1" (uuid 49caeb6d-aa86-4ec0-8abe-b0ce6298a904))
+    (pin "2" (uuid 071c4a2e-a4c8-401e-a736-5316b219639a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6407,9 +6424,9 @@
     (property "LCSC" "C68978" (at 76.2 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 6c913020-2011-463e-be31-e432c0e13233))
-    (pin "1" (uuid 7830634e-f9ce-47a0-8c3d-ff02915371af))
-    (pin "2" (uuid 19c568ca-329f-49c7-9308-3c906b86cee3))
+    (pin "3" (uuid e0093448-0a62-41c0-9e3a-202280c3dbba))
+    (pin "1" (uuid b9a0d601-43a1-4c14-bd69-df515b82411f))
+    (pin "2" (uuid 3dd5fdb7-4d02-4010-bd68-4fd8c9cfd48a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6419,7 +6436,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 96.52 86.36 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 96.52 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9ea8040-d83c-40e9-b0c2-9467e729df0e)
     (property "Reference" "SW30" (at 96.52 83.82 0)
@@ -6431,7 +6448,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 96.52 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 96.52 81.28 0)
+    (property "Datasheet" "~" (at 96.52 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 96.52 86.36 0)
@@ -6440,8 +6457,8 @@
     (property "LCSC" "" (at 96.52 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e0a087e-8114-43a4-b7e3-13a67ffd37ab))
-    (pin "2" (uuid c72363c6-3a18-44c8-aa64-954f022fb904))
+    (pin "1" (uuid 7accfe47-397c-4f83-be29-68c1ac85fc82))
+    (pin "2" (uuid a797f976-c796-4cec-9a63-a6dfb90fd8d1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6469,9 +6486,9 @@
     (property "LCSC" "C68978" (at 76.2 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid ab0944d9-7138-4d89-9703-5fe08c702c1b))
-    (pin "1" (uuid 68af4126-36f4-4676-9423-adc206cc52c6))
-    (pin "2" (uuid 95398b68-5dff-45d0-a491-d24a14503a69))
+    (pin "3" (uuid c648eab1-c891-4632-a96d-40087afe7dfa))
+    (pin "1" (uuid f4952945-fd47-4f1e-bfd2-a77f04775ea4))
+    (pin "2" (uuid 693fca11-1434-4749-838d-e9b24eef46c4))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6481,7 +6498,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 83.82 86.36 0) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 83.82 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbbe2efe-760e-4892-9413-cba3f083b039)
     (property "Reference" "SW25" (at 83.82 83.82 0)
@@ -6493,7 +6510,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 83.82 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 83.82 81.28 0)
+    (property "Datasheet" "~" (at 83.82 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 83.82 86.36 0)
@@ -6502,8 +6519,8 @@
     (property "LCSC" "" (at 83.82 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a289b366-f7d4-46e2-9d84-1cd29e8cea36))
-    (pin "2" (uuid dda05ecb-7203-47e8-9856-505cea6e2c2e))
+    (pin "1" (uuid 4ccf36cf-3b45-4eab-b16c-a9e2e9f8cecc))
+    (pin "2" (uuid cdd41009-efd4-415e-a08e-c0aa1396e74e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6514,7 +6531,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 215.9 30.48 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ccc4982d-a174-424f-9301-760b1bf997c3)
     (property "Reference" "D81" (at 213.36 29.21 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -6531,9 +6548,9 @@
     (property "LCSC" "C68978" (at 215.9 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 7075fc3d-8802-47e1-99f8-3d53b1241f0f))
-    (pin "1" (uuid caafb412-104f-4807-9dee-c777df53fa46))
-    (pin "2" (uuid 9094fe6b-5182-44a8-8815-679f097873bb))
+    (pin "3" (uuid be92825d-c762-4279-8c11-8ef18726688b))
+    (pin "1" (uuid d1b72db5-f6cc-42e5-88d9-2758ad06145e))
+    (pin "2" (uuid 91d6d84b-da6e-4e3d-90f3-106d4a398d9f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6561,9 +6578,9 @@
     (property "LCSC" "C68978" (at 50.8 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid cf3c42f2-1e6d-4b5e-83cf-b3ca5a6c59dd))
-    (pin "1" (uuid 9d813fb6-dc8c-4b41-8c25-193f09136f50))
-    (pin "2" (uuid eda23090-85df-4806-aecd-747d8e3401ad))
+    (pin "3" (uuid 6a5ac4e2-d13e-4ac3-8d9e-ca93179ca300))
+    (pin "1" (uuid b9b3b215-39d7-4e82-ad7e-3d8366abdff9))
+    (pin "2" (uuid 1d82ebb4-0f64-4bad-b0df-8388a5764454))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6636,8 +6653,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 134.62 71.12 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 134.62 71.12 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6ea969a-377d-46e2-8864-6f4efc9a50a2)
     (property "Reference" "SW63" (at 134.62 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -6648,7 +6665,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 134.62 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 134.62 66.04 0)
+    (property "Datasheet" "~" (at 134.62 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 134.62 71.12 0)
@@ -6657,8 +6674,8 @@
     (property "LCSC" "" (at 134.62 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5acfa6d1-2041-4e46-a525-fcecedf8a708))
-    (pin "2" (uuid cd1822f1-07f1-4cc8-8588-2549e04ee39a))
+    (pin "1" (uuid 589a9bb9-0e24-4ace-8ff2-9c7c14d7e54f))
+    (pin "2" (uuid 6806121b-4642-47ad-a86e-d0945e084915))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6686,9 +6703,9 @@
     (property "LCSC" "C68978" (at 203.2 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 264e20a8-3920-478c-9b0c-efc42a7d2217))
-    (pin "1" (uuid 0b1ffbc7-4b31-44d5-adb0-2f15728de470))
-    (pin "2" (uuid f7a6e760-5326-445d-bc76-6a6b57b38cbb))
+    (pin "3" (uuid 44db9721-467b-46d9-b6e5-c2059bf0f146))
+    (pin "1" (uuid 83fb35a7-408b-43a8-b66f-65f7e3b65467))
+    (pin "2" (uuid a42239f7-417d-4329-bc23-d0d3846fd73a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6716,9 +6733,9 @@
     (property "LCSC" "C68978" (at 127 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 6b8856d4-5cc3-453a-9bd2-573e28701c17))
-    (pin "1" (uuid 92d3a632-19ca-46fa-a4dd-76fbe35bc5fe))
-    (pin "2" (uuid 59a4248a-d3b8-41c0-a4ce-7dece0b55bdf))
+    (pin "3" (uuid 73595024-a7e2-4d32-9a40-e321497c7373))
+    (pin "1" (uuid 1c187622-eada-40bd-b91a-b6fe6936c616))
+    (pin "2" (uuid 80947b0b-785d-4285-9a4f-3c7b1842018b))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6728,8 +6745,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 160.02 25.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 160.02 25.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daaa9345-b630-439c-8ad6-aaba58291e33)
     (property "Reference" "SW51" (at 160.02 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -6740,7 +6757,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 160.02 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 160.02 20.32 0)
+    (property "Datasheet" "~" (at 160.02 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 160.02 25.4 0)
@@ -6749,8 +6766,8 @@
     (property "LCSC" "" (at 160.02 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5951cc40-3fc4-4554-971a-28059a92b628))
-    (pin "2" (uuid 19393da1-03dd-4153-8418-5bf7e2b433a9))
+    (pin "1" (uuid d9fecf35-fe19-46e3-ae0b-cf748d68111c))
+    (pin "2" (uuid d06cf68a-044c-48e1-9d79-914dc43938d8))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6760,8 +6777,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 109.22 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 109.22 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db2030cc-2fe8-4365-ae25-d9c783afb570)
     (property "Reference" "SW61" (at 109.22 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -6772,7 +6789,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 109.22 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 109.22 66.04 0)
+    (property "Datasheet" "~" (at 109.22 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 109.22 71.12 0)
@@ -6781,8 +6798,8 @@
     (property "LCSC" "" (at 109.22 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c86019d6-2483-4392-9ab0-a7dd001f67fc))
-    (pin "2" (uuid 39db919b-4fef-4e30-aef1-d05f0ea0fb47))
+    (pin "1" (uuid f1348446-6774-4404-8114-40f4acad7be7))
+    (pin "2" (uuid 914af1d5-3ee4-432d-97e6-20a7c6cbbe17))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6792,8 +6809,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 33.02 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 33.02 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc90a0f8-8440-434e-9960-df41a33eaa68)
     (property "Reference" "SW3" (at 33.02 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -6804,7 +6821,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 33.02 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 33.02 50.8 0)
+    (property "Datasheet" "~" (at 33.02 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 33.02 55.88 0)
@@ -6813,8 +6830,8 @@
     (property "LCSC" "" (at 33.02 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e12a56d-57e1-45db-bfdc-57b395a70142))
-    (pin "2" (uuid 7f981bd8-537a-48a0-b911-1aa697b0f2d0))
+    (pin "1" (uuid 9ca12c0c-0468-4235-aa8a-f109419ebd86))
+    (pin "2" (uuid 2b8c441c-955e-42c0-9673-bdd8ef8d5584))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6842,9 +6859,9 @@
     (property "LCSC" "C68978" (at 50.8 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 74ae0084-fb11-4d8e-a387-2a687ad03072))
-    (pin "1" (uuid 8137dabe-2ace-4b36-a866-5aa8ba781f68))
-    (pin "2" (uuid c28ecf0c-7d7f-4b06-91da-0be0d55477e8))
+    (pin "3" (uuid 2d5b955d-b848-44d7-883a-f6177eb5452e))
+    (pin "1" (uuid 87666edb-310c-488e-a67f-52695479b52a))
+    (pin "2" (uuid 9da7877f-f3b0-4f90-a894-b07cef9dcd66))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6879,8 +6896,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 198.12 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 198.12 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de66e125-6a04-4a05-80ab-3d6eec694a55)
     (property "Reference" "SW39" (at 198.12 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -6891,7 +6908,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 198.12 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 198.12 66.04 0)
+    (property "Datasheet" "~" (at 198.12 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 198.12 71.12 0)
@@ -6900,8 +6917,8 @@
     (property "LCSC" "" (at 198.12 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d09a4d76-67fb-41a0-862a-5a0566d62e10))
-    (pin "2" (uuid e3a5b4c2-4ed1-429a-970f-7136d660adc1))
+    (pin "1" (uuid 556f9531-b316-492f-b026-fb8e0f7ae00c))
+    (pin "2" (uuid 24bdf975-ea26-454e-aa94-6764ef1634a2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6911,7 +6928,7 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 96.52 40.64 0) (mirror y) (unit 1)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 96.52 40.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid def1a235-8476-46bb-8b30-7f5268c7984c)
     (property "Reference" "SW27" (at 96.52 38.1 0)
@@ -6923,7 +6940,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 96.52 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 96.52 35.56 0)
+    (property "Datasheet" "~" (at 96.52 35.56 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 96.52 40.64 0)
@@ -6932,8 +6949,8 @@
     (property "LCSC" "" (at 96.52 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b0c1f0d5-f542-4af3-bc22-a9a81e69a42c))
-    (pin "2" (uuid eebf4159-40fc-49cf-b853-58e67b939836))
+    (pin "1" (uuid f7f72592-2ffa-47f3-a04a-2a87408974b0))
+    (pin "2" (uuid 451866ce-61e2-4ab7-a198-de8c0b955261))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6943,8 +6960,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 160.02 55.88 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 160.02 55.88 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df14a956-ddfd-4f98-a41b-5196dd83731d)
     (property "Reference" "SW53" (at 160.02 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -6955,7 +6972,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 160.02 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 160.02 50.8 0)
+    (property "Datasheet" "~" (at 160.02 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 160.02 55.88 0)
@@ -6964,8 +6981,8 @@
     (property "LCSC" "" (at 160.02 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2391faf4-8aae-425e-a0e0-503ab7f8e456))
-    (pin "2" (uuid 5505156d-e575-4990-b916-04ec317bdeb4))
+    (pin "1" (uuid 343f28be-57ea-4db4-9bec-9ebc18ee6172))
+    (pin "2" (uuid 0a2bb7de-fded-4865-b1c2-36af5b744b8e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6993,9 +7010,9 @@
     (property "LCSC" "C68978" (at 203.2 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid d762bd7b-5176-4c41-a63f-c546f93212bf))
-    (pin "1" (uuid 2c942104-6082-4498-b9d2-9f1bd3bed784))
-    (pin "2" (uuid 9c834acd-1637-4d29-b4c5-5b25b235469c))
+    (pin "3" (uuid 39b55850-c93b-4c4b-8aa6-b120490e5543))
+    (pin "1" (uuid 8e152da3-00c0-49b1-a143-4409d28e21b4))
+    (pin "2" (uuid dc499729-eb69-4e88-b0b7-52a507cc859a))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7031,7 +7048,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 38.1 76.2 270) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e13186b4-4e9a-451a-bfeb-60a1201903cb)
     (property "Reference" "D69" (at 35.56 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -7048,9 +7065,9 @@
     (property "LCSC" "C68978" (at 38.1 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 0566dbf8-ef17-4d91-ad55-aae8b6444671))
-    (pin "1" (uuid 80860999-bc0f-418e-8646-aa77ecc7b4ac))
-    (pin "2" (uuid ec325d15-effb-4ea3-8f65-e2113fa56062))
+    (pin "3" (uuid 62b66ae9-dfb9-4021-8212-a4ba67f9177d))
+    (pin "1" (uuid 8498ec17-3e6a-4a81-bd38-2f0d8cbd0e63))
+    (pin "2" (uuid 8f246d5b-ac61-487a-808e-ee3f63a0b5d1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7078,9 +7095,9 @@
     (property "LCSC" "C68978" (at 76.2 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid aed91d03-2d4a-42d6-8c92-b3fd886ce597))
-    (pin "1" (uuid 583e7869-12cc-4066-b906-e2aea51f376e))
-    (pin "2" (uuid 3b79816b-32c1-4a25-b5c0-560c4d55ed5a))
+    (pin "3" (uuid 54d00d6e-27f8-4b3f-9ce8-c4a7ccdb288a))
+    (pin "1" (uuid 1d3019cd-3339-41e0-82c7-81662a762939))
+    (pin "2" (uuid 2487b0a5-9c42-4694-9ff1-d32a33dbc0e3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7108,9 +7125,9 @@
     (property "LCSC" "C68978" (at 88.9 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 6c0b1e03-88f8-43d0-a7f7-d845fec69543))
-    (pin "1" (uuid 863f4617-7f3e-4ac2-bb49-1915a78c1bfc))
-    (pin "2" (uuid 1ed3b29d-9ce0-44cb-a393-5bd4d6c3fe0e))
+    (pin "3" (uuid 401cfb65-df07-4b48-bb83-c675884293d3))
+    (pin "1" (uuid eb2d385c-516b-4b98-b306-4b714758b4ec))
+    (pin "2" (uuid d7f40cfb-8b7b-414f-acf8-7707d643e7d7))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7120,8 +7137,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 172.72 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 172.72 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e297a092-e63a-405a-b353-e1af813b4d07)
     (property "Reference" "SW48" (at 172.72 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -7132,7 +7149,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 172.72 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 172.72 50.8 0)
+    (property "Datasheet" "~" (at 172.72 50.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 172.72 55.88 0)
@@ -7141,8 +7158,8 @@
     (property "LCSC" "" (at 172.72 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e293e4f-3ee5-4200-a6bc-034e40e20e3e))
-    (pin "2" (uuid 8a38fe95-4354-40fd-bb38-433ba370105c))
+    (pin "1" (uuid 0da85764-1c99-4e36-9a76-59b09256d430))
+    (pin "2" (uuid daf62758-1fb2-4b13-91b8-ec4a403f20c2))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7195,9 +7212,9 @@
     (property "LCSC" "C68978" (at 177.8 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 4bc3c6d5-01a4-47c1-bf65-a03319486fff))
-    (pin "1" (uuid 8a2e7815-eb4e-443d-84e6-27e8e81f2acb))
-    (pin "2" (uuid 6e102b81-dd09-4a9f-afee-cba63c3fb615))
+    (pin "3" (uuid e83e9fe3-b7bd-4b71-9f18-2ee589c5dc8e))
+    (pin "1" (uuid 7e5e9514-5799-4fdf-b9f3-b4760b4a274e))
+    (pin "2" (uuid 92cb140d-fbce-4948-aae5-8ad0463253d0))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7225,9 +7242,9 @@
     (property "LCSC" "C68978" (at 190.5 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid b1c0c117-429e-47e2-8b48-3c617d60ca5e))
-    (pin "1" (uuid 46dbc766-955f-45c2-bc19-26085865d12c))
-    (pin "2" (uuid 606ee8fc-1d3e-4c1c-a4a4-b884e5092b49))
+    (pin "3" (uuid 5bae3a83-2290-427d-8e8f-46b46f7ef6cd))
+    (pin "1" (uuid 89a8835b-80b4-45d4-a133-c5790b839a78))
+    (pin "2" (uuid 89d3621e-7f6a-4a0b-b019-9280300d4a44))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7238,7 +7255,7 @@
   )
 
   (symbol (lib_id "Honeydew:D_Dual_CommonCathode_AAK_Split_Small") (at 215.9 45.72 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid e5fd4f00-527c-4746-969b-c22bb5e72b73)
     (property "Reference" "D82" (at 213.36 44.45 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -7255,9 +7272,9 @@
     (property "LCSC" "C68978" (at 215.9 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid cab1f14a-5b57-41c1-81c7-6a0b8088c215))
-    (pin "1" (uuid ea3c62ae-7aae-4636-b314-68e8145cfac1))
-    (pin "2" (uuid 92463219-bc86-41d5-8dbf-100f9514a5ed))
+    (pin "3" (uuid 2ab6c175-68eb-4820-8189-6f30c1c30ca4))
+    (pin "1" (uuid a3166d2d-d5f9-4a9e-bbd6-56e7f8c7b1f6))
+    (pin "2" (uuid fae2923d-fc3d-45b6-bcf5-53c400066aad))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7285,9 +7302,9 @@
     (property "LCSC" "C68978" (at 38.1 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 283c4475-4dbe-49a3-9a01-0fe2dcc24c71))
-    (pin "1" (uuid c4b35955-a121-461a-94f0-ad9d183c0611))
-    (pin "2" (uuid 18f6fd3c-c21f-4b38-8b3d-d54fc82b7051))
+    (pin "3" (uuid a3d62fe9-5fbc-46d4-a6b1-ba00f4046d62))
+    (pin "1" (uuid 577fc66f-6762-4ec5-9d8c-d1b5903b76a7))
+    (pin "2" (uuid 289d2978-fecc-4024-a468-bcdd307c876f))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7315,9 +7332,9 @@
     (property "LCSC" "C68978" (at 63.5 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid a994aa53-18ad-4b74-b70d-9af2d06644c0))
-    (pin "1" (uuid 10dbef7f-68ba-4366-8a32-54e29c2fde28))
-    (pin "2" (uuid f99e8d25-e0fd-4dd3-b155-19f105314821))
+    (pin "3" (uuid 0795fa33-9b8b-40f2-b0a6-55f5fb67b6df))
+    (pin "1" (uuid 81014935-30b9-48bc-ba96-b82d76969e0d))
+    (pin "2" (uuid 323ef307-6da8-4268-a25f-2aaa0dd4c6a1))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7412,9 +7429,9 @@
     (property "LCSC" "C68978" (at 63.5 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 244a9890-4ced-4f72-ab0b-0bbc06df8f5b))
-    (pin "1" (uuid 8c1b424b-46e0-43cf-9079-12aa6115a606))
-    (pin "2" (uuid 93f1ca04-0a2a-42e2-baac-5ce8fa95d3b9))
+    (pin "3" (uuid ebd51610-2bd1-4b9e-bfbc-45e129012510))
+    (pin "1" (uuid c42380e8-f92f-4253-951b-fee206cfb2e4))
+    (pin "2" (uuid e3dbefa9-90e4-4d04-86d1-7c2a07f05953))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7442,9 +7459,9 @@
     (property "LCSC" "C68978" (at 88.9 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 488fbbb7-a71d-467b-a4d9-6ce092d0e479))
-    (pin "1" (uuid b0a55c45-4594-4e36-8152-965fd9010b6e))
-    (pin "2" (uuid e5f12269-7b70-4317-a417-c587ee7ca858))
+    (pin "3" (uuid 1d71ff95-01d8-4686-b6c5-3d14818aa948))
+    (pin "1" (uuid 16c7c66d-68cb-4b05-88b7-6b65c7dddc14))
+    (pin "2" (uuid 5e5c38b1-0064-445d-9cfe-681d1bd1a518))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7479,8 +7496,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 185.42 71.12 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 185.42 71.12 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3714202-bc02-4e37-9389-acb2b24b084f)
     (property "Reference" "SW44" (at 185.42 68.58 0)
       (effects (font (size 1.27 1.27)))
@@ -7491,7 +7508,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 185.42 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 185.42 66.04 0)
+    (property "Datasheet" "~" (at 185.42 66.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 185.42 71.12 0)
@@ -7500,8 +7517,8 @@
     (property "LCSC" "" (at 185.42 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9909b113-8f61-4cd9-8406-fe1237b6dc75))
-    (pin "2" (uuid 04660ddd-aad5-4f7f-9fa9-b300dd606f92))
+    (pin "1" (uuid 59364f5f-1978-499d-a54d-b74469c99dbc))
+    (pin "2" (uuid bf3c9ac3-4a12-459e-a11b-c6b2cae64f64))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7511,8 +7528,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 58.42 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 58.42 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f40ede87-185a-4fb8-91b6-d5f487517f9f)
     (property "Reference" "SW11" (at 58.42 22.86 0)
       (effects (font (size 1.27 1.27)))
@@ -7523,7 +7540,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 58.42 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 58.42 20.32 0)
+    (property "Datasheet" "~" (at 58.42 20.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 58.42 25.4 0)
@@ -7532,8 +7549,8 @@
     (property "LCSC" "" (at 58.42 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ae1f150-8e0b-45da-b8da-aeb7b5126e72))
-    (pin "2" (uuid 47362f8f-7500-40f3-86dd-90b74b77a9d3))
+    (pin "1" (uuid 0be34f18-079f-4d34-ab89-2ed9fcf3cc99))
+    (pin "2" (uuid 3d783112-35c7-4967-a842-7af4fc33deb3))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7561,9 +7578,9 @@
     (property "LCSC" "C68978" (at 190.5 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid d0b6813b-f89e-4525-b546-f5b37728a882))
-    (pin "1" (uuid 838b46ee-2d72-43c6-b13e-fa82845cdc83))
-    (pin "2" (uuid 852e1372-0ec7-460d-8492-29ad3060693d))
+    (pin "3" (uuid 0b1fb15d-56cf-44d0-af51-c092453d26b5))
+    (pin "1" (uuid 6cac7585-ce43-47d7-b658-ffedd1f9c6a4))
+    (pin "2" (uuid 1bd4847b-3c41-4ad7-8603-853b2867037e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7591,9 +7608,9 @@
     (property "LCSC" "C68978" (at 165.1 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid c510da82-1ad5-4ce6-816d-b39bf13482b6))
-    (pin "1" (uuid 259dd5ca-63bd-4047-a271-d1015870e217))
-    (pin "2" (uuid 5fbfbcfa-cc1a-4a90-b291-97df5fb1d105))
+    (pin "3" (uuid f5dd3cac-5262-41a0-a3b7-646c208dbabe))
+    (pin "1" (uuid 28338620-c99a-4944-9454-344383d5cd54))
+    (pin "2" (uuid 4a3ad277-f8d0-46d8-8645-e30fca6831de))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7603,8 +7620,8 @@
     )
   )
 
-  (symbol (lib_id "Cantaloupe:SW_SPST_Small") (at 160.02 86.36 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Honeydew:SW_SPST_Small") (at 160.02 86.36 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8ae12b8-41f7-48cc-8604-1e86595664ac)
     (property "Reference" "SW55" (at 160.02 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -7615,7 +7632,7 @@
     (property "Footprint" "Honeydew:MXOnly-1U-Hotswap" (at 160.02 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (at 160.02 81.28 0)
+    (property "Datasheet" "~" (at 160.02 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Description" "Kailh hotswap sockets" (at 160.02 86.36 0)
@@ -7624,8 +7641,8 @@
     (property "LCSC" "" (at 160.02 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 21be78fd-16aa-49ce-a77e-f4c7beb9fc5f))
-    (pin "2" (uuid df5df91d-9bc7-4ada-9676-aa3cc06e2901))
+    (pin "1" (uuid 887354d3-e239-495d-a7ab-bd38cb7a18b3))
+    (pin "2" (uuid 12f43e4b-ddca-45f0-8b80-a91b8b7ccca8))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -7680,9 +7697,9 @@
     (property "LCSC" "C68978" (at 114.3 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 09904540-a37a-4f80-a956-e65874ab29ef))
-    (pin "1" (uuid 18cf3a41-6b80-416c-b2b6-e626c38540de))
-    (pin "2" (uuid d96b1263-27ff-4221-ab23-bea0fa27ce84))
+    (pin "3" (uuid c9307b20-be79-4e56-b5db-37f9964040d6))
+    (pin "1" (uuid a3483416-7fa0-45ed-8d38-710a1f74a2f2))
+    (pin "2" (uuid cf0fdaed-132b-4f79-aeb0-d7db8a2d3643))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"

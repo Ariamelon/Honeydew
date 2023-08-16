@@ -6,11 +6,12 @@
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-08-06")
-    (rev "V3.0")
+    (date "2023-08-16")
+    (rev "V3.1")
     (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
-    (comment 2 "Licensed under CC BY 4.0.")
+    (comment 2 "Follows the VIK standard by Sadek Baroudi (https://github.com/sadekbaroudi/VIK)")
+    (comment 3 "Licensed under CC BY 4.0.")
   )
 
   (lib_symbols
@@ -1972,7 +1973,7 @@
           (reference "D140") (unit 1)
         )
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/03fe79d8-f43d-4879-be7c-5a505456d728"
-          (reference "D98") (unit 1)
+          (reference "D99") (unit 1)
         )
       )
     )
@@ -2097,18 +2098,18 @@
     (property "LCSC" "C139392" (at 116.84 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df7342ed-f16a-435b-a9d8-8a04402b95da))
-    (pin "10" (uuid 0528edba-b51d-4aa7-9b40-df62d9f428ef))
-    (pin "11" (uuid d10fa7e4-f5ea-4253-a8bf-8eb64f4c555e))
-    (pin "12" (uuid a903cb33-7e3d-4a01-9e1c-946b7008ce21))
-    (pin "2" (uuid 95002561-3c72-4bda-824c-e3eb0dba9893))
-    (pin "3" (uuid e2d7bd44-82ed-4254-829d-19f5d073f918))
-    (pin "4" (uuid 70bf97f6-9bf1-427f-af80-2aead9a27b0c))
-    (pin "5" (uuid 1f334f7f-20dd-4d5e-9ae9-c77585045957))
-    (pin "6" (uuid 087eefc4-8aa2-40b9-97d7-0713a995aa1d))
-    (pin "7" (uuid 524295df-32e7-4d63-a171-6740587d82ac))
-    (pin "8" (uuid 6748b828-8d8d-467c-afba-29eb31b4f884))
-    (pin "9" (uuid 0795d195-2298-4518-8e81-5136094ea1fa))
+    (pin "1" (uuid 5a84f4ef-a870-4f3d-978f-0b0a2f18634d))
+    (pin "10" (uuid b4745f91-a7d5-4f68-b2ba-f53b4b709456))
+    (pin "11" (uuid f4d5c39b-9236-4c28-b8ad-3c3087a374a7))
+    (pin "12" (uuid be2c0515-9dd2-4c2f-aa7c-4c6f400e5e8a))
+    (pin "2" (uuid bdc442fd-c2b4-4afc-bc74-cdebfaa08fec))
+    (pin "3" (uuid 4d632873-2dd5-43fa-8d8f-feef826f4963))
+    (pin "4" (uuid b552b3c3-102b-467a-936b-2e36b57b68af))
+    (pin "5" (uuid d488cc45-a7d9-4a4c-b472-fcd9a0ee1c18))
+    (pin "6" (uuid 86061aad-f61c-453b-b179-c963f3cf0b7a))
+    (pin "7" (uuid 8d9d65e0-b09e-4e3c-8c36-5fb6f0482fdb))
+    (pin "8" (uuid 61ec7396-0275-4aad-b213-2740f80139f2))
+    (pin "9" (uuid 5a32637c-1c78-444a-9263-ed64f3be35c8))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/03fe79d8-f43d-4879-be7c-5a505456d728"

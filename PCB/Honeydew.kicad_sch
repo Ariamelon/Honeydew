@@ -6,11 +6,12 @@
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-08-06")
-    (rev "V3.0")
+    (date "2023-08-16")
+    (rev "V3.1")
     (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
-    (comment 2 "Licensed under CC BY 4.0.")
+    (comment 2 "Follows the VIK standard by Sadek Baroudi (https://github.com/sadekbaroudi/VIK)")
+    (comment 3 "Licensed under CC BY 4.0.")
   )
 
   (lib_symbols
@@ -819,9 +820,9 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 9728a1f6-5a4f-41ee-9f5d-8f04df7e4e5e)
     )
-    (pin "~{RGB_EN}" input (at 40.64 48.26 0)
+    (pin "RGB_EN" input (at 40.64 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 35367284-b99f-4c96-aef1-26f9ccff7f2c)
+      (uuid abd4247a-2bf1-42dd-8bce-b9b3f2e7eb5e)
     )
     (instances
       (project "Honeydew"
@@ -1006,9 +1007,9 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid bb35cb2b-ce3a-4742-b86f-3f18e677b3a2)
     )
-    (pin "~{RGB_EN}" output (at 43.18 48.26 180)
+    (pin "RGB_EN" output (at 43.18 48.26 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 21d9459a-d6de-4520-af64-65b1a04da941)
+      (uuid d878825c-b903-4a51-bf82-8d294bc5f52e)
     )
     (instances
       (project "Honeydew"
