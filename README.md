@@ -8,13 +8,11 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys around a center VIK module spot and a 2.25u key below that.
 * Thumb scroll wheel at bottom of keyboard, replacing the 2.25u key in that position.
 * Each half rotated 15 degrees inwards.
-* On-board Raspberry Pi RP2040 processor.
-* Uses 74HC595 shift registers for the columns.
+* On-board STM32F072RBT6 processor.
 * SWD header for debugging purposes.
-* USB-C input with full ESD protection and up to 5V 3A of power depending on source capability.
+* USB-C input with full ESD protection.
 * MX and choc hotswap switch support with kailh hotswap sockets.
 * Per-key RGB backlight and ARGB header for adding more.
-* 1.5" 128x128 SSD1351 RGB QP OLED support using the Waveshare breakout board [Waveshare breakout board](https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module) or the [Crenshaw](https://github.com/Ariamelon/Crenshaw)
 * Gasket-mount case supporting 65 x 4 x 4mm gaskets with 25% compression (14 required).
 
 ## VIK keyboard certification card
@@ -40,8 +38,9 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 ![Board Render Back](Showcase/Board-Render-B.png)
 
 ## Changelog
+* 27/08/2023: Added unified library for all symbols, footprints and 3D files. Changed MCU to STM32F072RBT6. Removed OLED, voltage and current sensing, USB CC circuitry and shift registers. Changed ESD protection chip. Cleaned up routing and component placement. Changed SWD header pinout to 6-pin standard.
 * 17/08/2023: Moved gasket mounts from plate to PCB. Changed USB C connector. Modified case to accommodate.
-* 16/08/2023: Updated to V3.1. Fixed VIK wiring (RGB and SDA were swapped). Added another BAV70 for the bottom button in the thumb cluster. Added DNP attribute to R15. Added jumper for VIK 5V rail. 
+* 16/08/2023: Fixed VIK wiring (RGB and SDA were swapped). Added another BAV70 for the bottom button in the thumb cluster. Added DNP attribute to R15. Added jumper for VIK 5V rail. 
 * 08/08/2023: Fixed case render.
 * 06/08/2023: Changed switch footprint back to MX only, as it's too much money to risk on an experimental footprint, and rerouted the relevant traces. Cleaned up footprint library by removing many unused footprints.
 * 05/08/2023: Fixed switch and SK6812 MINI-E footprints to get rid of DRC errors. Fixed EC10 footprint and merged together PTS645 and D2F footprints. Fixed plate files to fit JLC 1.6mm minimum slot specification. Added fusion file for overall design.
