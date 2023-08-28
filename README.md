@@ -37,6 +37,7 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 ![Board Render Back](Showcase/Board-Render-B.png)
 
 ## Changelog
+* 29/08/2023: Reassigned I2C pins due to DMA issues and rerouted board. Added test point for BOOT0. Added additional ground vias.
 * 28/08/2023: Added test points for VIK connector. Refined case and scrollwheel design. Added pull-up resistor to RGB trace. Added Acheron single-push reset circuit. Updated STEP files.
 * 27/08/2023: Added unified library for all symbols, footprints and 3D files. Changed MCU to STM32F072RBT6. Removed OLED, voltage and current sensing, USB CC circuitry and shift registers. Changed ESD protection chip. Cleaned up routing and component placement. Changed SWD header pinout to 6-pin standard.
 * 17/08/2023: Moved gasket mounts from plate to PCB. Changed USB C connector. Modified case to accommodate.
