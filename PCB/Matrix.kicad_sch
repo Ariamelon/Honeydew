@@ -6,7 +6,7 @@
 
   (title_block
     (title "Honeydew unified split ergonomic keyboard")
-    (date "2023-08-27")
+    (date "2023-08-28")
     (rev "V3.0")
     (company "Created by Ariamelon (https://github.com/Ariamelon/Honeydew/)")
     (comment 1 "All capacitors 50V unless otherwise specified.")
@@ -2752,7 +2752,7 @@
   (symbol (lib_id "Ariamelon-Device:D_Dual_CommonCathode_AAK_Split_Small") (at 139.7 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 154cbb55-f21b-46c5-b00c-3f12ae6b7b1e)
-    (property "Reference" "D83" (at 137.16 74.93 90)
+    (property "Reference" "D84" (at 137.16 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BAV70" (at 137.16 77.3542 90)
@@ -2773,7 +2773,7 @@
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
-          (reference "D83") (unit 1)
+          (reference "D84") (unit 1)
         )
       )
     )
@@ -3118,12 +3118,12 @@
   )
 
   (symbol (lib_id "Ariamelon-Device:D_Dual_CommonCathode_AAK_Split_Small") (at 127 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ea3fae7-7641-4abd-9fac-7813ba0db450)
-    (property "Reference" "D84" (at 124.46 97.79 90)
+    (property "Reference" "D83" (at 124.46 97.79 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "BAV70" (at 124.46 100.33 90)
+    (property "Value" "BAV70" (at 124.46 100.2142 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Ariamelon-Package:SOT-23-3" (at 124.46 96.52 0)
@@ -3141,7 +3141,7 @@
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
-          (reference "D84") (unit 1)
+          (reference "D83") (unit 1)
         )
       )
     )
@@ -3168,8 +3168,8 @@
     (property "LCSC" "C25744" (at 53.34 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40fd734e-96bf-4bb7-a99e-d9399b0e7e7d))
-    (pin "2" (uuid 01e64bc3-f144-4e8b-a362-b7531523d919))
+    (pin "1" (uuid 7e2b6a36-cd2f-4e4e-83c6-b2c6d8e89b59))
+    (pin "2" (uuid 77574f0d-e1ff-4d5d-86af-40e1ef1961d6))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3322,8 +3322,8 @@
     (property "Voltage" "50V" (at 43.18 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e88f2bf-c60e-4e51-a917-f59921882699))
-    (pin "2" (uuid 1e2017a8-49a4-47f1-a170-4fc7525fd494))
+    (pin "1" (uuid b5cb5888-a73a-4b9e-b20d-4fe5fffa2c38))
+    (pin "2" (uuid 919ac9e9-792c-4188-b057-69c777b76c4e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -3354,8 +3354,8 @@
     (property "LCSC" "C25744" (at 63.5 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca59d400-4125-4523-b77b-106b72a4cac5))
-    (pin "2" (uuid 1f5edbfa-7960-402a-9fe7-3f3931c8daa8))
+    (pin "1" (uuid 867d1e9d-ad8b-4629-9ced-de9bb5a5ab10))
+    (pin "2" (uuid 3efb27b8-c920-4e85-a3f9-5e1db299b1cb))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -4589,8 +4589,8 @@
     (property "LCSC" "C25744" (at 38.1 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b0da71a-dd2a-4d64-88a3-f27ebbcee5d3))
-    (pin "2" (uuid 6ee542bc-a22d-4bf5-ae17-d37d5b1a5929))
+    (pin "1" (uuid 12caf0d8-6187-48f6-93d9-9d50c0b000c1))
+    (pin "2" (uuid 75e6181b-53ef-4511-8f4e-eb10698234f7))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -5946,7 +5946,7 @@
   (symbol (lib_id "Ariamelon-Device:D_Dual_CommonCathode_AAK_Split_Small") (at 127 76.2 270) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d960e773-2aea-4d76-a303-60d2e7097a61)
-    (property "Reference" "D83" (at 124.46 74.93 90)
+    (property "Reference" "D84" (at 124.46 74.93 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BAV70" (at 124.46 77.47 90)
@@ -5967,7 +5967,7 @@
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
-          (reference "D83") (unit 2)
+          (reference "D84") (unit 2)
         )
       )
     )
@@ -6543,8 +6543,8 @@
     (property "LCSC" "C25744" (at 48.26 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b38c8c5a-a337-40ea-89a3-42f25d61e51e))
-    (pin "2" (uuid aa64c371-acc8-4047-a3cf-144f2dc52fa0))
+    (pin "1" (uuid ec79f241-adad-4bba-8c6b-9790b6d7255a))
+    (pin "2" (uuid 545933f0-6db0-4c33-99ba-7fcd6d0aa275))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6578,8 +6578,8 @@
     (property "Voltage" "50V" (at 58.42 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4aa6de6-846a-4d7c-becb-b1ddbe68902e))
-    (pin "2" (uuid 68af431d-3b27-464b-8662-aa09552513c9))
+    (pin "1" (uuid c17e36d4-67b6-473f-9c8f-dbb1266c956e))
+    (pin "2" (uuid ce2f90c6-88c1-44cf-a739-1385ae30ea2c))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"
@@ -6820,9 +6820,9 @@
     (property "Datasheet" "~" (at 44.196 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid 1a8f2d2d-063a-499c-998a-d932c690b326))
-    (pin "B" (uuid ba2b0a1a-b06e-49bc-a147-970e3e3b90cd))
-    (pin "C" (uuid bca91b8f-0eb9-42df-9ff5-1a3cc89c2c32))
+    (pin "A" (uuid 75aba580-3c31-426f-8d63-2ade730d9f70))
+    (pin "B" (uuid e851dfb5-7b5a-4b41-baca-34a1b9641c3e))
+    (pin "C" (uuid 946d4a55-26d1-4858-a2a5-4ee7287a0d0e))
     (instances
       (project "Honeydew"
         (path "/534caec7-cf60-4f90-b1ed-42c9d445ef0f/c1819a82-630d-421e-8b73-d65ee471609e"

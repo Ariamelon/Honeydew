@@ -14,12 +14,13 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 * MX and choc hotswap switch support with kailh hotswap sockets.
 * Per-key RGB backlight and ARGB header for adding more.
 * Gasket-mount case supporting 65 x 4 x 4mm gaskets with 25% compression (14 required).
+* [Acheron single-push reset circuit](https://acheronproject.com/reset_article_1/reset_article_1/#52-substituting-the-jfet).
 
 ## VIK keyboard certification card
 | Category                 | Classification          | Response           |
 | -----------------------  | ----------------------- | ------------------ |
 | FPC connector            | Required                | :heavy_check_mark: |
-| Breakout pins            | Recommended             | :x:                |
+| Breakout pins            | Recommended             | :heavy_check_mark: |
 | Supplies: SPI            | Strongly recommended    | :heavy_check_mark: |
 | Supplies: I2C            | Strongly recommended    | :heavy_check_mark: |
 | I2C on main PCB          | Discouraged             | No                 |
@@ -28,8 +29,6 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 | Supplies: Extra GPIO 1   | Required                | Analog/Digital     |
 | Supplies: Extra GPIO 2   | Required                | Analog/Digital     |
 
-![Full Render Trackball Ring Front](Showcase/Full-Render-Trackball-Ring-F.png)
-![Full Render Trackball Ring Back](Showcase/Full-Render-Trackball-Ring-B.png)
 ![Full Render Trackball Illuminated Front](Showcase/Full-Render-Trackball-Illuminated-F.png)
 ![Full Render Trackball Illuminated Back](Showcase/Full-Render-Trackball-Illuminated-B.png)
 ![Full Render Trackpad Front](Showcase/Full-Render-Trackpad-F.png)
@@ -38,6 +37,7 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 ![Board Render Back](Showcase/Board-Render-B.png)
 
 ## Changelog
+* 28/08/2023: Added test points for VIK connector. Refined case and scrollwheel design. Added pull-up resistor to RGB trace. Added Acheron single-push reset circuit. Updated STEP files.
 * 27/08/2023: Added unified library for all symbols, footprints and 3D files. Changed MCU to STM32F072RBT6. Removed OLED, voltage and current sensing, USB CC circuitry and shift registers. Changed ESD protection chip. Cleaned up routing and component placement. Changed SWD header pinout to 6-pin standard.
 * 17/08/2023: Moved gasket mounts from plate to PCB. Changed USB C connector. Modified case to accommodate.
 * 16/08/2023: Fixed VIK wiring (RGB and SDA were swapped). Added another BAV70 for the bottom button in the thumb cluster. Added DNP attribute to R15. Added jumper for VIK 5V rail. 
