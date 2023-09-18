@@ -37,6 +37,7 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 ![Board Render Back](Showcase/Board-Render-B.png)
 
 ## Changelog
+* 18/09/2023: Fixed .gitignore file. Updated library.
 * 02/09/2023: Added ribs to bottom case for less warping, deformation and shrinkage risk. Updated library.
 * 29/08/2023: Reassigned I2C pins due to DMA issues and rerouted board. Added test point for BOOT0. Added additional ground vias.
 * 28/08/2023: Added test points for VIK connector. Refined case and scrollwheel design. Added pull-up resistor to RGB trace. Added Acheron single-push reset circuit. Updated STEP files.
