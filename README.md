@@ -2,7 +2,7 @@
 ~60% 63-key QMK-compatible unsplit ergonomic keyboard.
 
 ## Disclaimer
-The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each side rotated 20 degrees inwards and both halves making up one board. This keyboard is licensed under CC BY 4.0. V1.0 is officially working except for the QP display (untested as of yet).
+The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each side rotated 20 degrees inwards and both halves making up one board. This keyboard is licensed under CERN-OHL-S-2.0. V1.0 is officially working except for the QP display (untested as of yet).
 
 ## Key Features
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys in the middle.
@@ -25,6 +25,7 @@ The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe)
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 22/10/2024: License updated to CERN-OHL-S-2.0.
 * 31/03/2023: Image added. 
 * 11/03/2023: Added PH2.0 header for OLED. Changed plate to accommodate headers. Better render.
 * 10/03/2023: Fixed OLED description in readme. Changed center of switches for JLC assembly.
