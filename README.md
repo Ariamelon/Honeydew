@@ -2,7 +2,7 @@
 ~60% 63-key QMK-compatible unified split ergonomic keyboard.
 
 ## Disclaimer
-This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm/). The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards.
+This keyboard is licensed under CERN-OHL-S-2.0 and runs [QMK Firmware](https://qmk.fm/). The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards.
 
 ## Key Features
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys in the middle.
@@ -22,6 +22,7 @@ This keyboard is licensed under CC BY 4.0 and runs [QMK Firmware](https://qmk.fm
 ![Render Back](Showcase/Render-B.png)
 
 ## Changelog
+* 22/10/2024: License updated to CERN-OHL-S-2.0.
 * 11/06/2023: Updated BOM. Added new tentative plate file. Updated 3D files.
 * 20/05/2023: Added scroll wheel rotary encoder and mouse switch for thumb scroll wheel, replacing bottom 2u key.
 * 19/05/2023: Improved switch footprints. Changed 3v3 regulator to XC6206P332MR.
