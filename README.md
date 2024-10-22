@@ -2,7 +2,7 @@
 ~60% 63-key QMK-compatible unified split ergonomic keyboard with [VIK](https://github.com/sadekbaroudi/vik) module support.
 
 ## Disclaimer
-This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) and is compatible with the [VIK](https://github.com/sadekbaroudi/vik) standard. The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards. The CNC aluminium top half of the keyboard case in the image was sponsored by [PCBWay](https://www.pcbway.com/).
+This keyboard is licensed under CERN-OHL-S-2.0, runs [QMK Firmware](https://qmk.fm/) and is compatible with the [VIK](https://github.com/sadekbaroudi/vik) standard. The layout is based on the [Cantaloupe](https://github.com/Ariamelon/Cantaloupe) layout, but with each half rotated 15 degrees inwards. The CNC aluminium top half of the keyboard case in the image was sponsored by [PCBWay](https://www.pcbway.com/).
 
 ## Key Features
 * Ergonomic unsplit 60-key vertically staggered layout with thumb cluster, pinky stagger and arrow keys, plus 3 keys around a center VIK module spot and a 2.25u key below that.
@@ -38,6 +38,7 @@ This keyboard is licensed under CC BY 4.0, runs [QMK Firmware](https://qmk.fm/) 
 ![Board Render Back](Showcase/Board-Render-B.png)
 
 ## Changelog
+* 22/10/2024: License updated to CERN-OHL-S-2.0.
 * 29/09/2023: Added PCBWay sponsorship disclaimer to the readme. Updated library.
 * 27/09/2023: Added image. Small change to scrollwheel 3D file for smoother scrolling.
 * 18/09/2023: Fixed .gitignore file. Updated library.
